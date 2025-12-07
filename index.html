@@ -407,11 +407,11 @@
 
         /* 在CSS变量定义后添加图标显示规则 */
         /* 新增：根据主题控制图标显示 */
-        body:not(.light-theme) .dark-mode-icon {
+        body:not(.light-theme) .light-mode-icon {
             display: none;
         }
 
-        body.light-theme .light-mode-icon {
+        body.light-theme .dark-mode-icon {
             display: none;
         }
     </style>
@@ -508,8 +508,8 @@
                 </div>
                 <div class="skill-item">
                     <a class="skill-icon" href="https://archlinux.org/" target="_blank">
-                        <img src="archlinux-white.svg" class="dark-mode-icon" alt="Arch Linux">
-                        <img src="archlinux-black.svg" class="light-mode-icon" alt="Arch Linux" />
+                        <img src="archlinux-white.svg" class="light-mode-icon" alt="Arch Linux">
+                        <img src="archlinux-black.svg" class="dark-mode-icon" alt="Arch Linux" />
                     </a>
                     <div class="skill-name">Arch Linux</div>
                 </div>
