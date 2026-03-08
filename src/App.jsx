@@ -76,7 +76,6 @@ function App() {
     const lines = Array.isArray(values) ? values : [];
     const query = new URLSearchParams({
       font: "JetBrains Mono",
-      pause: "1000",
       color: isLightTheme ? "000000" : "FFFFFF",
       center: "true",
       vCenter: "true",
