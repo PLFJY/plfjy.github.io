@@ -1,0 +1,32 @@
+{
+  "siteTitle": "零风PLFJY的主页",
+  "name": "零风PLFJY",
+  "links": {
+    "bilibili": "Bilibili",
+    "github": "GitHub",
+    "blog": "个人博客"
+  },
+  "sections": {
+    "projects": "Projects",
+    "skills": "Skills",
+    "os": "OS"
+  },
+  "typingLines": [
+    "Hi，欢迎来到我的主页",
+    "一个在代码中遨游的旅人",
+    "アイ無限恒久☆永遠推し!!!☆"
+  ],
+  "projects": {
+    "p1": "一个使用易语言制作的第五人格BP展示工具",
+    "p2": "一个为第五人格民间赛直播而生的BP展示工具",
+    "p3": "bp-sys-wpf 的重构版，功能更强大"
+  },
+  "theme": {
+    "dark": "深色",
+    "light": "浅色"
+  },
+  "lang": {
+    "zh-CN": "中文",
+    "en-US": "English"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "siteTitle": "Zero PLFJY's Home",
+  "name": "Zero PLFJY",
+  "links": {
+    "bilibili": "Bilibili",
+    "github": "GitHub",
+    "blog": "Blog"
+  },
+  "sections": {
+    "projects": "Projects",
+    "skills": "Skills",
+    "os": "OS"
+  },
+  "typingLines": [
+    "Hi there, welcome to my home page",
+    "A traveler diving into the world of code",
+    "アイ無限恒久☆永遠推し!!!☆"
+  ],
+  "projects": {
+    "p1": "A BP display tool for Identity V built with E language.",
+    "p2": "A BP display tool designed for Identity V community tournament streams.",
+    "p3": "A refactored version of bp-sys-wpf with more features."
+  },
+  "theme": {
+    "dark": "Dark",
+    "light": "Light"
+  },
+  "lang": {
+    "zh-CN": "Chinese",
+    "en-US": "English"
+  }
+}
