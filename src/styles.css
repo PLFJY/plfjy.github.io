@@ -17,8 +17,16 @@
   --accent: var(--accent-dark);
   --card: var(--card-dark);
   --shadow: var(--shadow-dark);
+  --bg-overlay-opacity: 0.25;
   --border-radius: 16px;
-  --transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  --transition: background-color 0.35s ease, color 0.35s ease, border-color 0.35s ease,
+    box-shadow 0.35s ease, transform 0.35s ease, opacity 0.35s ease;
+}
+
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
 }
 
 * {
@@ -33,18 +41,20 @@ body {
   background-color: var(--bg);
   color: var(--text);
   min-height: 100vh;
-  overflow-x: hidden;
   position: relative;
   transition: var(--transition);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
 }
 
-body.light-theme {
+:root.light-theme {
   --bg: var(--bg-light);
   --bg-acrylic: var(--bg-light-acrylic);
   --text: var(--text-light);
   --accent: var(--accent-light);
   --card: var(--card-light);
   --shadow: var(--shadow-light);
+  --bg-overlay-opacity: 0.18;
 }
 
 body::before {
@@ -54,12 +64,20 @@ body::before {
   background-image: url("/assets/bg.jpg");
   background-size: cover;
   background-position: center;
-  opacity: 0.25;
+  opacity: var(--bg-overlay-opacity);
+  transition: opacity 0.35s ease;
   z-index: -1;
+}
+
+:root.theme-switching *,
+:root.theme-switching *::before,
+:root.theme-switching *::after {
+  transition: none !important;
 }
 
 header {
   background: var(--bg-acrylic);
+  background-color: var(--bg-acrylic);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   padding: 16px 5%;
@@ -70,6 +88,8 @@ header {
   top: 0;
   z-index: 100;
   box-shadow: 0 4px 12px var(--shadow);
+  isolation: isolate;
+  transform: translateZ(0);
 }
 
 .header-left {
@@ -188,11 +208,13 @@ main {
 }
 
 .name {
+  color: var(--accent);
   font-size: 3rem;
   font-weight: 700;
   margin-bottom: 20px;
   background: linear-gradient(90deg, var(--accent), #ff6b6b);
   background-clip: text;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -201,26 +223,20 @@ main {
   min-height: 70px;
   margin: 30px auto;
   max-width: 800px;
+  line-height: 1.45;
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 
-.tagline a {
-  display: block;
-  width: 100%;
-  max-width: 100%;
-}
-
-.tagline img {
-  display: block;
-  width: 100%;
-  max-width: 490px;
-  height: auto;
-  margin: 0 auto;
+.typing-text {
+  white-space: normal;
 }
 
 .typing-cursor {
   display: inline-block;
   width: 2px;
-  height: 1.8rem;
+  height: 1.1em;
+  vertical-align: -0.1em;
   background: var(--accent);
   margin-left: 4px;
   animation: blink 1s infinite;
@@ -250,6 +266,7 @@ main {
   gap: 10px;
   padding: 15px 30px;
   background: var(--card);
+  background-color: var(--card);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   border-radius: var(--border-radius);
@@ -310,6 +327,7 @@ main {
 
 .project-card {
   background: var(--card);
+  background-color: var(--card);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   border-radius: var(--border-radius);
@@ -386,12 +404,26 @@ main {
   filter: drop-shadow(0 5px 15px rgba(0, 0, 0, 0.4));
 }
 
-body:not(.light-theme) .light-mode-icon {
+:root:not(.light-theme) .light-mode-icon {
   display: none;
 }
 
-body.light-theme .dark-mode-icon {
+:root.light-theme .dark-mode-icon {
   display: none;
+}
+
+@supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+  header,
+  .link-btn,
+  .project-card {
+    background-color: rgba(32, 32, 32, 0.92);
+  }
+
+  :root.light-theme header,
+  :root.light-theme .link-btn,
+  :root.light-theme .project-card {
+    background-color: rgba(255, 255, 255, 0.94);
+  }
 }
 
 @media (max-width: 768px) {

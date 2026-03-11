@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useLayoutEffect, useMemo, useState } from "react";
 import { useTranslation } from "react-i18next";
 
 const projects = [
@@ -59,48 +59,109 @@ const osList = [
   }
 ];
 
+const isSafariBrowser = () => {
+  if (typeof window === "undefined") {
+    return false;
+  }
+
+  const ua = window.navigator.userAgent;
+  const isSafariEngine = /Safari/i.test(ua);
+  const isOtherBrowserOnWebKit = /Chrome|CriOS|Chromium|Edg|EdgiOS|OPR|OPiOS|Firefox|FxiOS/i.test(ua);
+
+  return isSafariEngine && !isOtherBrowserOnWebKit;
+};
+
 function App() {
   const { t, i18n } = useTranslation();
   const [isLightTheme, setIsLightTheme] = useState(false);
-  const [typingWidth, setTypingWidth] = useState(490);
+  const [currentLineIndex, setCurrentLineIndex] = useState(0);
+  const [currentCharCount, setCurrentCharCount] = useState(0);
+  const [isDeleting, setIsDeleting] = useState(false);
+  const [useHardThemeSwitch, setUseHardThemeSwitch] = useState(false);
 
   useEffect(() => {
     document.title = t("siteTitle");
   }, [t, i18n.language]);
 
   useEffect(() => {
-    document.body.classList.toggle("light-theme", isLightTheme);
-  }, [isLightTheme]);
-
-  useEffect(() => {
-    const updateTypingWidth = () => {
-      const viewportWidth = window.innerWidth || 490;
-      const nextWidth = Math.max(240, Math.min(490, viewportWidth - 48));
-      setTypingWidth(Math.round(nextWidth));
-    };
-
-    updateTypingWidth();
-    window.addEventListener("resize", updateTypingWidth);
-    return () => window.removeEventListener("resize", updateTypingWidth);
+    setUseHardThemeSwitch(isSafariBrowser());
   }, []);
 
-  const typingSvgUrl = useMemo(() => {
+  useLayoutEffect(() => {
+    const root = document.documentElement;
+    root.classList.toggle("light-theme", isLightTheme);
+    root.style.colorScheme = isLightTheme ? "light" : "dark";
+
+    if (useHardThemeSwitch) {
+      root.classList.add("theme-switching");
+
+      let raf1 = 0;
+      let raf2 = 0;
+      raf1 = window.requestAnimationFrame(() => {
+        raf2 = window.requestAnimationFrame(() => {
+          root.classList.remove("theme-switching");
+        });
+      });
+
+      return () => {
+        window.cancelAnimationFrame(raf1);
+        window.cancelAnimationFrame(raf2);
+        root.classList.remove("theme-switching");
+      };
+    }
+
+    root.classList.remove("theme-switching");
+    return undefined;
+  }, [isLightTheme, useHardThemeSwitch]);
+
+  const typingLines = useMemo(() => {
     const values = t("typingLines", { returnObjects: true });
-    const lines = Array.isArray(values) ? values : [];
-    const fontSize = Math.max(18, Math.round((typingWidth / 490) * 30));
-    const svgHeight = Math.max(42, Math.round((typingWidth / 490) * 50));
-    const query = new URLSearchParams({
-      font: "JetBrains Mono",
-      color: isLightTheme ? "000000" : "FFFFFF",
-      center: "true",
-      vCenter: "true",
-      width: String(typingWidth),
-      height: String(svgHeight),
-      size: String(fontSize),
-      lines: lines.join(";")
-    });
-    return `https://readme-typing-svg.demolab.com?${query.toString()}`;
-  }, [t, i18n.language, isLightTheme, typingWidth]);
+    const lines = Array.isArray(values) ? values.filter((line) => typeof line === "string") : [];
+    return lines.length > 0 ? lines : [""];
+  }, [t, i18n.language]);
+
+  useEffect(() => {
+    setCurrentLineIndex(0);
+    setCurrentCharCount(0);
+    setIsDeleting(false);
+  }, [typingLines]);
+
+  useEffect(() => {
+    const activeLine = typingLines[currentLineIndex] ?? "";
+    let nextDelay = isDeleting ? 45 : 90;
+
+    if (!isDeleting && currentCharCount === activeLine.length) {
+      nextDelay = 1400;
+    }
+    if (isDeleting && currentCharCount === 0) {
+      nextDelay = 320;
+    }
+
+    const timer = window.setTimeout(() => {
+      if (!isDeleting && currentCharCount < activeLine.length) {
+        setCurrentCharCount((count) => count + 1);
+        return;
+      }
+      if (!isDeleting && currentCharCount === activeLine.length) {
+        setIsDeleting(true);
+        return;
+      }
+      if (isDeleting && currentCharCount > 0) {
+        setCurrentCharCount((count) => count - 1);
+        return;
+      }
+
+      setIsDeleting(false);
+      setCurrentLineIndex((index) => (index + 1) % typingLines.length);
+    }, nextDelay);
+
+    return () => window.clearTimeout(timer);
+  }, [currentCharCount, currentLineIndex, isDeleting, typingLines]);
+
+  const typingText = useMemo(() => {
+    const activeLine = typingLines[currentLineIndex] ?? "";
+    return activeLine.slice(0, currentCharCount);
+  }, [currentCharCount, currentLineIndex, typingLines]);
 
   const switchLanguage = (language) => {
     window.localStorage.setItem("preferred-locale", language);
@@ -149,9 +210,8 @@ function App() {
           <img src="/assets/header.png" alt="avatar" className="avatar-large" />
           <h1 className="name">{t("name")}</h1>
           <div className="tagline">
-            <a href="https://git.io/typing-svg" target="_blank" rel="noreferrer">
-              <img src={typingSvgUrl} alt="Typing SVG" />
-            </a>
+            <span className="typing-text">{typingText}</span>
+            <span className="typing-cursor" aria-hidden="true" />
           </div>
           <div className="links">
             <a href="https://space.bilibili.com/453909624/" target="_blank" className="link-btn" rel="noreferrer">
