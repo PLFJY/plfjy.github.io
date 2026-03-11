@@ -59,16 +59,28 @@ const osList = [
   }
 ];
 
-const isSafariBrowser = () => {
+const isAppleWebKitEngine = () => {
   if (typeof window === "undefined") {
     return false;
   }
 
   const ua = window.navigator.userAgent;
-  const isSafariEngine = /Safari/i.test(ua);
-  const isOtherBrowserOnWebKit = /Chrome|CriOS|Chromium|Edg|EdgiOS|OPR|OPiOS|Firefox|FxiOS/i.test(ua);
+  const hasAppleWebKit = /AppleWebKit/i.test(ua);
+  if (!hasAppleWebKit) {
+    return false;
+  }
 
-  return isSafariEngine && !isOtherBrowserOnWebKit;
+  // iOS browsers are all WebKit-based and share similar rendering issues.
+  const isIOS = /iPhone|iPad|iPod/i.test(ua);
+  if (isIOS) {
+    return true;
+  }
+
+  // Keep desktop Blink/Gecko out to avoid disabling transitions unnecessarily.
+  const isMacSafari =
+    /Macintosh/i.test(ua) && /Safari/i.test(ua) && !/Chrome|Chromium|Edg|OPR|Firefox/i.test(ua);
+
+  return isMacSafari;
 };
 
 function App() {
@@ -84,7 +96,7 @@ function App() {
   }, [t, i18n.language]);
 
   useEffect(() => {
-    setUseHardThemeSwitch(isSafariBrowser());
+    setUseHardThemeSwitch(isAppleWebKitEngine());
   }, []);
 
   useLayoutEffect(() => {
