@@ -203,6 +203,20 @@ main {
   max-width: 800px;
 }
 
+.tagline a {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+}
+
+.tagline img {
+  display: block;
+  width: 100%;
+  max-width: 490px;
+  height: auto;
+  margin: 0 auto;
+}
+
 .typing-cursor {
   display: inline-block;
   width: 2px;
@@ -391,6 +405,7 @@ body.light-theme .dark-mode-icon {
 
   .tagline {
     font-size: 1.4rem;
+    min-height: 52px;
   }
 
   .link-btn {

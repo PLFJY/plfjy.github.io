@@ -62,6 +62,7 @@ const osList = [
 function App() {
   const { t, i18n } = useTranslation();
   const [isLightTheme, setIsLightTheme] = useState(false);
+  const [typingWidth, setTypingWidth] = useState(490);
 
   useEffect(() => {
     document.title = t("siteTitle");
@@ -71,21 +72,35 @@ function App() {
     document.body.classList.toggle("light-theme", isLightTheme);
   }, [isLightTheme]);
 
+  useEffect(() => {
+    const updateTypingWidth = () => {
+      const viewportWidth = window.innerWidth || 490;
+      const nextWidth = Math.max(240, Math.min(490, viewportWidth - 48));
+      setTypingWidth(Math.round(nextWidth));
+    };
+
+    updateTypingWidth();
+    window.addEventListener("resize", updateTypingWidth);
+    return () => window.removeEventListener("resize", updateTypingWidth);
+  }, []);
+
   const typingSvgUrl = useMemo(() => {
     const values = t("typingLines", { returnObjects: true });
     const lines = Array.isArray(values) ? values : [];
+    const fontSize = Math.max(18, Math.round((typingWidth / 490) * 30));
+    const svgHeight = Math.max(42, Math.round((typingWidth / 490) * 50));
     const query = new URLSearchParams({
       font: "JetBrains Mono",
       color: isLightTheme ? "000000" : "FFFFFF",
       center: "true",
       vCenter: "true",
-      width: "490",
-      height: "50",
-      size: "30",
+      width: String(typingWidth),
+      height: String(svgHeight),
+      size: String(fontSize),
       lines: lines.join(";")
     });
     return `https://readme-typing-svg.demolab.com?${query.toString()}`;
-  }, [t, i18n.language, isLightTheme]);
+  }, [t, i18n.language, isLightTheme, typingWidth]);
 
   const switchLanguage = (language) => {
     window.localStorage.setItem("preferred-locale", language);
