@@ -47,7 +47,7 @@ const osList = [
   },
   {
     name: "Windows",
-    href: "https://www.microsoft.com/software-download/windows11/",
+    href: "https://www.microsoft.com/zh-cn/windows/windows-11",
     darkIcon: "/assets/Windows-Dark.svg",
     lightIcon: "/assets/Windows-Light.svg"
   },
