@@ -299,6 +299,10 @@ main {
   text-align: center;
 }
 
+.section-content {
+  margin-top: 40px;
+}
+
 .section-title {
   font-size: 2.2rem;
   margin-bottom: 30px;
@@ -318,11 +322,10 @@ main {
   border-radius: 2px;
 }
 
-.projects {
+.projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 25px;
-  margin-top: 40px;
 }
 
 .project-card {
@@ -353,20 +356,19 @@ main {
   line-height: 1.6;
 }
 
-.skills {
+.icon-grid {
   display: flex;
   justify-content: center;
   gap: 30px;
   flex-wrap: wrap;
-  margin-top: 40px;
 }
 
-.skill-item {
+.icon-tile {
   text-align: center;
   width: 120px;
 }
 
-.skill-icon {
+.icon-tile-link {
   width: 80px;
   height: 80px;
   margin: 0 auto 15px;
@@ -381,15 +383,15 @@ main {
   text-decoration: none;
 }
 
-.skill-icon img {
+.icon-tile-link img {
   width: 100%;
 }
 
-.skill-item:hover .skill-icon {
+.icon-tile:hover .icon-tile-link {
   transform: scale(1.1);
 }
 
-.skill-name {
+.icon-tile-name {
   font-weight: 600;
   font-size: 1.1rem;
 }

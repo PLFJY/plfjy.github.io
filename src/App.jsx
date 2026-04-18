@@ -1,63 +1,9 @@
 import { useEffect, useLayoutEffect, useMemo, useState } from "react";
 import { useTranslation } from "react-i18next";
-
-const projects = [
-  {
-    key: "p1",
-    name: "idv-bp-asg-e",
-    href: "https://github.com/plfjy/idv-bp-asg-e/"
-  },
-  {
-    key: "p2",
-    name: "bp-sys-wpf",
-    href: "https://github.com/plfjy/bp-sys-wpf/"
-  },
-  {
-    key: "p3",
-    name: "neo-bpsys-wpf",
-    href: "https://bpsys.plfjy.top/"
-  }
-];
-
-const skills = [
-  { name: ".Net", icon: "/assets/DotNet.svg", href: "https://dotnet.microsoft.com/" },
-  {
-    name: "C#",
-    icon: "/assets/CS.svg",
-    href: "https://dotnet.microsoft.com/en-us/languages/csharp"
-  },
-  {
-    name: "WPF",
-    href: "https://learn.microsoft.com/en-us/dotnet/desktop/wpf/",
-    darkIcon: "/assets/WPF-white.svg",
-    lightIcon: "/assets/WPF-black.svg"
-  },
-  { name: "Avalonia", icon: "/assets/avalonia.svg", href: "https://avaloniaui.net/" },
-  { name: "PS", icon: "/assets/ps.svg", href: "https://www.adobe.com/products/photoshop.html" },
-  { name: "PR", icon: "/assets/pr.svg", href: "https://www.adobe.com/products/premiere.html" },
-  { name: "AU", icon: "/assets/Audition.svg", href: "https://www.adobe.com/products/audition.html" }
-];
-
-const osList = [
-  {
-    name: "Arch Linux",
-    href: "https://archlinux.org/",
-    darkIcon: "/assets/archlinux-black.svg",
-    lightIcon: "/assets/archlinux-white.svg"
-  },
-  {
-    name: "Windows",
-    href: "https://www.microsoft.com/zh-cn/windows/windows-11",
-    darkIcon: "/assets/Windows-Dark.svg",
-    lightIcon: "/assets/Windows-Light.svg"
-  },
-  {
-    name: "macOS",
-    href: "https://www.apple.com/os/macos/",
-    darkIcon: "/assets/Apple-Dark.svg",
-    lightIcon: "/assets/Apple-Light.svg"
-  }
-];
+import IconTile from "./components/IconTile";
+import ProjectCard from "./components/ProjectCard";
+import Section from "./components/Section";
+import { osList, projects, skills } from "./content";
 
 const isAppleWebKitEngine = () => {
   if (typeof window === "undefined") {
@@ -180,6 +126,24 @@ function App() {
     i18n.changeLanguage(language);
   };
 
+  const socialLinks = [
+    {
+      key: "bilibili",
+      href: "https://space.bilibili.com/453909624/",
+      iconClassName: "fab fa-bilibili"
+    },
+    {
+      key: "github",
+      href: "https://github.com/PLFJY/",
+      iconClassName: "fab fa-github"
+    },
+    {
+      key: "blog",
+      href: "https://blog.plfjy.top/",
+      iconClassName: "fas fa-blog"
+    }
+  ];
+
   return (
     <>
       <header>
@@ -226,63 +190,37 @@ function App() {
             <span className="typing-cursor" aria-hidden="true" />
           </div>
           <div className="links">
-            <a href="https://space.bilibili.com/453909624/" target="_blank" className="link-btn" rel="noreferrer">
-              <i className="fab fa-bilibili" />
-              <span>{t("links.bilibili")}</span>
-            </a>
-            <a href="https://github.com/PLFJY/" target="_blank" className="link-btn" rel="noreferrer">
-              <i className="fab fa-github" />
-              <span>{t("links.github")}</span>
-            </a>
-            <a href="https://blog.plfjy.top/" target="_blank" className="link-btn" rel="noreferrer">
-              <i className="fas fa-blog" />
-              <span>{t("links.blog")}</span>
-            </a>
-          </div>
-        </div>
-
-        <div className="section">
-          <h2 className="section-title">{t("sections.projects")}</h2>
-          <div className="projects">
-            {projects.map((project) => (
-              <a href={project.href} target="_blank" className="project-card" rel="noreferrer" key={project.name}>
-                <h3>{project.name}</h3>
-                <p>{t(`projects.${project.key}`)}</p>
+            {socialLinks.map((link) => (
+              <a href={link.href} target="_blank" className="link-btn" rel="noreferrer" key={link.key}>
+                <i className={link.iconClassName} />
+                <span>{t(`links.${link.key}`)}</span>
               </a>
             ))}
           </div>
         </div>
 
-        <div className="section">
-          <h2 className="section-title">{t("sections.skills")}</h2>
-          <div className="skills">
-            {skills.map((skill) => (
-              <div className="skill-item" key={skill.name}>
-                <a className="skill-icon" href={skill.href} target="_blank" rel="noreferrer">
-                  {skill.icon && <img src={skill.icon} alt={skill.name} />}
-                  {skill.lightIcon && <img src={skill.lightIcon} className="light-mode-icon" alt={skill.name} />}
-                  {skill.darkIcon && <img src={skill.darkIcon} className="dark-mode-icon" alt={skill.name} />}
-                </a>
-                <div className="skill-name">{skill.name}</div>
-              </div>
-            ))}
-          </div>
-        </div>
+        <Section title={t("sections.projects")} contentClassName="projects-grid">
+          {projects.map((project) => (
+            <ProjectCard
+              key={project.name}
+              name={project.name}
+              href={project.href}
+              description={t(`projects.${project.key}`)}
+            />
+          ))}
+        </Section>
 
-        <div className="section">
-          <h2 className="section-title">{t("sections.os")}</h2>
-          <div className="skills">
-            {osList.map((os) => (
-              <div className="skill-item" key={os.name}>
-                <a className="skill-icon" href={os.href} target="_blank" rel="noreferrer">
-                  <img src={os.lightIcon} className="light-mode-icon" alt={os.name} />
-                  <img src={os.darkIcon} className="dark-mode-icon" alt={os.name} />
-                </a>
-                <div className="skill-name">{os.name}</div>
-              </div>
-            ))}
-          </div>
-        </div>
+        <Section title={t("sections.skills")} contentClassName="icon-grid">
+          {skills.map((skill) => (
+            <IconTile key={skill.name} {...skill} />
+          ))}
+        </Section>
+
+        <Section title={t("sections.os")} contentClassName="icon-grid">
+          {osList.map((os) => (
+            <IconTile key={os.name} {...os} />
+          ))}
+        </Section>
       </main>
 
       <img src="/assets/sticker.png" alt="sticker" className="anime-sticker" />
