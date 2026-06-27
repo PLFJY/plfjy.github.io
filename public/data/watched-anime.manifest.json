@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-27T02:56:19.760Z",
+  "generatedAt": "2026-06-27T03:26:15.452Z",
   "source": "AniList",
-  "count": 78,
+  "count": 86,
   "items": [
     {
       "key": "anilist-16592",
@@ -37,8 +37,98 @@
       }
     },
     {
+      "key": "anilist-98153",
+      "note": "超级弹丸论破2.5 拍枝屈斗与世界的破坏者",
+      "anilistId": 98153,
+      "malId": 34152,
+      "title": {
+        "native": "スーパーダンガンロンパ2.5 狛枝凪斗と世界の破壊者",
+        "romaji": "Super Danganronpa 2.5 Komaeda Nagito to Sekai no Hakaimono",
+        "english": "",
+        "localized": "Super Danganronpa 2.5 Komaeda Nagito to Sekai no Hakaimono",
+        "synonyms": [
+          "Super Danganronpa 2.5: Nagito Komaeda and the Destroyer of the World",
+          "Super Danganronpa 2.5: Nagito Komaeda and the World Destroyer"
+        ]
+      },
+      "cover": {
+        "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b98153-KX7tTXRV23oh.jpg",
+        "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b98153-KX7tTXRV23oh.jpg",
+        "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/b98153-KX7tTXRV23oh.jpg",
+        "color": "#861a5d"
+      },
+      "url": "https://anilist.co/anime/98153",
+      "meta": {
+        "format": "OVA",
+        "status": "FINISHED",
+        "episodes": 1,
+        "seasonYear": 2017,
+        "averageScore": 69,
+        "popularity": 33694,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "anilist-21825",
+      "note": "弹丸论破3 -绝望篇-",
+      "anilistId": 21825,
+      "malId": 33028,
+      "title": {
+        "native": "ダンガンロンパ3 -The End of 希望ヶ峰学園-　絶望編",
+        "romaji": "Danganronpa 3: The End of Kibougamine Gakuen - Zetsubou-hen",
+        "english": "Danganronpa 3: The End of Hope’s Peak High School - Despair Arc",
+        "localized": "Danganronpa 3: The End of Hope’s Peak High School - Despair Arc",
+        "synonyms": []
+      },
+      "cover": {
+        "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21825-OjVRUQwM8bTz.png",
+        "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21825-OjVRUQwM8bTz.png",
+        "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21825-OjVRUQwM8bTz.png",
+        "color": "#c9001a"
+      },
+      "url": "https://anilist.co/anime/21825",
+      "meta": {
+        "format": "TV",
+        "status": "FINISHED",
+        "episodes": 11,
+        "seasonYear": 2016,
+        "averageScore": 71,
+        "popularity": 87450,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "anilist-21509",
+      "note": "弹丸论破3 -未来篇-",
+      "anilistId": 21509,
+      "malId": 32189,
+      "title": {
+        "native": "ダンガンロンパ３ –The End of 希望ヶ峰学園– 未来編",
+        "romaji": "Danganronpa 3: The End of Kibougamine Gakuen - Mirai-hen",
+        "english": "Danganronpa 3: The End of Hope’s Peak High School - Future Arc",
+        "localized": "Danganronpa 3: The End of Hope’s Peak High School - Future Arc",
+        "synonyms": []
+      },
+      "cover": {
+        "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21509-3Ih7TTU0Romm.jpg",
+        "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21509-3Ih7TTU0Romm.jpg",
+        "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21509-3Ih7TTU0Romm.jpg",
+        "color": "#933528"
+      },
+      "url": "https://anilist.co/anime/21509",
+      "meta": {
+        "format": "TV",
+        "status": "FINISHED",
+        "episodes": 12,
+        "seasonYear": 2016,
+        "averageScore": 69,
+        "popularity": 89008,
+        "isAdult": false
+      }
+    },
+    {
       "key": "anilist-101291",
-      "note": "青春猪头少年",
+      "note": "青春猪头少年不做兔女郎学姐的梦",
       "anilistId": 101291,
       "malId": 37450,
       "title": {
@@ -69,6 +159,143 @@
         "seasonYear": 2018,
         "averageScore": 81,
         "popularity": 559700,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "anilist-104157",
+      "note": "青春猪头少年不做怀梦美少女的梦",
+      "anilistId": 104157,
+      "malId": 38329,
+      "title": {
+        "native": "青春ブタ野郎はゆめみる少女の夢を見ない",
+        "romaji": "Seishun Buta Yarou wa Yumemiru Shoujo no Yume wo Minai",
+        "english": "Rascal Does Not Dream of a Dreaming Girl",
+        "localized": "青春猪头少年不会梦到怀梦美少女",
+        "synonyms": [
+          "青ブタ",
+          "Ao Buta ",
+          "青春猪头少年不会梦到怀梦美少女",
+          "Этот глупый свин не понимает мечту девочки-зайки. Фильм",
+          "Негодник, которому не снилась девушка-кролик. Фильм"
+        ]
+      },
+      "cover": {
+        "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx104157-rk99XI56PaIC.jpg",
+        "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx104157-rk99XI56PaIC.jpg",
+        "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx104157-rk99XI56PaIC.jpg",
+        "color": "#8643f1"
+      },
+      "url": "https://anilist.co/anime/104157",
+      "meta": {
+        "format": "MOVIE",
+        "status": "FINISHED",
+        "episodes": 1,
+        "seasonYear": 2019,
+        "averageScore": 84,
+        "popularity": 251760,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "anilist-154967",
+      "note": "青春猪头少年不做娇怜外出妹的梦",
+      "anilistId": 154967,
+      "malId": 53129,
+      "title": {
+        "native": "青春ブタ野郎はおでかけシスターの夢を見ない",
+        "romaji": "Seishun Buta Yarou wa Odekake Sister no Yume wo Minai",
+        "english": "Rascal Does Not Dream of a Sister Venturing Out",
+        "localized": "Rascal Does Not Dream of a Sister Venturing Out",
+        "synonyms": [
+          "Ao Buta",
+          "青ブタ",
+          "เรื่องฝันปั่นป่วยของผมกับน้องสาวออกนอกบ้าน"
+        ]
+      },
+      "cover": {
+        "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx154967-W9cIm0qlz6fj.jpg",
+        "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx154967-W9cIm0qlz6fj.jpg",
+        "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx154967-W9cIm0qlz6fj.jpg",
+        "color": "#e4d6ae"
+      },
+      "url": "https://anilist.co/anime/154967",
+      "meta": {
+        "format": "MOVIE",
+        "status": "FINISHED",
+        "episodes": 1,
+        "seasonYear": 2023,
+        "averageScore": 79,
+        "popularity": 82793,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "anilist-161474",
+      "note": "青春猪头少年不做小学美少女的梦",
+      "anilistId": 161474,
+      "malId": 54870,
+      "title": {
+        "native": "青春ブタ野郎はランドセルガールの夢を見ない",
+        "romaji": "Seishun Buta Yarou wa Randoseru Girl no Yume wo Minai",
+        "english": "Rascal Does Not Dream of a Knapsack Kid",
+        "localized": "Rascal Does Not Dream of a Knapsack Kid",
+        "synonyms": [
+          "Rascal Does Not Dream of a Knapsack Kid",
+          "Ao Buta",
+          "青ブタ"
+        ]
+      },
+      "cover": {
+        "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx161474-ZDfmmlJQQngN.jpg",
+        "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx161474-ZDfmmlJQQngN.jpg",
+        "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx161474-ZDfmmlJQQngN.jpg",
+        "color": "#e4c9ae"
+      },
+      "url": "https://anilist.co/anime/161474",
+      "meta": {
+        "format": "MOVIE",
+        "status": "FINISHED",
+        "episodes": 1,
+        "seasonYear": 2023,
+        "averageScore": 83,
+        "popularity": 79381,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "anilist-171046",
+      "note": "青春猪头少年不做迷你裙圣诞老人的梦",
+      "anilistId": 171046,
+      "malId": 57433,
+      "title": {
+        "native": "青春ブタ野郎はサンタクロースの夢を見ない",
+        "romaji": "Seishun Buta Yarou wa Santa Claus no Yume wo Minai",
+        "english": "Rascal Does Not Dream of Santa Claus",
+        "localized": "Rascal Does Not Dream of Santa Claus",
+        "synonyms": [
+          "AoButa",
+          "青ブタ",
+          "Rascal Does Not Dream: University Student Arc",
+          "Rascal Series: University Arc",
+          "青春ブタ野郎 大学生編",
+          "Seishun Buta Yarou: Daigakusei-hen"
+        ]
+      },
+      "cover": {
+        "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx171046-9leqLiNuOqNu.png",
+        "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx171046-9leqLiNuOqNu.png",
+        "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx171046-9leqLiNuOqNu.png",
+        "color": "#e4c928"
+      },
+      "url": "https://anilist.co/anime/171046",
+      "meta": {
+        "format": "TV",
+        "status": "FINISHED",
+        "episodes": 13,
+        "seasonYear": 2025,
+        "averageScore": 82,
+        "popularity": 81678,
         "isAdult": false
       }
     },
@@ -2214,6 +2441,41 @@
         "seasonYear": 2011,
         "averageScore": 83,
         "popularity": 316264,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "anilist-104051",
+      "note": "魔法少女小圆外传",
+      "anilistId": 104051,
+      "malId": 38256,
+      "title": {
+        "native": "マギアレコード 魔法少女まどか☆マギカ外伝",
+        "romaji": "Magia Record: Mahou Shoujo Madoka☆Magica Gaiden",
+        "english": "Magia Record: Puella Magi Madoka Magica Side Story",
+        "localized": "Magia Record: Puella Magi Madoka Magica Side Story",
+        "synonyms": [
+          "MagiReco",
+          "Magia Record",
+          "สาวน้อยเวทมนตร์ มาโดกะ",
+          "สาวน้อยเวทมนตร์ มาโดกะ [บันทึกมากิอา]",
+          "Записи о магии: Другая история девочки-волшебницы Мадоки"
+        ]
+      },
+      "cover": {
+        "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx104051-tFMIbiffwBLs.jpg",
+        "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx104051-tFMIbiffwBLs.jpg",
+        "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx104051-tFMIbiffwBLs.jpg",
+        "color": "#0dbbf1"
+      },
+      "url": "https://anilist.co/anime/104051",
+      "meta": {
+        "format": "TV",
+        "status": "FINISHED",
+        "episodes": 13,
+        "seasonYear": 2020,
+        "averageScore": 65,
+        "popularity": 55573,
         "isAdult": false
       }
     },
