@@ -760,8 +760,8 @@ body.modal-open {
   }
 
   .anime-dialog {
-    height: min(700px, 94vh);
-    padding: 14px;
+    height: min(700px, 96dvh);
+    padding: 12px;
   }
 
   .anime-dialog-grid {
@@ -771,12 +771,12 @@ body.modal-open {
   }
 
   .anime-dialog-grid .anime-card-body {
-    min-height: 56px;
-    padding: 7px;
+    min-height: 74px;
+    padding: 8px;
   }
 
   .anime-dialog-grid .anime-card h3 {
-    min-height: 27px;
+    min-height: 34px;
     font-size: 0.78rem;
     line-height: 1.15;
     margin-bottom: 4px;
@@ -784,10 +784,10 @@ body.modal-open {
   }
 
   .anime-dialog-grid .anime-card p {
-    min-height: 20px;
+    min-height: 32px;
     font-size: 0.68rem;
     line-height: 1.15;
-    -webkit-line-clamp: 1;
+    -webkit-line-clamp: 2;
   }
 
   .anime-pagination {
@@ -799,7 +799,7 @@ body.modal-open {
   }
 }
 
-@media (max-height: 760px) {
+@media (min-width: 769px) and (max-height: 760px) {
   .anime-dialog {
     height: 94vh;
     padding: 14px;
