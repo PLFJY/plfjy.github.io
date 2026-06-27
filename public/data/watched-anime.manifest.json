@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-27T04:14:40.184Z",
+  "generatedAt": "2026-06-27T05:34:23.816Z",
   "source": "AniList",
-  "count": 86,
+  "count": 85,
   "items": [
     {
       "key": "anilist-16592",
@@ -1852,42 +1852,6 @@
         "seasonYear": 2019,
         "averageScore": 58,
         "popularity": 55125,
-        "isAdult": false
-      }
-    },
-    {
-      "key": "anilist-162780",
-      "note": "憧憬成为魔法少女",
-      "anilistId": 162780,
-      "malId": 54722,
-      "title": {
-        "native": "魔法少女にあこがれて",
-        "romaji": "Mahou Shoujo ni Akogarete",
-        "english": "Gushing Over Magical Girls",
-        "localized": "梦想成为魔法少女",
-        "synonyms": [
-          "I Admire Magical Girls, and...",
-          "Mahoako",
-          "Looking up to Magical Girls",
-          "夢想成為魔法少女",
-          "Fascinada por Garotas Mágicas",
-          "Me encantan las Magical Girls"
-        ]
-      },
-      "cover": {
-        "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx162780-brAdNEROhZdG.jpg",
-        "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx162780-brAdNEROhZdG.jpg",
-        "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx162780-brAdNEROhZdG.jpg",
-        "color": "#5da1e4"
-      },
-      "url": "https://anilist.co/anime/162780",
-      "meta": {
-        "format": "TV",
-        "status": "FINISHED",
-        "episodes": 13,
-        "seasonYear": 2024,
-        "averageScore": 74,
-        "popularity": 74552,
         "isAdult": false
       }
     },

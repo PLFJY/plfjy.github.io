@@ -592,7 +592,7 @@ main {
 
 .anime-dialog-grid .anime-cover img,
 .anime-dialog-grid .anime-cover-placeholder {
-  object-fit: contain;
+  object-fit: cover;
 }
 
 .anime-dialog-grid .anime-card h3 {

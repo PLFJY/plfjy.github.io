@@ -53,7 +53,7 @@ export const watchedAnimeSeed = [
   { note: "哈尔的移动城堡", anilistId: 431 },
   { note: "烟花", anilistId: 97908 },
   { note: "碧蓝航线", anilistId: 104159 },
-  { note: "憧憬成为魔法少女", anilistId: 162780 },
+  //{ note: "憧憬成为魔法少女", anilistId: 162780 },
   { note: "终结的炽天使", anilistId: 20829 },
   { note: "偶像荣耀/IDOLY PRIDE", anilistId: 113814 },
   { note: "约会大作战", anilistId: 15583 },
