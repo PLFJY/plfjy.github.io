@@ -1,0 +1,152 @@
+{
+  "generatedAt": "2026-06-26T00:00:00.000Z",
+  "source": "AniList dev fallback",
+  "count": 5,
+  "items": [
+    {
+      "key": "anilist-154587",
+      "note": "葬送的芙莉莲",
+      "anilistId": 154587,
+      "malId": 52991,
+      "title": {
+        "native": "葬送のフリーレン",
+        "romaji": "Sousou no Frieren",
+        "english": "Frieren: Beyond Journey’s End",
+        "localized": "葬送的芙莉莲",
+        "synonyms": ["葬送的芙莉蓮"]
+      },
+      "cover": {
+        "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx154587-qQTzQnEJJ3oB.jpg",
+        "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx154587-qQTzQnEJJ3oB.jpg",
+        "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx154587-qQTzQnEJJ3oB.jpg",
+        "color": "#bbf1a1"
+      },
+      "url": "https://anilist.co/anime/154587",
+      "meta": {
+        "format": "TV",
+        "status": "FINISHED",
+        "episodes": 28,
+        "seasonYear": 2023,
+        "averageScore": null,
+        "popularity": null,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "anilist-130003",
+      "note": "孤独摇滚",
+      "anilistId": 130003,
+      "malId": 47917,
+      "title": {
+        "native": "ぼっち・ざ・ろっく！",
+        "romaji": "Bocchi the Rock!",
+        "english": "BOCCHI THE ROCK!",
+        "localized": "孤独摇滚！",
+        "synonyms": ["孤獨搖滾！"]
+      },
+      "cover": {
+        "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx130003-7SoEIj31q2xV.jpg",
+        "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx130003-7SoEIj31q2xV.jpg",
+        "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx130003-7SoEIj31q2xV.jpg",
+        "color": "#e49378"
+      },
+      "url": "https://anilist.co/anime/130003",
+      "meta": {
+        "format": "TV",
+        "status": "FINISHED",
+        "episodes": 12,
+        "seasonYear": 2022,
+        "averageScore": null,
+        "popularity": null,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "anilist-16498",
+      "note": "进击的巨人",
+      "anilistId": 16498,
+      "malId": 16498,
+      "title": {
+        "native": "進撃の巨人",
+        "romaji": "Shingeki no Kyojin",
+        "english": "Attack on Titan",
+        "localized": "进击的巨人",
+        "synonyms": ["進擊的巨人"]
+      },
+      "cover": {
+        "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx16498-C6FPmWm59CyP.jpg",
+        "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx16498-C6FPmWm59CyP.jpg",
+        "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx16498-C6FPmWm59CyP.jpg",
+        "color": "#d6bb93"
+      },
+      "url": "https://anilist.co/anime/16498",
+      "meta": {
+        "format": "TV",
+        "status": "FINISHED",
+        "episodes": 25,
+        "seasonYear": 2013,
+        "averageScore": null,
+        "popularity": null,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "anilist-101922",
+      "note": "鬼灭之刃",
+      "anilistId": 101922,
+      "malId": 38000,
+      "title": {
+        "native": "鬼滅の刃",
+        "romaji": "Kimetsu no Yaiba",
+        "english": "Demon Slayer: Kimetsu no Yaiba",
+        "localized": "鬼灭之刃",
+        "synonyms": ["鬼滅之刃"]
+      },
+      "cover": {
+        "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101922-WR0V4Q3xO7Jh.jpg",
+        "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx101922-WR0V4Q3xO7Jh.jpg",
+        "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx101922-WR0V4Q3xO7Jh.jpg",
+        "color": "#e4a15d"
+      },
+      "url": "https://anilist.co/anime/101922",
+      "meta": {
+        "format": "TV",
+        "status": "FINISHED",
+        "episodes": 26,
+        "seasonYear": 2019,
+        "averageScore": null,
+        "popularity": null,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "anilist-11061",
+      "note": "全职猎人",
+      "anilistId": 11061,
+      "malId": 11061,
+      "title": {
+        "native": "HUNTER×HUNTER (2011)",
+        "romaji": "HUNTER×HUNTER (2011)",
+        "english": "Hunter x Hunter",
+        "localized": "全职猎人",
+        "synonyms": ["全職獵人"]
+      },
+      "cover": {
+        "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx11061-sIpBprNRfzCe.png",
+        "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx11061-sIpBprNRfzCe.png",
+        "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx11061-sIpBprNRfzCe.png",
+        "color": "#5dc174"
+      },
+      "url": "https://anilist.co/anime/11061",
+      "meta": {
+        "format": "TV",
+        "status": "FINISHED",
+        "episodes": 148,
+        "seasonYear": 2011,
+        "averageScore": null,
+        "popularity": null,
+        "isAdult": false
+      }
+    }
+  ]
+}

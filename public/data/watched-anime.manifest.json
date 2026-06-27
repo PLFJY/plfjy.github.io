@@ -1,0 +1,89 @@
+{
+  "generatedAt": "2026-06-27T02:00:57.438Z",
+  "source": "AniList",
+  "count": 2,
+  "items": [
+    {
+      "key": "anilist-154587",
+      "note": "葬送的芙莉莲",
+      "anilistId": 154587,
+      "malId": 52991,
+      "title": {
+        "native": "葬送のフリーレン",
+        "romaji": "Sousou no Frieren",
+        "english": "Frieren: Beyond Journey’s End",
+        "localized": "葬送的芙莉莲",
+        "synonyms": [
+          "Frieren at the Funeral",
+          "장송의 프리렌",
+          "Frieren - Oltre la Fine del Viaggio",
+          "คำอธิษฐานในวันที่จากลา Frieren",
+          "Frieren e a Jornada para o Além",
+          "Frieren – Nach dem Ende der Reise",
+          "葬送的芙莉蓮",
+          "Frieren: Más allá del final del viaje",
+          "Frieren en el funeral",
+          "Sōsō no Furīren",
+          "Frieren. U kresu drogi",
+          "Frieren - Pháp sư tiễn táng",
+          "Фрирен, провожающая в последний путь",
+          "فريرن: ما وراء نهاية الرحلة",
+          "Frieren: Tras finalizar el viaje"
+        ]
+      },
+      "cover": {
+        "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx154587-qQTzQnEJJ3oB.jpg",
+        "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx154587-qQTzQnEJJ3oB.jpg",
+        "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx154587-qQTzQnEJJ3oB.jpg",
+        "color": "#bbf1a1"
+      },
+      "url": "https://anilist.co/anime/154587",
+      "meta": {
+        "format": "TV",
+        "status": "FINISHED",
+        "episodes": 28,
+        "seasonYear": 2023,
+        "averageScore": 91,
+        "popularity": 448980,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "anilist-130003",
+      "note": "孤独摇滚",
+      "anilistId": 130003,
+      "malId": 47917,
+      "title": {
+        "native": "ぼっち・ざ・ろっく！",
+        "romaji": "Bocchi the Rock!",
+        "english": "BOCCHI THE ROCK!",
+        "localized": "孤独摇滚！",
+        "synonyms": [
+          "РОК-ТИХОНЯ!",
+          "บจจิเดอะร็อก!",
+          "孤獨搖滾！",
+          "孤独摇滚！",
+          "외톨이 THE ROCK!",
+          "봇치 더 록!",
+          "BTR"
+        ]
+      },
+      "cover": {
+        "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx130003-HTDmeL4RGeJ4.png",
+        "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx130003-HTDmeL4RGeJ4.png",
+        "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx130003-HTDmeL4RGeJ4.png",
+        "color": "#e4bb50"
+      },
+      "url": "https://anilist.co/anime/130003",
+      "meta": {
+        "format": "TV",
+        "status": "FINISHED",
+        "episodes": 12,
+        "seasonYear": 2022,
+        "averageScore": 87,
+        "popularity": 253032,
+        "isAdult": false
+      }
+    }
+  ]
+}

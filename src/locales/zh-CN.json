@@ -8,8 +8,18 @@
   },
   "sections": {
     "projects": "Projects",
+    "watchedAnime": "Watched Anime",
     "skills": "Skills",
     "os": "OS"
+  },
+  "anime": {
+    "viewAll": "查看全部",
+    "close": "关闭",
+    "previous": "上一页",
+    "next": "下一页",
+    "page": "第",
+    "loading": "正在加载番剧...",
+    "empty": "暂无番剧数据"
   },
   "typingLines": [
     "Hi，欢迎来到我的主页",

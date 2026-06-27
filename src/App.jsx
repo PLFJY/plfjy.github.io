@@ -3,6 +3,7 @@ import { useTranslation } from "react-i18next";
 import IconTile from "./components/IconTile";
 import ProjectCard from "./components/ProjectCard";
 import Section from "./components/Section";
+import WatchedAnimeSection from "./components/WatchedAnimeSection";
 import { osList, projects, skills } from "./content";
 
 const isAppleWebKitEngine = () => {
@@ -209,6 +210,8 @@ function App() {
             />
           ))}
         </Section>
+
+        <WatchedAnimeSection />
 
         <Section title={t("sections.skills")} contentClassName="icon-grid">
           {skills.map((skill) => (

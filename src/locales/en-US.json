@@ -8,8 +8,18 @@
   },
   "sections": {
     "projects": "Projects",
+    "watchedAnime": "Watched Anime",
     "skills": "Skills",
     "os": "OS"
+  },
+  "anime": {
+    "viewAll": "View All",
+    "close": "Close",
+    "previous": "Previous",
+    "next": "Next",
+    "page": "Page",
+    "loading": "Loading anime...",
+    "empty": "No anime data available"
   },
   "typingLines": [
     "Hi there, welcome to my home page",
