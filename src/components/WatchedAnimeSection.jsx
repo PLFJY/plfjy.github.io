@@ -40,8 +40,15 @@ function WatchedAnimeSection() {
 
   return (
     <section className="section watched-anime-section">
-      <div className="anime-section-heading">
-        <h2 className="section-title">{t("sections.watchedAnime")}</h2>
+      <h2 className="section-title">{t("sections.watchedAnime")}</h2>
+
+      <div className="section-content anime-section-content">
+        {isLoading && <p className="anime-state-text">{t("anime.loading")}</p>}
+        {!isLoading && shuffledItems.length === 0 && <p className="anime-state-text">{t("anime.empty")}</p>}
+        {!isLoading && shuffledItems.length > 0 && <AnimeMarqueeCarousel items={shuffledItems} />}
+      </div>
+
+      <div className="anime-section-actions">
         <button
           type="button"
           className="anime-view-all-btn"
@@ -50,12 +57,6 @@ function WatchedAnimeSection() {
         >
           {t("anime.viewAll")}
         </button>
-      </div>
-
-      <div className="section-content anime-section-content">
-        {isLoading && <p className="anime-state-text">{t("anime.loading")}</p>}
-        {!isLoading && shuffledItems.length === 0 && <p className="anime-state-text">{t("anime.empty")}</p>}
-        {!isLoading && shuffledItems.length > 0 && <AnimeMarqueeCarousel items={shuffledItems} />}
       </div>
 
       <WatchedAnimeListDialog

@@ -211,8 +211,6 @@ function App() {
           ))}
         </Section>
 
-        <WatchedAnimeSection />
-
         <Section title={t("sections.skills")} contentClassName="icon-grid">
           {skills.map((skill) => (
             <IconTile key={skill.name} {...skill} />
@@ -224,6 +222,8 @@ function App() {
             <IconTile key={os.name} {...os} />
           ))}
         </Section>
+
+        <WatchedAnimeSection />
       </main>
 
       <img src="/assets/sticker.png" alt="sticker" className="anime-sticker" />

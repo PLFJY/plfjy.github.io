@@ -11,9 +11,17 @@ function AnimeCard({ item, eager = false }) {
   const localizedTitle = item.title?.localized || item.title?.english || item.title?.romaji || item.note || "";
   const accentColor = item.cover?.color || "#4a7bff";
   const showImage = coverUrl && !hasImageError;
+  const href = item.url || `https://anilist.co/anime/${item.anilistId}`;
 
   return (
-    <article className="anime-card" style={{ "--anime-accent": accentColor }}>
+    <a
+      className="anime-card"
+      style={{ "--anime-accent": accentColor }}
+      href={href}
+      target="_blank"
+      rel="noreferrer"
+      aria-label={localizedTitle ? `${nativeTitle} / ${localizedTitle}` : nativeTitle}
+    >
       <div className="anime-cover">
         {showImage ? (
           <img
@@ -32,7 +40,7 @@ function AnimeCard({ item, eager = false }) {
         <h3>{nativeTitle}</h3>
         <p>{localizedTitle}</p>
       </div>
-    </article>
+    </a>
   );
 }
 

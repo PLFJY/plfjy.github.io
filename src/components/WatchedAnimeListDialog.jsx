@@ -2,12 +2,14 @@ import { useEffect, useMemo, useState } from "react";
 import { useTranslation } from "react-i18next";
 import AnimeCard from "./AnimeCard";
 
-const PAGE_SIZE = 12;
+const DESKTOP_PAGE_SIZE = 10;
+const MOBILE_PAGE_SIZE = 4;
 
 function WatchedAnimeListDialog({ items, isOpen, onClose }) {
   const { t } = useTranslation();
   const [page, setPage] = useState(1);
-  const pageCount = Math.max(1, Math.ceil(items.length / PAGE_SIZE));
+  const [pageSize, setPageSize] = useState(DESKTOP_PAGE_SIZE);
+  const pageCount = Math.max(1, Math.ceil(items.length / pageSize));
 
   useEffect(() => {
     if (isOpen) {
@@ -34,10 +36,27 @@ function WatchedAnimeListDialog({ items, isOpen, onClose }) {
     };
   }, [isOpen, onClose]);
 
+  useEffect(() => {
+    const updatePageSize = () => {
+      const nextPageSize = window.matchMedia("(max-width: 768px)").matches
+        ? MOBILE_PAGE_SIZE
+        : DESKTOP_PAGE_SIZE;
+      setPageSize(nextPageSize);
+    };
+
+    updatePageSize();
+    window.addEventListener("resize", updatePageSize);
+    return () => window.removeEventListener("resize", updatePageSize);
+  }, []);
+
+  useEffect(() => {
+    setPage((value) => Math.min(value, pageCount));
+  }, [pageCount]);
+
   const visibleItems = useMemo(() => {
-    const start = (page - 1) * PAGE_SIZE;
-    return items.slice(start, start + PAGE_SIZE);
-  }, [items, page]);
+    const start = (page - 1) * pageSize;
+    return items.slice(start, start + pageSize);
+  }, [items, page, pageSize]);
 
   if (!isOpen) {
     return null;

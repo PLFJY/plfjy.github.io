@@ -360,18 +360,6 @@ main {
   overflow: visible;
 }
 
-.anime-section-heading {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 18px;
-  flex-wrap: wrap;
-}
-
-.anime-section-heading .section-title {
-  margin-bottom: 0;
-}
-
 .anime-view-all-btn,
 .anime-pagination button,
 .anime-icon-button {
@@ -409,6 +397,12 @@ main {
   margin-top: 34px;
 }
 
+.anime-section-actions {
+  display: flex;
+  justify-content: center;
+  margin-top: 22px;
+}
+
 .anime-state-text {
   opacity: 0.78;
 }
@@ -425,7 +419,7 @@ main {
   display: flex;
   width: max-content;
   gap: 18px;
-  animation: anime-marquee 54s linear infinite;
+  animation: anime-marquee 210s linear infinite;
   will-change: transform;
 }
 
@@ -443,6 +437,7 @@ main {
 }
 
 .anime-card {
+  position: relative;
   flex: 0 0 174px;
   width: 174px;
   overflow: hidden;
@@ -452,6 +447,7 @@ main {
   border-radius: 12px;
   box-shadow: 0 4px 15px var(--shadow);
   text-align: left;
+  text-decoration: none;
   transition: var(--transition);
 }
 
@@ -524,9 +520,9 @@ main {
 }
 
 .anime-dialog {
-  width: min(1040px, 100%);
-  max-height: min(820px, 92vh);
-  overflow: auto;
+  width: min(940px, 100%);
+  height: min(700px, 92vh);
+  overflow: hidden;
   background: var(--bg-acrylic);
   background-color: var(--bg-acrylic);
   backdrop-filter: blur(14px);
@@ -534,7 +530,9 @@ main {
   border: 1px solid rgba(255, 255, 255, 0.14);
   border-radius: 14px;
   box-shadow: 0 18px 50px rgba(0, 0, 0, 0.35);
-  padding: 22px;
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
 }
 
 .anime-dialog-header {
@@ -542,7 +540,7 @@ main {
   align-items: center;
   justify-content: space-between;
   gap: 16px;
-  margin-bottom: 18px;
+  margin-bottom: 14px;
 }
 
 .anime-dialog-header h2 {
@@ -564,13 +562,56 @@ main {
 
 .anime-dialog-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-  gap: 18px;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  grid-template-rows: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  min-height: 0;
+  flex: 1;
+  align-content: stretch;
 }
 
 .anime-dialog-grid .anime-card {
   width: 100%;
+  height: 100%;
   flex-basis: auto;
+  min-width: 0;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.anime-dialog-grid .anime-cover {
+  flex: 1 1 auto;
+  min-height: 0;
+  aspect-ratio: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.anime-dialog-grid .anime-cover img,
+.anime-dialog-grid .anime-cover-placeholder {
+  object-fit: contain;
+}
+
+.anime-dialog-grid .anime-card h3 {
+  min-height: 30px;
+  margin-bottom: 4px;
+  font-size: 0.82rem;
+  line-height: 1.18;
+}
+
+.anime-dialog-grid .anime-card p {
+  min-height: 24px;
+  font-size: 0.72rem;
+  line-height: 1.18;
+}
+
+.anime-dialog-grid .anime-card-body {
+  flex: 0 0 auto;
+  min-height: 58px;
+  padding: 8px;
 }
 
 .anime-pagination {
@@ -578,7 +619,8 @@ main {
   align-items: center;
   justify-content: center;
   gap: 16px;
-  margin-top: 22px;
+  margin-top: 14px;
+  flex: 0 0 auto;
 }
 
 .anime-pagination button {
@@ -672,7 +714,7 @@ body.modal-open {
 
 @media (prefers-reduced-motion: reduce) {
   .anime-marquee-track {
-    animation-duration: 220s;
+    animation-duration: 760s;
   }
 
   .anime-marquee:hover .anime-marquee-track {
@@ -718,12 +760,34 @@ body.modal-open {
   }
 
   .anime-dialog {
-    padding: 16px;
+    height: min(700px, 94vh);
+    padding: 14px;
   }
 
   .anime-dialog-grid {
-    grid-template-columns: repeat(auto-fill, minmax(132px, 1fr));
-    gap: 14px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-rows: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+  }
+
+  .anime-dialog-grid .anime-card-body {
+    min-height: 56px;
+    padding: 7px;
+  }
+
+  .anime-dialog-grid .anime-card h3 {
+    min-height: 27px;
+    font-size: 0.78rem;
+    line-height: 1.15;
+    margin-bottom: 4px;
+    -webkit-line-clamp: 2;
+  }
+
+  .anime-dialog-grid .anime-card p {
+    min-height: 20px;
+    font-size: 0.68rem;
+    line-height: 1.15;
+    -webkit-line-clamp: 1;
   }
 
   .anime-pagination {
@@ -732,5 +796,57 @@ body.modal-open {
 
   .anime-pagination button {
     min-width: 78px;
+  }
+}
+
+@media (max-height: 760px) {
+  .anime-dialog {
+    height: 94vh;
+    padding: 14px;
+  }
+
+  .anime-dialog-header {
+    margin-bottom: 10px;
+  }
+
+  .anime-dialog-header h2 {
+    font-size: 1.25rem;
+  }
+
+  .anime-icon-button {
+    width: 34px;
+    height: 34px;
+  }
+
+  .anime-dialog-grid {
+    gap: 10px;
+  }
+
+  .anime-dialog-grid .anime-card-body {
+    min-height: 38px;
+    padding: 5px 6px;
+  }
+
+  .anime-dialog-grid .anime-card h3 {
+    min-height: 17px;
+    font-size: 0.68rem;
+    line-height: 1.15;
+    margin-bottom: 2px;
+    -webkit-line-clamp: 1;
+  }
+
+  .anime-dialog-grid .anime-card p {
+    min-height: 16px;
+    font-size: 0.62rem;
+    line-height: 1.15;
+    -webkit-line-clamp: 1;
+  }
+
+  .anime-pagination {
+    margin-top: 10px;
+  }
+
+  .anime-pagination button {
+    min-height: 32px;
   }
 }
