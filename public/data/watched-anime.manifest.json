@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T07:36:02.322Z",
+  "generatedAt": "2026-06-28T14:30:24.462Z",
   "source": "TMDB",
   "count": 85,
   "items": [
@@ -181,7 +181,7 @@
         "episodes": null,
         "seasonYear": 2023,
         "averageScore": 77,
-        "popularity": 2.759,
+        "popularity": 2.4885,
         "isAdult": false
       }
     },
@@ -207,7 +207,7 @@
         "episodes": null,
         "seasonYear": 2023,
         "averageScore": 77,
-        "popularity": 2.7533,
+        "popularity": 2.6811,
         "isAdult": false
       }
     },
@@ -233,7 +233,7 @@
         "episodes": 13,
         "seasonYear": 2025,
         "averageScore": 73,
-        "popularity": 2.0033,
+        "popularity": 2.1051,
         "isAdult": false
       }
     },
@@ -519,7 +519,7 @@
         "episodes": null,
         "seasonYear": 2022,
         "averageScore": 79,
-        "popularity": 10.4566,
+        "popularity": 8.5941,
         "isAdult": false
       }
     },
@@ -779,7 +779,7 @@
         "episodes": 63,
         "seasonYear": 2019,
         "averageScore": 86,
-        "popularity": 26.9574,
+        "popularity": 21.6551,
         "isAdult": false
       }
     },
@@ -935,7 +935,7 @@
         "episodes": 85,
         "seasonYear": 2016,
         "averageScore": 79,
-        "popularity": 106.1056,
+        "popularity": 90.2782,
         "isAdult": false
       }
     },
@@ -1169,7 +1169,7 @@
         "episodes": null,
         "seasonYear": 2007,
         "averageScore": 73,
-        "popularity": 4.9335,
+        "popularity": 4.0932,
         "isAdult": false
       }
     },
@@ -1351,7 +1351,7 @@
         "episodes": 12,
         "seasonYear": 2019,
         "averageScore": 75,
-        "popularity": 8.2708,
+        "popularity": 6.5313,
         "isAdult": false
       }
     },
@@ -1819,7 +1819,7 @@
         "episodes": 12,
         "seasonYear": 2024,
         "averageScore": 77,
-        "popularity": 11.4062,
+        "popularity": 9.8501,
         "isAdult": false
       }
     },
@@ -2131,7 +2131,7 @@
         "episodes": 25,
         "seasonYear": 2023,
         "averageScore": 85,
-        "popularity": 26.4076,
+        "popularity": 19.7059,
         "isAdult": false
       }
     },
