@@ -1,6 +1,6 @@
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
-import { loadWatchedAnimeItems, shuffleAnimeItems } from "../api/watchedAnimeManifest";
+import { loadWatchedAnimeItems } from "../api/watchedAnimeManifest";
 import AnimeMarqueeCarousel from "./AnimeMarqueeCarousel";
 import WatchedAnimeListDialog from "./WatchedAnimeListDialog";
 
@@ -36,16 +36,14 @@ function WatchedAnimeSection() {
     };
   }, []);
 
-  const shuffledItems = useMemo(() => shuffleAnimeItems(items), [items]);
-
   return (
     <section className="section watched-anime-section">
       <h2 className="section-title">{t("sections.watchedAnime")}</h2>
 
       <div className="section-content anime-section-content">
         {isLoading && <p className="anime-state-text">{t("anime.loading")}</p>}
-        {!isLoading && shuffledItems.length === 0 && <p className="anime-state-text">{t("anime.empty")}</p>}
-        {!isLoading && shuffledItems.length > 0 && <AnimeMarqueeCarousel items={shuffledItems} />}
+        {!isLoading && items.length === 0 && <p className="anime-state-text">{t("anime.empty")}</p>}
+        {!isLoading && items.length > 0 && <AnimeMarqueeCarousel items={items} />}
       </div>
 
       <div className="anime-section-actions">

@@ -1,190 +1,8 @@
 {
-  "generatedAt": "2026-06-28T07:31:17.162Z",
+  "generatedAt": "2026-06-28T07:36:02.322Z",
   "source": "TMDB",
   "count": 85,
   "items": [
-    {
-      "key": "tmdb-tv-209867",
-      "note": "葬送的芙莉莲",
-      "tmdbType": "tv",
-      "tmdbId": 209867,
-      "title": {
-        "native": "葬送のフリーレン",
-        "localized": "葬送的芙莉莲",
-        "english": "Frieren: Beyond Journey's End"
-      },
-      "cover": {
-        "extraLarge": "https://image.tmdb.org/t/p/w780/1TtrtRIwXz5BB0gXEl8zgBypl9c.jpg",
-        "large": "https://image.tmdb.org/t/p/w500/1TtrtRIwXz5BB0gXEl8zgBypl9c.jpg",
-        "medium": "https://image.tmdb.org/t/p/w342/1TtrtRIwXz5BB0gXEl8zgBypl9c.jpg"
-      },
-      "url": "https://www.themoviedb.org/tv/209867",
-      "meta": {
-        "format": "TV",
-        "status": "Returning Series",
-        "episodes": 38,
-        "seasonYear": 2023,
-        "averageScore": 88,
-        "popularity": 75.9885,
-        "isAdult": false
-      }
-    },
-    {
-      "key": "tmdb-movie-372058",
-      "note": "你的名字",
-      "tmdbType": "movie",
-      "tmdbId": 372058,
-      "title": {
-        "native": "君の名は。",
-        "localized": "你的名字。",
-        "english": "Your Name."
-      },
-      "cover": {
-        "extraLarge": "https://image.tmdb.org/t/p/w780/vRQ7wpxpHt2aV8RnOkwHlOQAMKe.jpg",
-        "large": "https://image.tmdb.org/t/p/w500/vRQ7wpxpHt2aV8RnOkwHlOQAMKe.jpg",
-        "medium": "https://image.tmdb.org/t/p/w342/vRQ7wpxpHt2aV8RnOkwHlOQAMKe.jpg"
-      },
-      "url": "https://www.themoviedb.org/movie/372058",
-      "meta": {
-        "format": "MOVIE",
-        "status": "Released",
-        "episodes": null,
-        "seasonYear": 2016,
-        "averageScore": 85,
-        "popularity": 31.0512,
-        "isAdult": false
-      }
-    },
-    {
-      "key": "tmdb-movie-916224",
-      "note": "铃芽之旅",
-      "tmdbType": "movie",
-      "tmdbId": 916224,
-      "title": {
-        "native": "すずめの戸締まり",
-        "localized": "铃芽之旅",
-        "english": "Suzume"
-      },
-      "cover": {
-        "extraLarge": "https://image.tmdb.org/t/p/w780/x8IcS3iaqo1hayup5m9NTFJAqYJ.jpg",
-        "large": "https://image.tmdb.org/t/p/w500/x8IcS3iaqo1hayup5m9NTFJAqYJ.jpg",
-        "medium": "https://image.tmdb.org/t/p/w342/x8IcS3iaqo1hayup5m9NTFJAqYJ.jpg"
-      },
-      "url": "https://www.themoviedb.org/movie/916224",
-      "meta": {
-        "format": "MOVIE",
-        "status": "Released",
-        "episodes": null,
-        "seasonYear": 2022,
-        "averageScore": 79,
-        "popularity": 10.4566,
-        "isAdult": false
-      }
-    },
-    {
-      "key": "tmdb-movie-568160",
-      "note": "天气之子",
-      "tmdbType": "movie",
-      "tmdbId": 568160,
-      "title": {
-        "native": "天気の子",
-        "localized": "天气之子",
-        "english": "Weathering with You"
-      },
-      "cover": {
-        "extraLarge": "https://image.tmdb.org/t/p/w780/hxWmedDh6CNcqsROxiZZmVAbWe8.jpg",
-        "large": "https://image.tmdb.org/t/p/w500/hxWmedDh6CNcqsROxiZZmVAbWe8.jpg",
-        "medium": "https://image.tmdb.org/t/p/w342/hxWmedDh6CNcqsROxiZZmVAbWe8.jpg"
-      },
-      "url": "https://www.themoviedb.org/movie/568160",
-      "meta": {
-        "format": "MOVIE",
-        "status": "Released",
-        "episodes": null,
-        "seasonYear": 2019,
-        "averageScore": 80,
-        "popularity": 6.3044,
-        "isAdult": false
-      }
-    },
-    {
-      "key": "tmdb-movie-38142",
-      "note": "秒速五厘米",
-      "tmdbType": "movie",
-      "tmdbId": 38142,
-      "title": {
-        "native": "秒速5センチメートル",
-        "localized": "秒速五厘米",
-        "english": "5 Centimeters per Second"
-      },
-      "cover": {
-        "extraLarge": "https://image.tmdb.org/t/p/w780/qnBM6YT0NYrJ9X9f98pmaqvUsxw.jpg",
-        "large": "https://image.tmdb.org/t/p/w500/qnBM6YT0NYrJ9X9f98pmaqvUsxw.jpg",
-        "medium": "https://image.tmdb.org/t/p/w342/qnBM6YT0NYrJ9X9f98pmaqvUsxw.jpg"
-      },
-      "url": "https://www.themoviedb.org/movie/38142",
-      "meta": {
-        "format": "MOVIE",
-        "status": "Released",
-        "episodes": null,
-        "seasonYear": 2007,
-        "averageScore": 73,
-        "popularity": 4.9335,
-        "isAdult": false
-      }
-    },
-    {
-      "key": "tmdb-movie-129",
-      "note": "千与千寻",
-      "tmdbType": "movie",
-      "tmdbId": 129,
-      "title": {
-        "native": "千と千尋の神隠し",
-        "localized": "千与千寻",
-        "english": "Spirited Away"
-      },
-      "cover": {
-        "extraLarge": "https://image.tmdb.org/t/p/w780/9oZmkkNlI4Ktx6NTkdpeU525qSc.jpg",
-        "large": "https://image.tmdb.org/t/p/w500/9oZmkkNlI4Ktx6NTkdpeU525qSc.jpg",
-        "medium": "https://image.tmdb.org/t/p/w342/9oZmkkNlI4Ktx6NTkdpeU525qSc.jpg"
-      },
-      "url": "https://www.themoviedb.org/movie/129",
-      "meta": {
-        "format": "MOVIE",
-        "status": "Released",
-        "episodes": null,
-        "seasonYear": 2001,
-        "averageScore": 85,
-        "popularity": 36.0144,
-        "isAdult": false
-      }
-    },
-    {
-      "key": "tmdb-movie-4935",
-      "note": "哈尔的移动城堡",
-      "tmdbType": "movie",
-      "tmdbId": 4935,
-      "title": {
-        "native": "ハウルの動く城",
-        "localized": "哈尔的移动城堡",
-        "english": "Howl's Moving Castle"
-      },
-      "cover": {
-        "extraLarge": "https://image.tmdb.org/t/p/w780/nOi7yf4NLfFj72MsjtBGn6Thq1q.jpg",
-        "large": "https://image.tmdb.org/t/p/w500/nOi7yf4NLfFj72MsjtBGn6Thq1q.jpg",
-        "medium": "https://image.tmdb.org/t/p/w342/nOi7yf4NLfFj72MsjtBGn6Thq1q.jpg"
-      },
-      "url": "https://www.themoviedb.org/movie/4935",
-      "meta": {
-        "format": "MOVIE",
-        "status": "Released",
-        "episodes": null,
-        "seasonYear": 2004,
-        "averageScore": 84,
-        "popularity": 22.8474,
-        "isAdult": false
-      }
-    },
     {
       "key": "tmdb-tv-49471",
       "note": "弹丸论破",
@@ -650,6 +468,58 @@
         "seasonYear": 2017,
         "averageScore": 79,
         "popularity": 9.6134,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "tmdb-movie-372058",
+      "note": "你的名字",
+      "tmdbType": "movie",
+      "tmdbId": 372058,
+      "title": {
+        "native": "君の名は。",
+        "localized": "你的名字。",
+        "english": "Your Name."
+      },
+      "cover": {
+        "extraLarge": "https://image.tmdb.org/t/p/w780/vRQ7wpxpHt2aV8RnOkwHlOQAMKe.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/vRQ7wpxpHt2aV8RnOkwHlOQAMKe.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/vRQ7wpxpHt2aV8RnOkwHlOQAMKe.jpg"
+      },
+      "url": "https://www.themoviedb.org/movie/372058",
+      "meta": {
+        "format": "MOVIE",
+        "status": "Released",
+        "episodes": null,
+        "seasonYear": 2016,
+        "averageScore": 85,
+        "popularity": 31.0512,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "tmdb-movie-916224",
+      "note": "铃芽之旅",
+      "tmdbType": "movie",
+      "tmdbId": 916224,
+      "title": {
+        "native": "すずめの戸締まり",
+        "localized": "铃芽之旅",
+        "english": "Suzume"
+      },
+      "cover": {
+        "extraLarge": "https://image.tmdb.org/t/p/w780/x8IcS3iaqo1hayup5m9NTFJAqYJ.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/x8IcS3iaqo1hayup5m9NTFJAqYJ.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/x8IcS3iaqo1hayup5m9NTFJAqYJ.jpg"
+      },
+      "url": "https://www.themoviedb.org/movie/916224",
+      "meta": {
+        "format": "MOVIE",
+        "status": "Released",
+        "episodes": null,
+        "seasonYear": 2022,
+        "averageScore": 79,
+        "popularity": 10.4566,
         "isAdult": false
       }
     },
@@ -1200,6 +1070,32 @@
       }
     },
     {
+      "key": "tmdb-movie-568160",
+      "note": "天气之子",
+      "tmdbType": "movie",
+      "tmdbId": 568160,
+      "title": {
+        "native": "天気の子",
+        "localized": "天气之子",
+        "english": "Weathering with You"
+      },
+      "cover": {
+        "extraLarge": "https://image.tmdb.org/t/p/w780/hxWmedDh6CNcqsROxiZZmVAbWe8.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/hxWmedDh6CNcqsROxiZZmVAbWe8.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/hxWmedDh6CNcqsROxiZZmVAbWe8.jpg"
+      },
+      "url": "https://www.themoviedb.org/movie/568160",
+      "meta": {
+        "format": "MOVIE",
+        "status": "Released",
+        "episodes": null,
+        "seasonYear": 2019,
+        "averageScore": 80,
+        "popularity": 6.3044,
+        "isAdult": false
+      }
+    },
+    {
       "key": "tmdb-tv-123249",
       "note": "更衣人偶坠入爱河",
       "tmdbType": "tv",
@@ -1248,6 +1144,32 @@
         "seasonYear": 2023,
         "averageScore": 67,
         "popularity": 13.198,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "tmdb-movie-38142",
+      "note": "秒速五厘米",
+      "tmdbType": "movie",
+      "tmdbId": 38142,
+      "title": {
+        "native": "秒速5センチメートル",
+        "localized": "秒速五厘米",
+        "english": "5 Centimeters per Second"
+      },
+      "cover": {
+        "extraLarge": "https://image.tmdb.org/t/p/w780/qnBM6YT0NYrJ9X9f98pmaqvUsxw.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/qnBM6YT0NYrJ9X9f98pmaqvUsxw.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/qnBM6YT0NYrJ9X9f98pmaqvUsxw.jpg"
+      },
+      "url": "https://www.themoviedb.org/movie/38142",
+      "meta": {
+        "format": "MOVIE",
+        "status": "Released",
+        "episodes": null,
+        "seasonYear": 2007,
+        "averageScore": 73,
+        "popularity": 4.9335,
         "isAdult": false
       }
     },
@@ -1326,6 +1248,58 @@
         "seasonYear": 1979,
         "averageScore": 77,
         "popularity": 35.8485,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "tmdb-movie-129",
+      "note": "千与千寻",
+      "tmdbType": "movie",
+      "tmdbId": 129,
+      "title": {
+        "native": "千と千尋の神隠し",
+        "localized": "千与千寻",
+        "english": "Spirited Away"
+      },
+      "cover": {
+        "extraLarge": "https://image.tmdb.org/t/p/w780/9oZmkkNlI4Ktx6NTkdpeU525qSc.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/9oZmkkNlI4Ktx6NTkdpeU525qSc.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/9oZmkkNlI4Ktx6NTkdpeU525qSc.jpg"
+      },
+      "url": "https://www.themoviedb.org/movie/129",
+      "meta": {
+        "format": "MOVIE",
+        "status": "Released",
+        "episodes": null,
+        "seasonYear": 2001,
+        "averageScore": 85,
+        "popularity": 36.0144,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "tmdb-movie-4935",
+      "note": "哈尔的移动城堡",
+      "tmdbType": "movie",
+      "tmdbId": 4935,
+      "title": {
+        "native": "ハウルの動く城",
+        "localized": "哈尔的移动城堡",
+        "english": "Howl's Moving Castle"
+      },
+      "cover": {
+        "extraLarge": "https://image.tmdb.org/t/p/w780/nOi7yf4NLfFj72MsjtBGn6Thq1q.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/nOi7yf4NLfFj72MsjtBGn6Thq1q.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/nOi7yf4NLfFj72MsjtBGn6Thq1q.jpg"
+      },
+      "url": "https://www.themoviedb.org/movie/4935",
+      "meta": {
+        "format": "MOVIE",
+        "status": "Released",
+        "episodes": null,
+        "seasonYear": 2004,
+        "averageScore": 84,
+        "popularity": 22.8474,
         "isAdult": false
       }
     },
@@ -1898,6 +1872,32 @@
         "seasonYear": 2025,
         "averageScore": 67,
         "popularity": 8.7416,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "tmdb-tv-209867",
+      "note": "葬送的芙莉莲",
+      "tmdbType": "tv",
+      "tmdbId": 209867,
+      "title": {
+        "native": "葬送のフリーレン",
+        "localized": "葬送的芙莉莲",
+        "english": "Frieren: Beyond Journey's End"
+      },
+      "cover": {
+        "extraLarge": "https://image.tmdb.org/t/p/w780/1TtrtRIwXz5BB0gXEl8zgBypl9c.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/1TtrtRIwXz5BB0gXEl8zgBypl9c.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/1TtrtRIwXz5BB0gXEl8zgBypl9c.jpg"
+      },
+      "url": "https://www.themoviedb.org/tv/209867",
+      "meta": {
+        "format": "TV",
+        "status": "Returning Series",
+        "episodes": 38,
+        "seasonYear": 2023,
+        "averageScore": 88,
+        "popularity": 75.9885,
         "isAdult": false
       }
     },
