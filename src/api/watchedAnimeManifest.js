@@ -3,25 +3,24 @@ const DEV_MANIFEST_PATH = "/data/watched-anime.manifest.dev.json";
 
 const inlineFallbackItems = [
   {
-    key: "fallback-frieren",
+    key: "tmdb-tv-209867",
     note: "葬送的芙莉莲",
-    anilistId: 154587,
-    malId: 52991,
+    tmdbType: "tv",
+    tmdbId: 209867,
     title: {
       native: "葬送のフリーレン",
-      romaji: "Sousou no Frieren",
-      english: "Frieren: Beyond Journey’s End",
       localized: "葬送的芙莉莲",
-      synonyms: ["葬送的芙莉蓮"]
+      english: "Frieren: Beyond Journey's End"
     },
     cover: {
-      large: "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx154587-qQTzQnEJJ3oB.jpg",
-      color: "#bbf1a1"
+      extraLarge: "",
+      large: "",
+      medium: ""
     },
-    url: "https://anilist.co/anime/154587",
+    url: "https://www.themoviedb.org/tv/209867",
     meta: {
       format: "TV",
-      status: "FINISHED",
+      status: "Ended",
       episodes: 28,
       seasonYear: 2023,
       averageScore: null,
@@ -42,7 +41,7 @@ async function fetchManifest(path) {
     throw new Error(`${path} does not contain an items array`);
   }
 
-  return manifest.items;
+  return manifest.items.filter((item) => item?.key && item?.title);
 }
 
 export async function loadWatchedAnimeItems() {

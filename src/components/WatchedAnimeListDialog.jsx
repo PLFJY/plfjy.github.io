@@ -2,7 +2,7 @@ import { useEffect, useMemo, useState } from "react";
 import { useTranslation } from "react-i18next";
 import AnimeCard from "./AnimeCard";
 
-const DESKTOP_PAGE_SIZE = 10;
+const DESKTOP_PAGE_SIZE = 12;
 const MOBILE_PAGE_SIZE = 4;
 
 function WatchedAnimeListDialog({ items, isOpen, onClose }) {
