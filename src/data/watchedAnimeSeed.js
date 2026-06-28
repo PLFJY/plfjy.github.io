@@ -78,7 +78,7 @@ export const watchedAnimeSeed = [
   { note: "不知为何我和尼特且宅的女忍者开始了同居生活", tmdbType: "tv", tmdbId: 273048 },
   { note: "擅长捉弄的高木同学", tmdbType: "tv", tmdbId: 75865 },
   { note: "蔚蓝档案 The Animation", tmdbType: "tv", tmdbId: 218833 },
-  { note: "拜托请穿上，鹰峰同学", tmdbType: "tv", tmdbId: 276880 },
+  //{ note: "拜托请穿上，鹰峰同学", tmdbType: "tv", tmdbId: 276880 },
   { note: "男女之间存在纯友情吗？（不，不存在！）", tmdbType: "tv", tmdbId: 217407 },
   { note: "夏日口袋", tmdbType: "tv", tmdbId: 271576 },
   { note: "直至魔女消逝", tmdbType: "tv", tmdbId: 258055 },
