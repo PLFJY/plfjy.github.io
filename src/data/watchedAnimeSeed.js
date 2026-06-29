@@ -2,7 +2,7 @@ export const watchedAnimeSeed = [
   { note: "弹丸论破", tmdbType: "tv", tmdbId: 49471 },
   { note: "超级弹丸论破2.5 拍枝屈斗与世界的破坏者", tmdbType: "movie", tmdbId: 1192735 },
   { note: "弹丸论破3 -绝望篇-", tmdbType: "tv", tmdbId: 67674 },
-  { note: "弹丸论破3 -未来篇-", tmdbType: "tv", tmdbId: 49471 },
+  { note: "弹丸论破3 -未来篇-", tmdbType: "tv", tmdbId: 49471, seasonNumber: 2 },
   { note: "青春猪头少年不会梦到兔女郎学姐", tmdbType: "tv", tmdbId: 82739 },
   { note: "青春猪头少年不会梦到怀梦美少女", tmdbType: "movie", tmdbId: 572154 },
   { note: "青春猪头少年不会梦到娇怜外出妹", tmdbType: "movie", tmdbId: 1056803 },

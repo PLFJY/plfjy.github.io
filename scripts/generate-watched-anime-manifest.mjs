@@ -63,7 +63,7 @@ async function requireToken() {
 function validateSeed(seed) {
   const validItems = [];
   const errors = [];
-  const allowedKeys = new Set(["note", "tmdbType", "tmdbId"]);
+  const allowedKeys = new Set(["note", "tmdbType", "tmdbId", "seasonNumber"]);
 
   seed.forEach((item, index) => {
     const label = `seed[${index}] ${item?.note ? `(${item.note})` : ""}`.trim();
@@ -86,11 +86,19 @@ function validateSeed(seed) {
       itemErrors.push(`${label}: tmdbId must be a positive integer`);
     }
 
+    if (
+      item?.seasonNumber !== undefined &&
+      (item.tmdbType !== "tv" || !Number.isInteger(item.seasonNumber) || item.seasonNumber < 0)
+    ) {
+      itemErrors.push(`${label}: seasonNumber must be a non-negative integer for tv entries`);
+    }
+
     if (itemErrors.length === 0) {
       validItems.push({
         note: item.note.trim(),
         tmdbType: item.tmdbType,
-        tmdbId: item.tmdbId
+        tmdbId: item.tmdbId,
+        seasonNumber: item.seasonNumber
       });
     } else {
       errors.push(...itemErrors);
@@ -127,7 +135,11 @@ function getResponseBodyText(response) {
 }
 
 async function fetchTmdbDetail(seed, token, attempt = 1) {
-  const url = new URL(`${TMDB_API_BASE_URL}/${seed.tmdbType}/${seed.tmdbId}`);
+  const detailPath =
+    seed.seasonNumber === undefined
+      ? `${seed.tmdbType}/${seed.tmdbId}`
+      : `tv/${seed.tmdbId}/season/${seed.seasonNumber}`;
+  const url = new URL(`${TMDB_API_BASE_URL}/${detailPath}`);
   url.searchParams.set("language", "zh-CN");
   url.searchParams.set("append_to_response", "translations");
 
@@ -206,6 +218,13 @@ function getTranslationTitle(translation, tmdbType) {
   return tmdbType === "tv" ? data.name : data.title;
 }
 
+function getJapaneseTranslationTitle(detail, seed) {
+  const jaJp = getTranslations(detail).find(
+    (translation) => translation.iso_639_1 === "ja" && translation.iso_3166_1 === "JP"
+  );
+  return getTranslationTitle(jaJp, seed.tmdbType);
+}
+
 function pickLocalizedTitle(detail, seed) {
   const directTitle = seed.tmdbType === "tv" ? detail.name : detail.title;
   if (directTitle) {
@@ -234,6 +253,11 @@ function pickLocalizedTitle(detail, seed) {
 }
 
 function pickNativeTitle(detail, seed) {
+  const japaneseTitle = seed.seasonNumber === undefined ? "" : getJapaneseTranslationTitle(detail, seed);
+  if (japaneseTitle) {
+    return japaneseTitle;
+  }
+
   return seed.tmdbType === "tv"
     ? detail.original_name || detail.name || seed.note
     : detail.original_title || detail.title || seed.note;
@@ -274,7 +298,10 @@ function createCover(posterPath) {
 }
 
 function createManifestKey(seed, occurrenceIndex) {
-  const baseKey = `tmdb-${seed.tmdbType}-${seed.tmdbId}`;
+  const baseKey =
+    seed.seasonNumber === undefined
+      ? `tmdb-${seed.tmdbType}-${seed.tmdbId}`
+      : `tmdb-${seed.tmdbType}-${seed.tmdbId}-season-${seed.seasonNumber}`;
   return occurrenceIndex > 0 ? `${baseKey}-${occurrenceIndex + 1}` : baseKey;
 }
 
@@ -284,24 +311,33 @@ function normalizeDetail(detail, seed, occurrenceIndex) {
   }
 
   const isTv = seed.tmdbType === "tv";
-  const dateValue = isTv ? detail.first_air_date : detail.release_date;
+  let dateValue = seed.seasonNumber === undefined
+    ? detail.release_date
+    : detail.air_date;
+  if (isTv && seed.seasonNumber === undefined) {
+    dateValue = detail.first_air_date;
+  }
 
   return {
     key: createManifestKey(seed, occurrenceIndex),
     note: seed.note,
     tmdbType: seed.tmdbType,
     tmdbId: seed.tmdbId,
+    seasonNumber: seed.seasonNumber,
     title: {
       native: pickNativeTitle(detail, seed),
       localized: pickLocalizedTitle(detail, seed),
       english: pickEnglishTitle(detail, seed)
     },
     cover: createCover(detail.poster_path),
-    url: `https://www.themoviedb.org/${seed.tmdbType}/${seed.tmdbId}`,
+    url:
+      seed.seasonNumber === undefined
+        ? `https://www.themoviedb.org/${seed.tmdbType}/${seed.tmdbId}`
+        : `https://www.themoviedb.org/tv/${seed.tmdbId}/season/${seed.seasonNumber}`,
     meta: {
       format: isTv ? "TV" : "MOVIE",
       status: detail.status ?? null,
-      episodes: isTv ? detail.number_of_episodes ?? null : null,
+      episodes: isTv ? detail.number_of_episodes ?? detail.episodes?.length ?? null : null,
       seasonYear: parseYear(dateValue),
       averageScore: detail.vote_average ? Math.round(detail.vote_average * 10) : null,
       popularity: detail.popularity ?? null,
@@ -341,7 +377,7 @@ async function main() {
 
   const items = details.map((detail, index) => {
     const seed = validSeedItems[index];
-    const key = `${seed.tmdbType}:${seed.tmdbId}`;
+    const key = `${seed.tmdbType}:${seed.tmdbId}:${seed.seasonNumber ?? "series"}`;
     const occurrenceIndex = keyOccurrences.get(key) ?? 0;
     keyOccurrences.set(key, occurrenceIndex + 1);
     return normalizeDetail(detail, seed, occurrenceIndex);
