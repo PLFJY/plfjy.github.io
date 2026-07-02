@@ -226,6 +226,13 @@ function App() {
         <WatchedAnimeSection />
       </main>
 
+      <footer className="site-footer">
+        <div className="footer-copyright">© 2025 - 2026</div>
+        <img src="/assets/logo.png" alt="PLFJY logo" className="footer-logo" />
+        <div className="footer-name">{t("name")}</div>
+        <a target="_blank" rel="nofollow" href="https://icp.gov.moe/?keyword=20259514">萌ICP备20259514号</a>
+      </footer>
+
       <img src="/assets/sticker.png" alt="sticker" className="anime-sticker" />
     </>
   );

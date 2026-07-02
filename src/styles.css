@@ -191,6 +191,37 @@ main {
   text-align: center;
 }
 
+.site-footer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 18px 20px 44px;
+  text-align: center;
+}
+
+.footer-copyright {
+  font-size: 1rem;
+  font-weight: 600;
+  opacity: 0.72;
+}
+
+.footer-logo {
+  display: block;
+  width: 40px;
+  margin: 14px auto 12px;
+  transition: transform 0.2s;
+  transform: scale(1);
+}
+
+.footer-logo:hover {
+  transform: scale(1.08);
+}
+
+.footer-name {
+  font-size: 1.15rem;
+  font-weight: 600;
+  opacity: 0.84;
+}
+
 .basic-info {
   min-height: calc(100vh - 140px);
   height: 100%;
