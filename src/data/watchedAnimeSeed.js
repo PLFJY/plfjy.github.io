@@ -7,7 +7,7 @@ export const watchedAnimeSeed = [
   { note: "青春猪头少年不会梦到怀梦美少女", tmdbType: "movie", tmdbId: 572154 },
   { note: "青春猪头少年不会梦到娇怜外出妹", tmdbType: "movie", tmdbId: 1056803 },
   { note: "青春猪头少年不会梦到红书包女孩", tmdbType: "movie", tmdbId: 1086591 },
-  { note: "青春猪头少年不会梦到圣诞服女郎", tmdbType: "tv", tmdbId: 312016 },
+  { note: "青春猪头少年不会梦到圣诞服女郎", tmdbType: "tv", tmdbId: 82739, seasonNumber: 2 },
   { note: "某科学的超电磁炮", tmdbType: "tv", tmdbId: 30977 },
   { note: "干物妹！小埋", tmdbType: "tv", tmdbId: 67126 },
   { note: "龙与虎", tmdbType: "tv", tmdbId: 42916 },
