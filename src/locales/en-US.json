@@ -9,6 +9,7 @@
   "sections": {
     "projects": "Projects",
     "watchedAnime": "Watched Anime",
+    "games": "Games",
     "skills": "Skills",
     "os": "OS"
   },
@@ -20,6 +21,15 @@
     "page": "Page",
     "loading": "Loading anime...",
     "empty": "No anime data available"
+  },
+  "games": {
+    "viewAll": "View All",
+    "close": "Close",
+    "previous": "Previous",
+    "next": "Next",
+    "page": "Page",
+    "loading": "Loading games...",
+    "empty": "No game data available"
   },
   "typingLines": [
     "Hi there, welcome to my home page",

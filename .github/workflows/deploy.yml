@@ -39,6 +39,8 @@ jobs:
         run: pnpm build
         env:
           TMDB_READ_ACCESS_TOKEN: ${{ secrets.TMDB_READ_ACCESS_TOKEN }}
+          IGDB_CLIENT_ID: ${{ secrets.IGDB_CLIENT_ID }}
+          IGDB_CLIENT_SECRET: ${{ secrets.IGDB_CLIENT_SECRET }}
 
       - name: Deploy to branch
         uses: peaceiris/actions-gh-pages@v4

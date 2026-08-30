@@ -3,6 +3,7 @@ import { useTranslation } from "react-i18next";
 import IconTile from "./components/IconTile";
 import ProjectCard from "./components/ProjectCard";
 import Section from "./components/Section";
+import GamesSection from "./components/GamesSection";
 import WatchedAnimeSection from "./components/WatchedAnimeSection";
 import { osList, projects, skills } from "./content";
 
@@ -217,13 +218,15 @@ function App() {
           ))}
         </Section>
 
+        <WatchedAnimeSection />
+
+        <GamesSection />
+
         <Section title={t("sections.os")} contentClassName="icon-grid">
           {osList.map((os) => (
             <IconTile key={os.name} {...os} />
           ))}
         </Section>
-
-        <WatchedAnimeSection />
       </main>
 
       <footer className="site-footer">

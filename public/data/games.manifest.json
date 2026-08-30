@@ -1,0 +1,377 @@
+{
+  "generatedAt": "2026-08-30T13:54:12.097Z",
+  "source": "IGDB",
+  "count": 10,
+  "items": [
+    {
+      "key": "igdb-105512",
+      "note": "Identity V / 第五人格",
+      "igdbId": 105512,
+      "title": {
+        "name": "Identity V",
+        "localized": "Identity Ⅴ 第五人格"
+      },
+      "cover": {
+        "extraLarge": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2udn.jpg",
+        "large": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2udn.jpg",
+        "medium": "https://images.igdb.com/igdb/image/upload/t_cover_small_2x/co2udn.jpg"
+      },
+      "url": "https://www.igdb.com/games/identity-v",
+      "meta": {
+        "releaseYear": 2018,
+        "rating": 87,
+        "totalRating": 87,
+        "ratingCount": 14,
+        "platforms": [
+          "Android",
+          "PC (Microsoft Windows)",
+          "iOS"
+        ],
+        "genres": [
+          "Role-playing (RPG)",
+          "Strategy"
+        ],
+        "themes": [
+          "Action",
+          "Horror",
+          "Survival"
+        ]
+      }
+    },
+    {
+      "key": "igdb-135400",
+      "note": "Minecraft",
+      "igdbId": 135400,
+      "title": {
+        "name": "Minecraft",
+        "localized": "Minecraft"
+      },
+      "cover": {
+        "extraLarge": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co8fu7.jpg",
+        "large": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8fu7.jpg",
+        "medium": "https://images.igdb.com/igdb/image/upload/t_cover_small_2x/co8fu7.jpg"
+      },
+      "url": "https://www.igdb.com/games/minecraft--1",
+      "meta": {
+        "releaseYear": 2016,
+        "rating": 82,
+        "totalRating": 82,
+        "ratingCount": 559,
+        "platforms": [
+          "Amazon Fire TV",
+          "Xbox Series X|S",
+          "PlayStation 4",
+          "Linux",
+          "Nintendo Switch 2",
+          "Gear VR",
+          "Windows Phone",
+          "Android",
+          "PC (Microsoft Windows)",
+          "iOS",
+          "PlayStation 5",
+          "Mac",
+          "Xbox One",
+          "Nintendo Switch"
+        ],
+        "genres": [
+          "Simulator",
+          "Adventure",
+          "Arcade"
+        ],
+        "themes": [
+          "Action",
+          "Fantasy",
+          "Survival",
+          "Sandbox",
+          "Kids",
+          "Open world",
+          "4X (explore, expand, exploit, and exterminate)"
+        ]
+      }
+    },
+    {
+      "key": "igdb-109475",
+      "note": "Azur Lane / 碧蓝航线",
+      "igdbId": 109475,
+      "title": {
+        "name": "Azur Lane: Crosswave",
+        "localized": "Azur Lane / 碧蓝航线"
+      },
+      "cover": {
+        "extraLarge": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1xeb.jpg",
+        "large": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1xeb.jpg",
+        "medium": "https://images.igdb.com/igdb/image/upload/t_cover_small_2x/co1xeb.jpg"
+      },
+      "url": "https://www.igdb.com/games/azur-lane-crosswave",
+      "meta": {
+        "releaseYear": 2019,
+        "rating": 60,
+        "totalRating": 53,
+        "ratingCount": 3,
+        "platforms": [
+          "PlayStation 4",
+          "PC (Microsoft Windows)",
+          "Nintendo Switch"
+        ],
+        "genres": [
+          "Shooter",
+          "Role-playing (RPG)",
+          "Adventure"
+        ],
+        "themes": [
+          "Action",
+          "Warfare"
+        ]
+      }
+    },
+    {
+      "key": "igdb-139391",
+      "note": "Blue Archive / ブルーアーカイブ",
+      "igdbId": 139391,
+      "title": {
+        "name": "Blue Archive",
+        "localized": "Blue Archive"
+      },
+      "cover": {
+        "extraLarge": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co569y.jpg",
+        "large": "https://images.igdb.com/igdb/image/upload/t_cover_big/co569y.jpg",
+        "medium": "https://images.igdb.com/igdb/image/upload/t_cover_small_2x/co569y.jpg"
+      },
+      "url": "https://www.igdb.com/games/blue-archive",
+      "meta": {
+        "releaseYear": 2021,
+        "rating": 83,
+        "totalRating": 83,
+        "ratingCount": 38,
+        "platforms": [
+          "Android",
+          "PC (Microsoft Windows)",
+          "iOS"
+        ],
+        "genres": [
+          "Role-playing (RPG)",
+          "Simulator",
+          "Strategy",
+          "Adventure",
+          "Visual Novel"
+        ],
+        "themes": [
+          "Fantasy"
+        ]
+      }
+    },
+    {
+      "key": "igdb-119277",
+      "note": "Genshin Impact / 原神",
+      "igdbId": 119277,
+      "title": {
+        "name": "Genshin Impact",
+        "localized": "原神"
+      },
+      "cover": {
+        "extraLarge": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co59wv.jpg",
+        "large": "https://images.igdb.com/igdb/image/upload/t_cover_big/co59wv.jpg",
+        "medium": "https://images.igdb.com/igdb/image/upload/t_cover_small_2x/co59wv.jpg"
+      },
+      "url": "https://www.igdb.com/games/genshin-impact",
+      "meta": {
+        "releaseYear": 2020,
+        "rating": 79,
+        "totalRating": 81,
+        "ratingCount": 665,
+        "platforms": [
+          "Xbox Series X|S",
+          "PlayStation 4",
+          "Android",
+          "PC (Microsoft Windows)",
+          "iOS",
+          "PlayStation 5"
+        ],
+        "genres": [
+          "Role-playing (RPG)",
+          "Adventure"
+        ],
+        "themes": [
+          "Action",
+          "Fantasy",
+          "Open world"
+        ]
+      }
+    },
+    {
+      "key": "igdb-44097",
+      "note": "Honor of Kings / 王者荣耀",
+      "igdbId": 44097,
+      "title": {
+        "name": "Honor of Kings",
+        "localized": "Honor of Kings / 王者荣耀"
+      },
+      "cover": {
+        "extraLarge": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co69y0.jpg",
+        "large": "https://images.igdb.com/igdb/image/upload/t_cover_big/co69y0.jpg",
+        "medium": "https://images.igdb.com/igdb/image/upload/t_cover_small_2x/co69y0.jpg"
+      },
+      "url": "https://www.igdb.com/games/honor-of-kings",
+      "meta": {
+        "releaseYear": 2015,
+        "rating": 84,
+        "totalRating": 84,
+        "ratingCount": 12,
+        "platforms": [
+          "Android",
+          "iOS"
+        ],
+        "genres": [
+          "Strategy",
+          "MOBA"
+        ],
+        "themes": [
+          "Fantasy"
+        ]
+      }
+    },
+    {
+      "key": "igdb-178282",
+      "note": "Honkai: Star Rail / 崩坏：星穹铁道",
+      "igdbId": 178282,
+      "title": {
+        "name": "Honkai: Star Rail",
+        "localized": "Honkai: Star Rail / 崩坏：星穹铁道"
+      },
+      "cover": {
+        "extraLarge": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coarr1.jpg",
+        "large": "https://images.igdb.com/igdb/image/upload/t_cover_big/coarr1.jpg",
+        "medium": "https://images.igdb.com/igdb/image/upload/t_cover_small_2x/coarr1.jpg"
+      },
+      "url": "https://www.igdb.com/games/honkai-star-rail",
+      "meta": {
+        "releaseYear": 2023,
+        "rating": 75,
+        "totalRating": 83,
+        "ratingCount": 196,
+        "platforms": [
+          "Android",
+          "PC (Microsoft Windows)",
+          "iOS",
+          "PlayStation 5"
+        ],
+        "genres": [
+          "Role-playing (RPG)",
+          "Turn-based strategy (TBS)",
+          "Adventure"
+        ],
+        "themes": [
+          "Action",
+          "Fantasy",
+          "Science fiction"
+        ]
+      }
+    },
+    {
+      "key": "igdb-7842",
+      "note": "Danganronpa / ダンガンロンパ",
+      "igdbId": 7842,
+      "title": {
+        "name": "Danganronpa: Trigger Happy Havoc",
+        "localized": "Danganronpa: Trigger Happy Havoc"
+      },
+      "cover": {
+        "extraLarge": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5a18.jpg",
+        "large": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5a18.jpg",
+        "medium": "https://images.igdb.com/igdb/image/upload/t_cover_small_2x/co5a18.jpg"
+      },
+      "url": "https://www.igdb.com/games/danganronpa-trigger-happy-havoc",
+      "meta": {
+        "releaseYear": 2010,
+        "rating": 82,
+        "totalRating": 82,
+        "ratingCount": 358,
+        "platforms": [
+          "Linux",
+          "Android",
+          "PC (Microsoft Windows)",
+          "iOS",
+          "Mac",
+          "PlayStation Vita",
+          "PlayStation Portable"
+        ],
+        "genres": [
+          "Point-and-click",
+          "Adventure",
+          "Visual Novel"
+        ],
+        "themes": [
+          "Action",
+          "Thriller",
+          "Mystery"
+        ]
+      }
+    },
+    {
+      "key": "igdb-128513",
+      "note": "Senren＊Banka / 千恋＊万花",
+      "igdbId": 128513,
+      "title": {
+        "name": "Senren Banka",
+        "localized": "千恋 万花"
+      },
+      "cover": {
+        "extraLarge": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1xec.jpg",
+        "large": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1xec.jpg",
+        "medium": "https://images.igdb.com/igdb/image/upload/t_cover_small_2x/co1xec.jpg"
+      },
+      "url": "https://www.igdb.com/games/senren-banka",
+      "meta": {
+        "releaseYear": 2016,
+        "rating": 80,
+        "totalRating": 80,
+        "ratingCount": 1,
+        "platforms": [
+          "PC (Microsoft Windows)",
+          "Nintendo Switch"
+        ],
+        "genres": [
+          "Adventure",
+          "Visual Novel"
+        ],
+        "themes": [
+          "Fantasy",
+          "Erotic",
+          "Romance"
+        ]
+      }
+    },
+    {
+      "key": "igdb-105342",
+      "note": "Sanoba Witch / サノバウィッチ",
+      "igdbId": 105342,
+      "title": {
+        "name": "Sabbat of the Witch",
+        "localized": "Sabbat of the Witch"
+      },
+      "cover": {
+        "extraLarge": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobs6j.jpg",
+        "large": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobs6j.jpg",
+        "medium": "https://images.igdb.com/igdb/image/upload/t_cover_small_2x/cobs6j.jpg"
+      },
+      "url": "https://www.igdb.com/games/sabbat-of-the-witch",
+      "meta": {
+        "releaseYear": 2015,
+        "rating": 72,
+        "totalRating": 72,
+        "ratingCount": 5,
+        "platforms": [
+          "PC (Microsoft Windows)"
+        ],
+        "genres": [
+          "Simulator",
+          "Adventure",
+          "Visual Novel"
+        ],
+        "themes": [
+          "Erotic"
+        ]
+      }
+    }
+  ]
+}

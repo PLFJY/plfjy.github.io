@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "anime:manifest": "node scripts/generate-watched-anime-manifest.mjs",
-    "build": "pnpm anime:manifest && vite build",
+    "games:manifest": "node scripts/generate-games-manifest.mjs",
+    "build": "pnpm anime:manifest && pnpm games:manifest && vite build",
     "preview": "vite preview"
   },
   "dependencies": {

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T16:36:35.480Z",
+  "generatedAt": "2026-08-30T13:54:09.687Z",
   "source": "TMDB",
   "count": 84,
   "items": [
@@ -24,8 +24,8 @@
         "status": "Ended",
         "episodes": 25,
         "seasonYear": 2013,
-        "averageScore": 77,
-        "popularity": 14.42,
+        "averageScore": 76,
+        "popularity": 13.3321,
         "isAdult": false
       }
     },
@@ -51,7 +51,7 @@
         "episodes": null,
         "seasonYear": 2017,
         "averageScore": 55,
-        "popularity": 1.0036,
+        "popularity": 1.2452,
         "isAdult": false
       }
     },
@@ -76,8 +76,8 @@
         "status": "Ended",
         "episodes": 11,
         "seasonYear": 2016,
-        "averageScore": 64,
-        "popularity": 8.6664,
+        "averageScore": 65,
+        "popularity": 7.8135,
         "isAdult": false
       }
     },
@@ -130,7 +130,7 @@
         "episodes": 26,
         "seasonYear": 2018,
         "averageScore": 85,
-        "popularity": 20.6065,
+        "popularity": 28.4465,
         "isAdult": false
       }
     },
@@ -156,7 +156,7 @@
         "episodes": null,
         "seasonYear": 2019,
         "averageScore": 82,
-        "popularity": 3.2978,
+        "popularity": 4.58,
         "isAdult": false
       }
     },
@@ -182,7 +182,7 @@
         "episodes": null,
         "seasonYear": 2023,
         "averageScore": 77,
-        "popularity": 2.6119,
+        "popularity": 3.0325,
         "isAdult": false
       }
     },
@@ -208,33 +208,34 @@
         "episodes": null,
         "seasonYear": 2023,
         "averageScore": 77,
-        "popularity": 2.6014,
+        "popularity": 3.1626,
         "isAdult": false
       }
     },
     {
-      "key": "tmdb-tv-312016",
+      "key": "tmdb-tv-82739-season-2",
       "note": "青春猪头少年不会梦到圣诞服女郎",
       "tmdbType": "tv",
-      "tmdbId": 312016,
+      "tmdbId": 82739,
+      "seasonNumber": 2,
       "title": {
         "native": "青春ブタ野郎はサンタクロースの夢を見ない",
         "localized": "青春猪头少年不会梦到圣诞服女郎",
-        "english": "Rascal Does Not Dream Of Santa Claus"
+        "english": "Rascal Does Not Dream of Santa Claus"
       },
       "cover": {
-        "extraLarge": "https://image.tmdb.org/t/p/w780/264uAQun8YXxTDDHIJbckFoN3mK.jpg",
-        "large": "https://image.tmdb.org/t/p/w500/264uAQun8YXxTDDHIJbckFoN3mK.jpg",
-        "medium": "https://image.tmdb.org/t/p/w342/264uAQun8YXxTDDHIJbckFoN3mK.jpg"
+        "extraLarge": "https://image.tmdb.org/t/p/w780/4zKKdZxPnibsnbPrYwKHurB9zYi.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/4zKKdZxPnibsnbPrYwKHurB9zYi.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/4zKKdZxPnibsnbPrYwKHurB9zYi.jpg"
       },
-      "url": "https://www.themoviedb.org/tv/312016",
+      "url": "https://www.themoviedb.org/tv/82739/season/2",
       "meta": {
         "format": "TV",
-        "status": "Ended",
+        "status": null,
         "episodes": 13,
         "seasonYear": 2025,
-        "averageScore": 73,
-        "popularity": 1.9863,
+        "averageScore": 79,
+        "popularity": null,
         "isAdult": false
       }
     },
@@ -256,11 +257,11 @@
       "url": "https://www.themoviedb.org/tv/30977",
       "meta": {
         "format": "TV",
-        "status": "Returning Series",
+        "status": "Ended",
         "episodes": 73,
         "seasonYear": 2009,
-        "averageScore": 73,
-        "popularity": 21.7591,
+        "averageScore": 74,
+        "popularity": 27.5398,
         "isAdult": false
       }
     },
@@ -286,7 +287,7 @@
         "episodes": 24,
         "seasonYear": 2015,
         "averageScore": 82,
-        "popularity": 12.294,
+        "popularity": 17.5766,
         "isAdult": false
       }
     },
@@ -312,7 +313,7 @@
         "episodes": 25,
         "seasonYear": 2008,
         "averageScore": 82,
-        "popularity": 14.0904,
+        "popularity": 14.6433,
         "isAdult": false
       }
     },
@@ -338,7 +339,7 @@
         "episodes": 25,
         "seasonYear": 2022,
         "averageScore": 81,
-        "popularity": 24.1382,
+        "popularity": 41.9242,
         "isAdult": false
       }
     },
@@ -364,7 +365,7 @@
         "episodes": 38,
         "seasonYear": 2013,
         "averageScore": 82,
-        "popularity": 17.6173,
+        "popularity": 20.2679,
         "isAdult": false
       }
     },
@@ -390,7 +391,7 @@
         "episodes": 12,
         "seasonYear": 2017,
         "averageScore": 59,
-        "popularity": 7.488,
+        "popularity": 10.4499,
         "isAdult": false
       }
     },
@@ -416,7 +417,7 @@
         "episodes": 24,
         "seasonYear": 2012,
         "averageScore": 76,
-        "popularity": 8.9499,
+        "popularity": 14.4164,
         "isAdult": false
       }
     },
@@ -441,8 +442,8 @@
         "status": "Ended",
         "episodes": 13,
         "seasonYear": 2015,
-        "averageScore": 83,
-        "popularity": 10.9856,
+        "averageScore": 82,
+        "popularity": 12.155,
         "isAdult": false
       }
     },
@@ -468,7 +469,7 @@
         "episodes": 12,
         "seasonYear": 2017,
         "averageScore": 79,
-        "popularity": 9.0026,
+        "popularity": 7.5538,
         "isAdult": false
       }
     },
@@ -494,7 +495,7 @@
         "episodes": null,
         "seasonYear": 2016,
         "averageScore": 85,
-        "popularity": 28.1697,
+        "popularity": 27.2084,
         "isAdult": false
       }
     },
@@ -520,7 +521,7 @@
         "episodes": null,
         "seasonYear": 2022,
         "averageScore": 79,
-        "popularity": 9.2773,
+        "popularity": 10.9325,
         "isAdult": false
       }
     },
@@ -546,7 +547,7 @@
         "episodes": 54,
         "seasonYear": 2017,
         "averageScore": 84,
-        "popularity": 54.5526,
+        "popularity": 37.8942,
         "isAdult": false
       }
     },
@@ -572,7 +573,7 @@
         "episodes": 22,
         "seasonYear": 2012,
         "averageScore": 81,
-        "popularity": 20.964,
+        "popularity": 15.698,
         "isAdult": false
       }
     },
@@ -598,7 +599,7 @@
         "episodes": 12,
         "seasonYear": 2018,
         "averageScore": 79,
-        "popularity": 6.3483,
+        "popularity": 8.7528,
         "isAdult": false
       }
     },
@@ -624,7 +625,7 @@
         "episodes": 24,
         "seasonYear": 2020,
         "averageScore": 85,
-        "popularity": 15.5136,
+        "popularity": 17.8714,
         "isAdult": false
       }
     },
@@ -650,7 +651,7 @@
         "episodes": 35,
         "seasonYear": 2023,
         "averageScore": 83,
-        "popularity": 28.1818,
+        "popularity": 39.3874,
         "isAdult": false
       }
     },
@@ -676,7 +677,7 @@
         "episodes": 24,
         "seasonYear": 2012,
         "averageScore": 81,
-        "popularity": 16.4771,
+        "popularity": 14.6818,
         "isAdult": false
       }
     },
@@ -702,7 +703,7 @@
         "episodes": 37,
         "seasonYear": 2019,
         "averageScore": 85,
-        "popularity": 34.4541,
+        "popularity": 38.6459,
         "isAdult": false
       }
     },
@@ -728,7 +729,7 @@
         "episodes": 12,
         "seasonYear": 2022,
         "averageScore": 84,
-        "popularity": 19.2175,
+        "popularity": 15.6136,
         "isAdult": false
       }
     },
@@ -754,7 +755,7 @@
         "episodes": 11,
         "seasonYear": 2011,
         "averageScore": 82,
-        "popularity": 9.7506,
+        "popularity": 10.4094,
         "isAdult": false
       }
     },
@@ -780,7 +781,7 @@
         "episodes": 63,
         "seasonYear": 2019,
         "averageScore": 86,
-        "popularity": 19.9409,
+        "popularity": 19.8123,
         "isAdult": false
       }
     },
@@ -806,7 +807,7 @@
         "episodes": 36,
         "seasonYear": 2009,
         "averageScore": 80,
-        "popularity": 17.3384,
+        "popularity": 19.1369,
         "isAdult": false
       }
     },
@@ -832,7 +833,7 @@
         "episodes": 12,
         "seasonYear": 2014,
         "averageScore": 80,
-        "popularity": 10.767,
+        "popularity": 11.3863,
         "isAdult": false
       }
     },
@@ -858,7 +859,7 @@
         "episodes": 12,
         "seasonYear": 2016,
         "averageScore": 62,
-        "popularity": 4.3258,
+        "popularity": 7.6109,
         "isAdult": false
       }
     },
@@ -884,7 +885,7 @@
         "episodes": 13,
         "seasonYear": 2018,
         "averageScore": 85,
-        "popularity": 15.9979,
+        "popularity": 16.8492,
         "isAdult": false
       }
     },
@@ -910,7 +911,7 @@
         "episodes": 12,
         "seasonYear": 2020,
         "averageScore": 76,
-        "popularity": 11.5011,
+        "popularity": 11.1749,
         "isAdult": false
       }
     },
@@ -925,9 +926,9 @@
         "english": "Re:ZERO -Starting Life in Another World-"
       },
       "cover": {
-        "extraLarge": "https://image.tmdb.org/t/p/w780/a1pMK4456dF2j5B9xvkjMEGiOOw.jpg",
-        "large": "https://image.tmdb.org/t/p/w500/a1pMK4456dF2j5B9xvkjMEGiOOw.jpg",
-        "medium": "https://image.tmdb.org/t/p/w342/a1pMK4456dF2j5B9xvkjMEGiOOw.jpg"
+        "extraLarge": "https://image.tmdb.org/t/p/w780/zTAJk1ERMticlZeXaKTq6UozgxC.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/zTAJk1ERMticlZeXaKTq6UozgxC.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/zTAJk1ERMticlZeXaKTq6UozgxC.jpg"
       },
       "url": "https://www.themoviedb.org/tv/65942",
       "meta": {
@@ -935,8 +936,8 @@
         "status": "Returning Series",
         "episodes": 85,
         "seasonYear": 2016,
-        "averageScore": 79,
-        "popularity": 84.2085,
+        "averageScore": 81,
+        "popularity": 91.8068,
         "isAdult": false
       }
     },
@@ -961,8 +962,8 @@
         "status": "Ended",
         "episodes": 39,
         "seasonYear": 2018,
-        "averageScore": 82,
-        "popularity": 11.3965,
+        "averageScore": 83,
+        "popularity": 13.8013,
         "isAdult": false
       }
     },
@@ -988,7 +989,7 @@
         "episodes": 24,
         "seasonYear": 2020,
         "averageScore": 74,
-        "popularity": 19.2366,
+        "popularity": 20.0457,
         "isAdult": false
       }
     },
@@ -1014,7 +1015,7 @@
         "episodes": 22,
         "seasonYear": 2014,
         "averageScore": 86,
-        "popularity": 25.4641,
+        "popularity": 23.7949,
         "isAdult": false
       }
     },
@@ -1040,7 +1041,7 @@
         "episodes": 12,
         "seasonYear": 2022,
         "averageScore": 67,
-        "popularity": 11.8434,
+        "popularity": 8.4598,
         "isAdult": false
       }
     },
@@ -1066,7 +1067,7 @@
         "episodes": 50,
         "seasonYear": 2022,
         "averageScore": 85,
-        "popularity": 70.4119,
+        "popularity": 67.4473,
         "isAdult": false
       }
     },
@@ -1081,9 +1082,9 @@
         "english": "Weathering with You"
       },
       "cover": {
-        "extraLarge": "https://image.tmdb.org/t/p/w780/hxWmedDh6CNcqsROxiZZmVAbWe8.jpg",
-        "large": "https://image.tmdb.org/t/p/w500/hxWmedDh6CNcqsROxiZZmVAbWe8.jpg",
-        "medium": "https://image.tmdb.org/t/p/w342/hxWmedDh6CNcqsROxiZZmVAbWe8.jpg"
+        "extraLarge": "https://image.tmdb.org/t/p/w780/e5dY456pcoBBNBnlSsTsbypGMj1.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/e5dY456pcoBBNBnlSsTsbypGMj1.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/e5dY456pcoBBNBnlSsTsbypGMj1.jpg"
       },
       "url": "https://www.themoviedb.org/movie/568160",
       "meta": {
@@ -1092,7 +1093,7 @@
         "episodes": null,
         "seasonYear": 2019,
         "averageScore": 80,
-        "popularity": 7.4073,
+        "popularity": 9.2102,
         "isAdult": false
       }
     },
@@ -1118,7 +1119,7 @@
         "episodes": 24,
         "seasonYear": 2022,
         "averageScore": 84,
-        "popularity": 37.6274,
+        "popularity": 30.3458,
         "isAdult": false
       }
     },
@@ -1144,7 +1145,7 @@
         "episodes": 12,
         "seasonYear": 2023,
         "averageScore": 67,
-        "popularity": 12.6339,
+        "popularity": 11.2977,
         "isAdult": false
       }
     },
@@ -1170,7 +1171,7 @@
         "episodes": null,
         "seasonYear": 2007,
         "averageScore": 73,
-        "popularity": 4.445,
+        "popularity": 5.4237,
         "isAdult": false
       }
     },
@@ -1196,7 +1197,7 @@
         "episodes": 44,
         "seasonYear": 2007,
         "averageScore": 83,
-        "popularity": 31.154,
+        "popularity": 25.6609,
         "isAdult": false
       }
     },
@@ -1222,7 +1223,7 @@
         "episodes": 13,
         "seasonYear": 2022,
         "averageScore": 81,
-        "popularity": 17.3867,
+        "popularity": 13.8796,
         "isAdult": false
       }
     },
@@ -1248,7 +1249,7 @@
         "episodes": 1836,
         "seasonYear": 1979,
         "averageScore": 77,
-        "popularity": 34.2505,
+        "popularity": 53.1426,
         "isAdult": false
       }
     },
@@ -1263,9 +1264,9 @@
         "english": "Spirited Away"
       },
       "cover": {
-        "extraLarge": "https://image.tmdb.org/t/p/w780/9oZmkkNlI4Ktx6NTkdpeU525qSc.jpg",
-        "large": "https://image.tmdb.org/t/p/w500/9oZmkkNlI4Ktx6NTkdpeU525qSc.jpg",
-        "medium": "https://image.tmdb.org/t/p/w342/9oZmkkNlI4Ktx6NTkdpeU525qSc.jpg"
+        "extraLarge": "https://image.tmdb.org/t/p/w780/dnwMqbndJpOEhoVqjlMU9U7LFle.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/dnwMqbndJpOEhoVqjlMU9U7LFle.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/dnwMqbndJpOEhoVqjlMU9U7LFle.jpg"
       },
       "url": "https://www.themoviedb.org/movie/129",
       "meta": {
@@ -1274,7 +1275,7 @@
         "episodes": null,
         "seasonYear": 2001,
         "averageScore": 85,
-        "popularity": 36.9976,
+        "popularity": 32.7193,
         "isAdult": false
       }
     },
@@ -1289,9 +1290,9 @@
         "english": "Howl's Moving Castle"
       },
       "cover": {
-        "extraLarge": "https://image.tmdb.org/t/p/w780/nOi7yf4NLfFj72MsjtBGn6Thq1q.jpg",
-        "large": "https://image.tmdb.org/t/p/w500/nOi7yf4NLfFj72MsjtBGn6Thq1q.jpg",
-        "medium": "https://image.tmdb.org/t/p/w342/nOi7yf4NLfFj72MsjtBGn6Thq1q.jpg"
+        "extraLarge": "https://image.tmdb.org/t/p/w780/mOkZtsb8UObRAa77EDTmbPB5BuY.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/mOkZtsb8UObRAa77EDTmbPB5BuY.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/mOkZtsb8UObRAa77EDTmbPB5BuY.jpg"
       },
       "url": "https://www.themoviedb.org/movie/4935",
       "meta": {
@@ -1300,7 +1301,7 @@
         "episodes": null,
         "seasonYear": 2004,
         "averageScore": 84,
-        "popularity": 21.4399,
+        "popularity": 30.9238,
         "isAdult": false
       }
     },
@@ -1326,7 +1327,7 @@
         "episodes": null,
         "seasonYear": 2017,
         "averageScore": 66,
-        "popularity": 2.8299,
+        "popularity": 4.1699,
         "isAdult": false
       }
     },
@@ -1352,7 +1353,7 @@
         "episodes": 12,
         "seasonYear": 2019,
         "averageScore": 75,
-        "popularity": 6.2073,
+        "popularity": 6.619,
         "isAdult": false
       }
     },
@@ -1377,8 +1378,8 @@
         "status": "Ended",
         "episodes": 24,
         "seasonYear": 2015,
-        "averageScore": 78,
-        "popularity": 15.7011,
+        "averageScore": 79,
+        "popularity": 16.1667,
         "isAdult": false
       }
     },
@@ -1404,7 +1405,7 @@
         "episodes": 12,
         "seasonYear": 2021,
         "averageScore": 64,
-        "popularity": 3.8636,
+        "popularity": 7.4092,
         "isAdult": false
       }
     },
@@ -1429,8 +1430,8 @@
         "status": "Ended",
         "episodes": 58,
         "seasonYear": 2013,
-        "averageScore": 82,
-        "popularity": 23.8812,
+        "averageScore": 83,
+        "popularity": 23.5195,
         "isAdult": false
       }
     },
@@ -1456,7 +1457,7 @@
         "episodes": 24,
         "seasonYear": 2019,
         "averageScore": 84,
-        "popularity": 20.3712,
+        "popularity": 21.5616,
         "isAdult": false
       }
     },
@@ -1482,7 +1483,7 @@
         "episodes": 12,
         "seasonYear": 2023,
         "averageScore": 75,
-        "popularity": 14.5763,
+        "popularity": 12.5314,
         "isAdult": false
       }
     },
@@ -1508,7 +1509,7 @@
         "episodes": 12,
         "seasonYear": 2016,
         "averageScore": 67,
-        "popularity": 5.23,
+        "popularity": 4.7926,
         "isAdult": false
       }
     },
@@ -1530,11 +1531,11 @@
       "url": "https://www.themoviedb.org/tv/235758",
       "meta": {
         "format": "TV",
-        "status": "Returning Series",
+        "status": "Ended",
         "episodes": 13,
         "seasonYear": 2024,
-        "averageScore": 79,
-        "popularity": 19.2536,
+        "averageScore": 80,
+        "popularity": 28.7167,
         "isAdult": false
       }
     },
@@ -1559,8 +1560,8 @@
         "status": "Ended",
         "episodes": 12,
         "seasonYear": 2024,
-        "averageScore": 77,
-        "popularity": 5.2807,
+        "averageScore": 76,
+        "popularity": 6.5733,
         "isAdult": false
       }
     },
@@ -1585,8 +1586,8 @@
         "status": "Ended",
         "episodes": 12,
         "seasonYear": 2024,
-        "averageScore": 73,
-        "popularity": 7.6874,
+        "averageScore": 71,
+        "popularity": 8.4901,
         "isAdult": false
       }
     },
@@ -1612,7 +1613,7 @@
         "episodes": 12,
         "seasonYear": 2013,
         "averageScore": 73,
-        "popularity": 10.5228,
+        "popularity": 9.6376,
         "isAdult": false
       }
     },
@@ -1637,8 +1638,8 @@
         "status": "Ended",
         "episodes": 24,
         "seasonYear": 2024,
-        "averageScore": 82,
-        "popularity": 15.2251,
+        "averageScore": 80,
+        "popularity": 16.6859,
         "isAdult": false
       }
     },
@@ -1664,7 +1665,7 @@
         "episodes": 24,
         "seasonYear": 2011,
         "averageScore": 46,
-        "popularity": 4.6054,
+        "popularity": 7.1388,
         "isAdult": false
       }
     },
@@ -1690,7 +1691,7 @@
         "episodes": 24,
         "seasonYear": 2023,
         "averageScore": 77,
-        "popularity": 24.0755,
+        "popularity": 20.4063,
         "isAdult": false
       }
     },
@@ -1715,8 +1716,8 @@
         "status": "Returning Series",
         "episodes": 12,
         "seasonYear": 2024,
-        "averageScore": 82,
-        "popularity": 18.4033,
+        "averageScore": 81,
+        "popularity": 17.0891,
         "isAdult": false
       }
     },
@@ -1727,7 +1728,7 @@
       "tmdbId": 244617,
       "title": {
         "native": "真夜中ぱんチ",
-        "localized": "深夜Punch",
+        "localized": "深夜重拳",
         "english": "MAYONAKA PUNCH"
       },
       "cover": {
@@ -1741,8 +1742,8 @@
         "status": "Ended",
         "episodes": 12,
         "seasonYear": 2024,
-        "averageScore": 76,
-        "popularity": 4.3007,
+        "averageScore": 75,
+        "popularity": 7.9342,
         "isAdult": false
       }
     },
@@ -1768,7 +1769,7 @@
         "episodes": 12,
         "seasonYear": 2011,
         "averageScore": 80,
-        "popularity": 12.9111,
+        "popularity": 12.3151,
         "isAdult": false
       }
     },
@@ -1794,7 +1795,7 @@
         "episodes": 25,
         "seasonYear": 2020,
         "averageScore": 69,
-        "popularity": 19.9705,
+        "popularity": 14.4956,
         "isAdult": false
       }
     },
@@ -1820,7 +1821,7 @@
         "episodes": 12,
         "seasonYear": 2024,
         "averageScore": 77,
-        "popularity": 10.0006,
+        "popularity": 12.6139,
         "isAdult": false
       }
     },
@@ -1845,8 +1846,8 @@
         "status": "Ended",
         "episodes": 12,
         "seasonYear": 2024,
-        "averageScore": 71,
-        "popularity": 5.9612,
+        "averageScore": 70,
+        "popularity": 4.8396,
         "isAdult": false
       }
     },
@@ -1871,8 +1872,8 @@
         "status": "Ended",
         "episodes": 12,
         "seasonYear": 2025,
-        "averageScore": 67,
-        "popularity": 8.7722,
+        "averageScore": 69,
+        "popularity": 8.0987,
         "isAdult": false
       }
     },
@@ -1898,7 +1899,7 @@
         "episodes": 38,
         "seasonYear": 2023,
         "averageScore": 88,
-        "popularity": 73.9102,
+        "popularity": 78.7933,
         "isAdult": false
       }
     },
@@ -1920,11 +1921,11 @@
       "url": "https://www.themoviedb.org/tv/273048",
       "meta": {
         "format": "TV",
-        "status": "Returning Series",
+        "status": "Ended",
         "episodes": 24,
         "seasonYear": 2025,
         "averageScore": 53,
-        "popularity": 7.1888,
+        "popularity": 7.6055,
         "isAdult": false
       }
     },
@@ -1950,7 +1951,7 @@
         "episodes": 36,
         "seasonYear": 2018,
         "averageScore": 82,
-        "popularity": 21.8777,
+        "popularity": 22.3351,
         "isAdult": false
       }
     },
@@ -1975,8 +1976,8 @@
         "status": "Ended",
         "episodes": 12,
         "seasonYear": 2024,
-        "averageScore": 65,
-        "popularity": 12.6109,
+        "averageScore": 63,
+        "popularity": 13.6441,
         "isAdult": false
       }
     },
@@ -2001,8 +2002,8 @@
         "status": "Ended",
         "episodes": 12,
         "seasonYear": 2025,
-        "averageScore": 68,
-        "popularity": 8.7976,
+        "averageScore": 69,
+        "popularity": 11.8032,
         "isAdult": false
       }
     },
@@ -2027,8 +2028,8 @@
         "status": "Ended",
         "episodes": 26,
         "seasonYear": 2025,
-        "averageScore": 68,
-        "popularity": 13.8407,
+        "averageScore": 69,
+        "popularity": 15.7448,
         "isAdult": false
       }
     },
@@ -2054,7 +2055,7 @@
         "episodes": 12,
         "seasonYear": 2025,
         "averageScore": 72,
-        "popularity": 8.4288,
+        "popularity": 9.4765,
         "isAdult": false
       }
     },
@@ -2079,8 +2080,8 @@
         "status": "Ended",
         "episodes": 12,
         "seasonYear": 2025,
-        "averageScore": 77,
-        "popularity": 8.9633,
+        "averageScore": 78,
+        "popularity": 8.8308,
         "isAdult": false
       }
     },
@@ -2105,8 +2106,8 @@
         "status": "Returning Series",
         "episodes": 25,
         "seasonYear": 2023,
-        "averageScore": 85,
-        "popularity": 19.4391,
+        "averageScore": 86,
+        "popularity": 27.5191,
         "isAdult": false
       }
     },
@@ -2132,7 +2133,7 @@
         "episodes": 13,
         "seasonYear": 2023,
         "averageScore": 80,
-        "popularity": 4.3386,
+        "popularity": 5.3602,
         "isAdult": false
       }
     },
@@ -2157,8 +2158,8 @@
         "status": "Ended",
         "episodes": 13,
         "seasonYear": 2025,
-        "averageScore": 75,
-        "popularity": 4.0917,
+        "averageScore": 76,
+        "popularity": 4.9417,
         "isAdult": false
       }
     },
@@ -2183,8 +2184,8 @@
         "status": "Ended",
         "episodes": 12,
         "seasonYear": 2026,
-        "averageScore": 85,
-        "popularity": 24.7799,
+        "averageScore": 80,
+        "popularity": 13.4695,
         "isAdult": false
       }
     }

@@ -1,11 +1,11 @@
 import { useEffect, useMemo, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { loadWatchedAnimeItems, shuffleAnimeItems } from "../api/watchedAnimeManifest";
-import AnimeMarqueeCarousel from "./AnimeMarqueeCarousel";
-import WatchedAnimeListDialog from "./WatchedAnimeListDialog";
+import CoverListDialog from "./media/CoverListDialog";
+import CoverMarqueeCarousel from "./media/CoverMarqueeCarousel";
 
 function WatchedAnimeSection() {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   const [items, setItems] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
   const [isDialogOpen, setIsDialogOpen] = useState(false);
@@ -36,22 +36,36 @@ function WatchedAnimeSection() {
     };
   }, []);
 
-  const shuffledItems = useMemo(() => shuffleAnimeItems(items), [items]);
+  const mediaItems = useMemo(
+    () => items.map((item) => ({
+      key: item.key,
+      title: item.title?.native || item.note || "Untitled",
+      subtitle:
+        i18n.language === "en-US"
+          ? item.title?.english || item.title?.localized || item.title?.native || item.note || ""
+          : item.title?.localized || item.title?.english || item.title?.native || item.note || "",
+      cover: item.cover,
+      url: item.url || (item.tmdbType && item.tmdbId ? `https://www.themoviedb.org/${item.tmdbType}/${item.tmdbId}` : ""),
+      meta: item.meta
+    })),
+    [i18n.language, items]
+  );
+  const shuffledItems = useMemo(() => shuffleAnimeItems(mediaItems), [mediaItems]);
 
   return (
-    <section className="section watched-anime-section">
+    <section className="section media-section">
       <h2 className="section-title">{t("sections.watchedAnime")}</h2>
 
-      <div className="section-content anime-section-content">
-        {isLoading && <p className="anime-state-text">{t("anime.loading")}</p>}
-        {!isLoading && items.length === 0 && <p className="anime-state-text">{t("anime.empty")}</p>}
-        {!isLoading && shuffledItems.length > 0 && <AnimeMarqueeCarousel items={shuffledItems} />}
+      <div className="section-content media-section-content">
+        {isLoading && <p className="media-state-text">{t("anime.loading")}</p>}
+        {!isLoading && items.length === 0 && <p className="media-state-text">{t("anime.empty")}</p>}
+        {!isLoading && shuffledItems.length > 0 && <CoverMarqueeCarousel items={shuffledItems} />}
       </div>
 
-      <div className="anime-section-actions">
+      <div className="media-section-actions">
         <button
           type="button"
-          className="anime-view-all-btn"
+          className="cover-view-all-btn"
           onClick={() => setIsDialogOpen(true)}
           disabled={items.length === 0}
         >
@@ -59,10 +73,17 @@ function WatchedAnimeSection() {
         </button>
       </div>
 
-      <WatchedAnimeListDialog
-        items={items}
+      <CoverListDialog
+        items={mediaItems}
         isOpen={isDialogOpen}
         onClose={() => setIsDialogOpen(false)}
+        title={t("sections.watchedAnime")}
+        labels={{
+          close: t("anime.close"),
+          previous: t("anime.previous"),
+          next: t("anime.next"),
+          page: t("anime.page")
+        }}
       />
     </section>
   );
