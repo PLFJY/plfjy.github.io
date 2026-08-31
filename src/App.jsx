@@ -1,4 +1,4 @@
-import { useEffect, useLayoutEffect, useMemo, useState } from "react";
+import { useEffect, useLayoutEffect, useMemo, useRef, useState } from "react";
 import { useTranslation } from "react-i18next";
 import IconTile from "./components/IconTile";
 import ProjectCard from "./components/ProjectCard";
@@ -38,6 +38,51 @@ function App() {
   const [currentCharCount, setCurrentCharCount] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
   const [useHardThemeSwitch, setUseHardThemeSwitch] = useState(false);
+  const [isQqQrVisible, setIsQqQrVisible] = useState(false);
+  const [qqQrPlacement, setQqQrPlacement] = useState("right");
+  const qqContactRef = useRef(null);
+  const qqQrPopoverRef = useRef(null);
+
+  useLayoutEffect(() => {
+    const updateQqQrPlacement = () => {
+      const contact = qqContactRef.current;
+      const popover = qqQrPopoverRef.current;
+      if (!contact || !popover) {
+        return;
+      }
+
+      const contactRect = contact.getBoundingClientRect();
+      const viewportWidth = window.innerWidth;
+      const viewportHeight = window.innerHeight;
+      const rightSpace = viewportWidth - contactRect.right;
+      const topSpace = contactRect.top;
+      const bottomSpace = viewportHeight - contactRect.bottom;
+      const gap = 16;
+      const popoverWidth = popover.offsetWidth || 232;
+      const popoverHeight = popover.offsetHeight || 429;
+      const contactCenter = contactRect.top + contactRect.height / 2;
+      const rightPopoverTop = contactCenter - popoverHeight / 2;
+      const rightPopoverBottom = contactCenter + popoverHeight / 2;
+
+      const fitsRight =
+        rightSpace >= popoverWidth + gap &&
+        rightPopoverTop >= gap &&
+        rightPopoverBottom <= viewportHeight - gap;
+
+      if (fitsRight) {
+        setQqQrPlacement("right");
+      } else if (topSpace >= popoverHeight + gap) {
+        setQqQrPlacement("top");
+      } else {
+        setQqQrPlacement("bottom");
+      }
+    };
+
+    updateQqQrPlacement();
+    window.addEventListener("resize", updateQqQrPlacement);
+
+    return () => window.removeEventListener("resize", updateQqQrPlacement);
+  }, [isQqQrVisible]);
 
   useEffect(() => {
     document.title = t("siteTitle");
@@ -198,6 +243,47 @@ function App() {
                 <span>{t(`links.${link.key}`)}</span>
               </a>
             ))}
+          </div>
+          <div className="contact-links" aria-label={t("social.label")}>
+            <a
+              className="contact-icon-btn"
+              href="mailto:zero@plfjy.top"
+              aria-label={t("social.emailAria")}
+              title={t("social.emailTitle")}
+            >
+              <i className="fas fa-envelope" aria-hidden="true" />
+            </a>
+            <div
+              ref={qqContactRef}
+              className={`qq-contact ${isQqQrVisible ? "is-open" : ""} qq-contact-${qqQrPlacement}`}
+              onMouseEnter={() => setIsQqQrVisible(true)}
+              onMouseLeave={() => setIsQqQrVisible(false)}
+            >
+              <button
+                type="button"
+                className="contact-icon-btn"
+                aria-label={t("social.qqAria")}
+                aria-expanded={isQqQrVisible}
+                title={t("social.qqTitle")}
+                onClick={() => setIsQqQrVisible((visible) => !visible)}
+                onFocus={() => setIsQqQrVisible(true)}
+                onBlur={(event) => {
+                  if (!event.currentTarget.parentElement?.contains(event.relatedTarget)) {
+                    setIsQqQrVisible(false);
+                  }
+                }}
+              >
+                <i className="fab fa-qq" aria-hidden="true" />
+              </button>
+              <div
+                ref={qqQrPopoverRef}
+                className="qq-qr-popover"
+                role="status"
+                aria-hidden={!isQqQrVisible}
+              >
+                <img src="/assets/qq.jpg" alt={t("social.qqQrAlt")} />
+              </div>
+            </div>
           </div>
         </div>
 

@@ -291,6 +291,137 @@ main {
   flex-wrap: wrap;
 }
 
+.contact-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  position: relative;
+  z-index: 2;
+}
+
+.contact-icon-btn {
+  width: 48px;
+  height: 48px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  background: var(--card);
+  background-color: var(--card);
+  box-shadow: 0 4px 15px var(--shadow);
+  color: var(--text);
+  cursor: pointer;
+  font-size: 1.25rem;
+  text-decoration: none;
+  transition: var(--transition);
+}
+
+.contact-icon-btn:hover,
+.contact-icon-btn:focus-visible {
+  transform: translateY(-4px);
+  background: var(--accent);
+  background-color: var(--accent);
+  color: #fff;
+  outline: none;
+  box-shadow: 0 8px 22px rgba(74, 123, 255, 0.4);
+}
+
+.contact-icon-btn:hover *,
+.contact-icon-btn:focus-visible * {
+  color: #fff;
+}
+
+.qq-contact {
+  position: relative;
+}
+
+.qq-qr-popover {
+  position: absolute;
+  top: 50%;
+  left: calc(100% + 16px);
+  width: 232px;
+  padding: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 14px;
+  background: var(--bg-dark);
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.38);
+  opacity: 0;
+  pointer-events: none;
+  transform: translate(8px, -50%) scale(0.96);
+  transform-origin: left center;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.qq-contact-top .qq-qr-popover {
+  top: auto;
+  bottom: calc(100% + 16px);
+  left: 50%;
+  transform: translate(-50%, 8px) scale(0.96);
+  transform-origin: bottom center;
+}
+
+.qq-contact-bottom .qq-qr-popover {
+  top: calc(100% + 16px);
+  left: 50%;
+  transform: translate(-50%, 8px) scale(0.96);
+  transform-origin: top center;
+}
+
+.qq-qr-popover::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -7px;
+  width: 12px;
+  height: 12px;
+  background: var(--bg-dark);
+  border-left: 1px solid rgba(255, 255, 255, 0.14);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.14);
+  transform: translateY(-50%) rotate(45deg);
+}
+
+.qq-contact-top .qq-qr-popover::before {
+  top: auto;
+  bottom: -7px;
+  left: 50%;
+  border: 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.14);
+  border-left: 1px solid rgba(255, 255, 255, 0.14);
+  transform: translateX(-50%) rotate(225deg);
+}
+
+.qq-contact-bottom .qq-qr-popover::before {
+  top: -7px;
+  left: 50%;
+  border: 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.14);
+  border-left: 1px solid rgba(255, 255, 255, 0.14);
+  transform: translateX(-50%) rotate(45deg);
+}
+
+.qq-qr-popover img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.qq-contact.is-open .qq-qr-popover {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translate(0, -50%) scale(1);
+}
+
+.qq-contact-top.is-open .qq-qr-popover {
+  transform: translate(-50%, 0) scale(1);
+}
+
+.qq-contact-bottom.is-open .qq-qr-popover {
+  transform: translate(-50%, 0) scale(1);
+}
+
 .link-btn {
   display: flex;
   align-items: center;

@@ -6,6 +6,14 @@
     "github": "GitHub",
     "blog": "Blog"
   },
+  "social": {
+    "label": "Social contacts",
+    "emailAria": "Send an email to zero@plfjy.top",
+    "emailTitle": "Email: zero@plfjy.top",
+    "qqAria": "Show QQ QR code",
+    "qqTitle": "QQ",
+    "qqQrAlt": "QQ contact QR code"
+  },
   "sections": {
     "projects": "Projects",
     "watchedAnime": "Watched Anime",

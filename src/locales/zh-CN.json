@@ -6,6 +6,14 @@
     "github": "GitHub",
     "blog": "个人博客"
   },
+  "social": {
+    "label": "社交方式",
+    "emailAria": "发送邮件至 zero@plfjy.top",
+    "emailTitle": "Email: zero@plfjy.top",
+    "qqAria": "显示 QQ 二维码",
+    "qqTitle": "QQ",
+    "qqQrAlt": "QQ 联系二维码"
+  },
   "sections": {
     "projects": "Projects",
     "watchedAnime": "Watched Anime",
