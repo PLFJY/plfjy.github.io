@@ -218,15 +218,16 @@ function App() {
           ))}
         </Section>
 
-        <WatchedAnimeSection />
-
-        <GamesSection />
-
         <Section title={t("sections.os")} contentClassName="icon-grid">
           {osList.map((os) => (
             <IconTile key={os.name} {...os} />
           ))}
         </Section>
+        
+        <WatchedAnimeSection />
+
+        <GamesSection />
+
       </main>
 
       <footer className="site-footer">
