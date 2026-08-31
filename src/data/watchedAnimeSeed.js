@@ -86,5 +86,6 @@ export const watchedAnimeSeed = [
   { note: "我心里危险的东西", tmdbType: "tv", tmdbId: 207250 },
   { note: "BanG Dream! It's MyGO!!!!!", tmdbType: "tv", tmdbId: 224207 },
   { note: "BanG Dream! Ave Mujica", tmdbType: "tv", tmdbId: 274580 },
-  { note: "我和班上第二可爱的女生成为朋友", tmdbType: "tv", tmdbId: 290019 }
+  { note: "我和班上第二可爱的女生成为朋友", tmdbType: "tv", tmdbId: 290019 },
+  { note: "超时空辉夜姬", tmdbType: "movie", tmdbId: 1575337}
 ];
