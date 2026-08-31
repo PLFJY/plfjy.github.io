@@ -42,6 +42,7 @@ function App() {
   const [qqQrPlacement, setQqQrPlacement] = useState("right");
   const qqContactRef = useRef(null);
   const qqQrPopoverRef = useRef(null);
+  const qqPointerTypeRef = useRef(null);
 
   useLayoutEffect(() => {
     const updateQqQrPlacement = () => {
@@ -173,6 +174,34 @@ function App() {
     i18n.changeLanguage(language);
   };
 
+  const handleQqPointerEnter = (event) => {
+    if (event.pointerType !== "touch") {
+      setIsQqQrVisible(true);
+    }
+  };
+
+  const handleQqPointerLeave = (event) => {
+    if (event.pointerType !== "touch") {
+      setIsQqQrVisible(false);
+    }
+  };
+
+  const handleQqPointerDown = (event) => {
+    qqPointerTypeRef.current = event.pointerType;
+  };
+
+  const handleQqClick = () => {
+    const isTouchClick = qqPointerTypeRef.current === "touch";
+    qqPointerTypeRef.current = null;
+
+    if (isTouchClick) {
+      setIsQqQrVisible((visible) => !visible);
+      return;
+    }
+
+    setIsQqQrVisible(true);
+  };
+
   const socialLinks = [
     {
       key: "bilibili",
@@ -256,8 +285,11 @@ function App() {
             <div
               ref={qqContactRef}
               className={`qq-contact ${isQqQrVisible ? "is-open" : ""} qq-contact-${qqQrPlacement}`}
-              onMouseEnter={() => setIsQqQrVisible(true)}
-              onMouseLeave={() => setIsQqQrVisible(false)}
+              onPointerEnter={handleQqPointerEnter}
+              onPointerLeave={handleQqPointerLeave}
+              onPointerCancel={() => {
+                qqPointerTypeRef.current = null;
+              }}
             >
               <button
                 type="button"
@@ -265,8 +297,13 @@ function App() {
                 aria-label={t("social.qqAria")}
                 aria-expanded={isQqQrVisible}
                 title={t("social.qqTitle")}
-                onClick={() => setIsQqQrVisible((visible) => !visible)}
-                onFocus={() => setIsQqQrVisible(true)}
+                onPointerDown={handleQqPointerDown}
+                onClick={handleQqClick}
+                onFocus={() => {
+                  if (qqPointerTypeRef.current !== "touch") {
+                    setIsQqQrVisible(true);
+                  }
+                }}
                 onBlur={(event) => {
                   if (!event.currentTarget.parentElement?.contains(event.relatedTarget)) {
                     setIsQqQrVisible(false);
