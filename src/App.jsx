@@ -86,6 +86,32 @@ function App() {
   }, [isQqQrVisible]);
 
   useEffect(() => {
+    if (!isQqQrVisible) {
+      return undefined;
+    }
+
+    const closeQqQrWhenClickingOutside = (event) => {
+      if (!qqContactRef.current?.contains(event.target)) {
+        setIsQqQrVisible(false);
+      }
+    };
+
+    const closeQqQrWithEscape = (event) => {
+      if (event.key === "Escape") {
+        setIsQqQrVisible(false);
+      }
+    };
+
+    document.addEventListener("pointerdown", closeQqQrWhenClickingOutside);
+    document.addEventListener("keydown", closeQqQrWithEscape);
+
+    return () => {
+      document.removeEventListener("pointerdown", closeQqQrWhenClickingOutside);
+      document.removeEventListener("keydown", closeQqQrWithEscape);
+    };
+  }, [isQqQrVisible]);
+
+  useEffect(() => {
     document.title = t("siteTitle");
   }, [t, i18n.language]);
 
