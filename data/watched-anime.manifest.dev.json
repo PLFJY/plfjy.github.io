@@ -1,0 +1,137 @@
+{
+  "generatedAt": "2026-06-28T00:00:00.000Z",
+  "source": "TMDB",
+  "count": 5,
+  "items": [
+    {
+      "key": "tmdb-movie-372058",
+      "note": "你的名字",
+      "tmdbType": "movie",
+      "tmdbId": 372058,
+      "title": {
+        "native": "君の名は。",
+        "localized": "你的名字。",
+        "english": "Your Name."
+      },
+      "cover": {
+        "extraLarge": "https://image.tmdb.org/t/p/w780/q719jXXEzOoYaps6babgKnONONX.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/q719jXXEzOoYaps6babgKnONONX.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/q719jXXEzOoYaps6babgKnONONX.jpg"
+      },
+      "url": "https://www.themoviedb.org/movie/372058",
+      "meta": {
+        "format": "MOVIE",
+        "status": "Released",
+        "episodes": null,
+        "seasonYear": 2016,
+        "averageScore": 85,
+        "popularity": null,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "tmdb-movie-568160",
+      "note": "天气之子",
+      "tmdbType": "movie",
+      "tmdbId": 568160,
+      "title": {
+        "native": "天気の子",
+        "localized": "天气之子",
+        "english": "Weathering with You"
+      },
+      "cover": {
+        "extraLarge": "https://image.tmdb.org/t/p/w780/qgrk7r1fV4IjuoeiGS5HOhXNdLJ.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/qgrk7r1fV4IjuoeiGS5HOhXNdLJ.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/qgrk7r1fV4IjuoeiGS5HOhXNdLJ.jpg"
+      },
+      "url": "https://www.themoviedb.org/movie/568160",
+      "meta": {
+        "format": "MOVIE",
+        "status": "Released",
+        "episodes": null,
+        "seasonYear": 2019,
+        "averageScore": 80,
+        "popularity": null,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "tmdb-movie-916224",
+      "note": "铃芽之旅",
+      "tmdbType": "movie",
+      "tmdbId": 916224,
+      "title": {
+        "native": "すずめの戸締まり",
+        "localized": "铃芽之旅",
+        "english": "Suzume"
+      },
+      "cover": {
+        "extraLarge": "https://image.tmdb.org/t/p/w780/vIeu8WysZrTSFb2uhPViKjX9EcC.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/vIeu8WysZrTSFb2uhPViKjX9EcC.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/vIeu8WysZrTSFb2uhPViKjX9EcC.jpg"
+      },
+      "url": "https://www.themoviedb.org/movie/916224",
+      "meta": {
+        "format": "MOVIE",
+        "status": "Released",
+        "episodes": null,
+        "seasonYear": 2022,
+        "averageScore": 79,
+        "popularity": null,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "tmdb-movie-129",
+      "note": "千与千寻",
+      "tmdbType": "movie",
+      "tmdbId": 129,
+      "title": {
+        "native": "千と千尋の神隠し",
+        "localized": "千与千寻",
+        "english": "Spirited Away"
+      },
+      "cover": {
+        "extraLarge": "https://image.tmdb.org/t/p/w780/39wmItIWsg5sZMyRUHLkWBcuVCM.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/39wmItIWsg5sZMyRUHLkWBcuVCM.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/39wmItIWsg5sZMyRUHLkWBcuVCM.jpg"
+      },
+      "url": "https://www.themoviedb.org/movie/129",
+      "meta": {
+        "format": "MOVIE",
+        "status": "Released",
+        "episodes": null,
+        "seasonYear": 2001,
+        "averageScore": 85,
+        "popularity": null,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "tmdb-movie-4935",
+      "note": "哈尔的移动城堡",
+      "tmdbType": "movie",
+      "tmdbId": 4935,
+      "title": {
+        "native": "ハウルの動く城",
+        "localized": "哈尔的移动城堡",
+        "english": "Howl's Moving Castle"
+      },
+      "cover": {
+        "extraLarge": "https://image.tmdb.org/t/p/w780/TkTPELv4kC3u1lkloush8skOjE.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/TkTPELv4kC3u1lkloush8skOjE.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/TkTPELv4kC3u1lkloush8skOjE.jpg"
+      },
+      "url": "https://www.themoviedb.org/movie/4935",
+      "meta": {
+        "format": "MOVIE",
+        "status": "Released",
+        "episodes": null,
+        "seasonYear": 2004,
+        "averageScore": 84,
+        "popularity": null,
+        "isAdult": false
+      }
+    }
+  ]
+}

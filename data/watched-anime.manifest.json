@@ -1,0 +1,2219 @@
+{
+  "generatedAt": "2026-09-04T03:54:13.845Z",
+  "source": "TMDB",
+  "count": 85,
+  "items": [
+    {
+      "key": "tmdb-tv-49471",
+      "note": "弹丸论破",
+      "tmdbType": "tv",
+      "tmdbId": 49471,
+      "title": {
+        "native": "ダンガンロンパ 希望の学園と絶望の高校生 The Animation",
+        "localized": "弹丸论破",
+        "english": "Danganronpa: The Animation"
+      },
+      "cover": {
+        "extraLarge": "https://image.tmdb.org/t/p/w780/pMNulQv3b9yaxh09sEkGFn3LiSG.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/pMNulQv3b9yaxh09sEkGFn3LiSG.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/pMNulQv3b9yaxh09sEkGFn3LiSG.jpg"
+      },
+      "url": "https://www.themoviedb.org/tv/49471",
+      "meta": {
+        "format": "TV",
+        "status": "Ended",
+        "episodes": 25,
+        "seasonYear": 2013,
+        "averageScore": 76,
+        "popularity": 17.0576,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "tmdb-movie-1192735",
+      "note": "超级弹丸论破2.5 拍枝屈斗与世界的破坏者",
+      "tmdbType": "movie",
+      "tmdbId": 1192735,
+      "title": {
+        "native": "スーパーダンガンロンパ2.5 狛枝凪斗と世界の破壊者",
+        "localized": "超级弹丸论破2.5 狛枝凪斗与世界的破坏者",
+        "english": "Super Danganronpa 2.5: Komaeda Nagito to Sekai no Hakaimono"
+      },
+      "cover": {
+        "extraLarge": "https://image.tmdb.org/t/p/w780/cTQyxpfJ9018C1Cp9wHeRa8986I.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/cTQyxpfJ9018C1Cp9wHeRa8986I.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/cTQyxpfJ9018C1Cp9wHeRa8986I.jpg"
+      },
+      "url": "https://www.themoviedb.org/movie/1192735",
+      "meta": {
+        "format": "MOVIE",
+        "status": "Released",
+        "episodes": null,
+        "seasonYear": 2017,
+        "averageScore": 55,
+        "popularity": 1.166,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "tmdb-tv-67674",
+      "note": "弹丸论破3 -绝望篇-",
+      "tmdbType": "tv",
+      "tmdbId": 67674,
+      "title": {
+        "native": "ダンガンロンパ3 The End of 希望ヶ峰学園-絶望編",
+        "localized": "弹丸论破3 -The End of 希望之峰学园- 绝望篇",
+        "english": "Danganronpa 3: The End of Hope's Peak High School"
+      },
+      "cover": {
+        "extraLarge": "https://image.tmdb.org/t/p/w780/bSONSlPlbSO1AryJHEVipIxSpYL.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/bSONSlPlbSO1AryJHEVipIxSpYL.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/bSONSlPlbSO1AryJHEVipIxSpYL.jpg"
+      },
+      "url": "https://www.themoviedb.org/tv/67674",
+      "meta": {
+        "format": "TV",
+        "status": "Ended",
+        "episodes": 11,
+        "seasonYear": 2016,
+        "averageScore": 65,
+        "popularity": 7.7807,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "tmdb-tv-49471-season-2",
+      "note": "弹丸论破3 -未来篇-",
+      "tmdbType": "tv",
+      "tmdbId": 49471,
+      "seasonNumber": 2,
+      "title": {
+        "native": "ダンガンロンパ3―The End of 希望ヶ峰学園―未来編",
+        "localized": "-The End of 希望之峰学园-未来篇",
+        "english": "Danganronpa 3: The End of Hope's Peak High School Side- Future"
+      },
+      "cover": {
+        "extraLarge": "https://image.tmdb.org/t/p/w780/oUwpWh0TyWoC0pZGsyugy6TCjRM.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/oUwpWh0TyWoC0pZGsyugy6TCjRM.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/oUwpWh0TyWoC0pZGsyugy6TCjRM.jpg"
+      },
+      "url": "https://www.themoviedb.org/tv/49471/season/2",
+      "meta": {
+        "format": "TV",
+        "status": null,
+        "episodes": 12,
+        "seasonYear": 2016,
+        "averageScore": 60,
+        "popularity": null,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "tmdb-tv-82739",
+      "note": "青春猪头少年不会梦到兔女郎学姐",
+      "tmdbType": "tv",
+      "tmdbId": 82739,
+      "title": {
+        "native": "青春ブタ野郎はバニーガール先輩の夢を見ない",
+        "localized": "青春猪头少年不会梦到兔女郎学姐",
+        "english": "Rascal Does Not Dream of Bunny Girl Senpai"
+      },
+      "cover": {
+        "extraLarge": "https://image.tmdb.org/t/p/w780/qPdCrAHkgALDW4jK4Qv91EtiDBs.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/qPdCrAHkgALDW4jK4Qv91EtiDBs.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/qPdCrAHkgALDW4jK4Qv91EtiDBs.jpg"
+      },
+      "url": "https://www.themoviedb.org/tv/82739",
+      "meta": {
+        "format": "TV",
+        "status": "Ended",
+        "episodes": 26,
+        "seasonYear": 2018,
+        "averageScore": 85,
+        "popularity": 31.7229,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "tmdb-movie-572154",
+      "note": "青春猪头少年不会梦到怀梦美少女",
+      "tmdbType": "movie",
+      "tmdbId": 572154,
+      "title": {
+        "native": "青春ブタ野郎はゆめみる少女の夢を見ない",
+        "localized": "青春猪头少年不会梦到怀梦美少女",
+        "english": "Rascal Does Not Dream of a Dreaming Girl"
+      },
+      "cover": {
+        "extraLarge": "https://image.tmdb.org/t/p/w780/huKVDhDkHTgroiS9CoStsLg3sQP.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/huKVDhDkHTgroiS9CoStsLg3sQP.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/huKVDhDkHTgroiS9CoStsLg3sQP.jpg"
+      },
+      "url": "https://www.themoviedb.org/movie/572154",
+      "meta": {
+        "format": "MOVIE",
+        "status": "Released",
+        "episodes": null,
+        "seasonYear": 2019,
+        "averageScore": 82,
+        "popularity": 4.4712,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "tmdb-movie-1056803",
+      "note": "青春猪头少年不会梦到娇怜外出妹",
+      "tmdbType": "movie",
+      "tmdbId": 1056803,
+      "title": {
+        "native": "青春ブタ野郎はおでかけシスターの夢を見ない",
+        "localized": "青春猪头少年不会梦到娇怜外出妹",
+        "english": "Rascal Does Not Dream of a Sister Venturing Out"
+      },
+      "cover": {
+        "extraLarge": "https://image.tmdb.org/t/p/w780/woXuWTbv6PS6Z0CBBZqIIOSWfnJ.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/woXuWTbv6PS6Z0CBBZqIIOSWfnJ.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/woXuWTbv6PS6Z0CBBZqIIOSWfnJ.jpg"
+      },
+      "url": "https://www.themoviedb.org/movie/1056803",
+      "meta": {
+        "format": "MOVIE",
+        "status": "Released",
+        "episodes": null,
+        "seasonYear": 2023,
+        "averageScore": 77,
+        "popularity": 2.8212,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "tmdb-movie-1086591",
+      "note": "青春猪头少年不会梦到红书包女孩",
+      "tmdbType": "movie",
+      "tmdbId": 1086591,
+      "title": {
+        "native": "青春ブタ野郎はランドセルガールの夢を見ない",
+        "localized": "青春猪头少年不会梦到红书包女孩",
+        "english": "Rascal Does Not Dream of a Knapsack Kid"
+      },
+      "cover": {
+        "extraLarge": "https://image.tmdb.org/t/p/w780/7jXr0Ef50Z3BDhRhzVzPYhvqhd8.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/7jXr0Ef50Z3BDhRhzVzPYhvqhd8.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/7jXr0Ef50Z3BDhRhzVzPYhvqhd8.jpg"
+      },
+      "url": "https://www.themoviedb.org/movie/1086591",
+      "meta": {
+        "format": "MOVIE",
+        "status": "Released",
+        "episodes": null,
+        "seasonYear": 2023,
+        "averageScore": 77,
+        "popularity": 2.9016,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "tmdb-tv-82739-season-2",
+      "note": "青春猪头少年不会梦到圣诞服女郎",
+      "tmdbType": "tv",
+      "tmdbId": 82739,
+      "seasonNumber": 2,
+      "title": {
+        "native": "青春ブタ野郎はサンタクロースの夢を見ない",
+        "localized": "青春猪头少年不会梦到圣诞服女郎",
+        "english": "Rascal Does Not Dream of Santa Claus"
+      },
+      "cover": {
+        "extraLarge": "https://image.tmdb.org/t/p/w780/4zKKdZxPnibsnbPrYwKHurB9zYi.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/4zKKdZxPnibsnbPrYwKHurB9zYi.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/4zKKdZxPnibsnbPrYwKHurB9zYi.jpg"
+      },
+      "url": "https://www.themoviedb.org/tv/82739/season/2",
+      "meta": {
+        "format": "TV",
+        "status": null,
+        "episodes": 13,
+        "seasonYear": 2025,
+        "averageScore": 79,
+        "popularity": null,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "tmdb-tv-30977",
+      "note": "某科学的超电磁炮",
+      "tmdbType": "tv",
+      "tmdbId": 30977,
+      "title": {
+        "native": "とある科学の超電磁砲",
+        "localized": "某科学的超电磁炮",
+        "english": "A Certain Scientific Railgun"
+      },
+      "cover": {
+        "extraLarge": "https://image.tmdb.org/t/p/w780/At7Y0VpqykcsjKtynOj6JDNo4rQ.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/At7Y0VpqykcsjKtynOj6JDNo4rQ.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/At7Y0VpqykcsjKtynOj6JDNo4rQ.jpg"
+      },
+      "url": "https://www.themoviedb.org/tv/30977",
+      "meta": {
+        "format": "TV",
+        "status": "Ended",
+        "episodes": 73,
+        "seasonYear": 2009,
+        "averageScore": 74,
+        "popularity": 32.1038,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "tmdb-tv-67126",
+      "note": "干物妹！小埋",
+      "tmdbType": "tv",
+      "tmdbId": 67126,
+      "title": {
+        "native": "干物妹! うまるちゃん",
+        "localized": "干物妹！小埋",
+        "english": "Himouto! Umaru-chan"
+      },
+      "cover": {
+        "extraLarge": "https://image.tmdb.org/t/p/w780/iqVjN361kn5mgwFUQRegeCTMXnv.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/iqVjN361kn5mgwFUQRegeCTMXnv.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/iqVjN361kn5mgwFUQRegeCTMXnv.jpg"
+      },
+      "url": "https://www.themoviedb.org/tv/67126",
+      "meta": {
+        "format": "TV",
+        "status": "Ended",
+        "episodes": 24,
+        "seasonYear": 2015,
+        "averageScore": 82,
+        "popularity": 20.2292,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "tmdb-tv-42916",
+      "note": "龙与虎",
+      "tmdbType": "tv",
+      "tmdbId": 42916,
+      "title": {
+        "native": "とらドラ！",
+        "localized": "龙与虎",
+        "english": "Toradora!"
+      },
+      "cover": {
+        "extraLarge": "https://image.tmdb.org/t/p/w780/iDzyuzi8vPToAghsDmm8xVSmgyl.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/iDzyuzi8vPToAghsDmm8xVSmgyl.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/iDzyuzi8vPToAghsDmm8xVSmgyl.jpg"
+      },
+      "url": "https://www.themoviedb.org/tv/42916",
+      "meta": {
+        "format": "TV",
+        "status": "Ended",
+        "episodes": 25,
+        "seasonYear": 2008,
+        "averageScore": 82,
+        "popularity": 16.1762,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "tmdb-tv-117933",
+      "note": "夏日重现",
+      "tmdbType": "tv",
+      "tmdbId": 117933,
+      "title": {
+        "native": "サマータイムレンダ",
+        "localized": "夏日重现",
+        "english": "Summer Time Rendering"
+      },
+      "cover": {
+        "extraLarge": "https://image.tmdb.org/t/p/w780/llEfmcMmO3TuvGf3BUR3foQO7W1.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/llEfmcMmO3TuvGf3BUR3foQO7W1.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/llEfmcMmO3TuvGf3BUR3foQO7W1.jpg"
+      },
+      "url": "https://www.themoviedb.org/tv/117933",
+      "meta": {
+        "format": "TV",
+        "status": "Ended",
+        "episodes": 25,
+        "seasonYear": 2022,
+        "averageScore": 81,
+        "popularity": 37.8078,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "tmdb-tv-65676",
+      "note": "我的青春恋爱物语果然有问题。",
+      "tmdbType": "tv",
+      "tmdbId": 65676,
+      "title": {
+        "native": "やはり俺の青春ラブコメはまちがっている。",
+        "localized": "我的青春恋爱物语果然有问题。",
+        "english": "My Teen Romantic Comedy SNAFU"
+      },
+      "cover": {
+        "extraLarge": "https://image.tmdb.org/t/p/w780/aQ1CNiy7sc97vWMzqwURF8kJzUQ.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/aQ1CNiy7sc97vWMzqwURF8kJzUQ.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/aQ1CNiy7sc97vWMzqwURF8kJzUQ.jpg"
+      },
+      "url": "https://www.themoviedb.org/tv/65676",
+      "meta": {
+        "format": "TV",
+        "status": "Ended",
+        "episodes": 38,
+        "seasonYear": 2013,
+        "averageScore": 82,
+        "popularity": 24.8011,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "tmdb-tv-70878",
+      "note": "埃罗芒阿老师",
+      "tmdbType": "tv",
+      "tmdbId": 70878,
+      "title": {
+        "native": "エロマンガ先生",
+        "localized": "埃罗芒阿老师",
+        "english": "Eromanga Sensei"
+      },
+      "cover": {
+        "extraLarge": "https://image.tmdb.org/t/p/w780/gaBBfLCanWbv6eOGApc1sYw9k6n.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/gaBBfLCanWbv6eOGApc1sYw9k6n.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/gaBBfLCanWbv6eOGApc1sYw9k6n.jpg"
+      },
+      "url": "https://www.themoviedb.org/tv/70878",
+      "meta": {
+        "format": "TV",
+        "status": "Ended",
+        "episodes": 12,
+        "seasonYear": 2017,
+        "averageScore": 59,
+        "popularity": 12.0083,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "tmdb-tv-50325",
+      "note": "樱花庄的宠物女孩",
+      "tmdbType": "tv",
+      "tmdbId": 50325,
+      "title": {
+        "native": "さくら荘のペットな彼女",
+        "localized": "樱花庄的宠物女孩",
+        "english": "The Pet Girl of Sakurasou"
+      },
+      "cover": {
+        "extraLarge": "https://image.tmdb.org/t/p/w780/xSiC0lURjL7UrCGRN8HADAvnGBn.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/xSiC0lURjL7UrCGRN8HADAvnGBn.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/xSiC0lURjL7UrCGRN8HADAvnGBn.jpg"
+      },
+      "url": "https://www.themoviedb.org/tv/50325",
+      "meta": {
+        "format": "TV",
+        "status": "Ended",
+        "episodes": 24,
+        "seasonYear": 2012,
+        "averageScore": 76,
+        "popularity": 14.8235,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "tmdb-tv-63145",
+      "note": "Charlotte",
+      "tmdbType": "tv",
+      "tmdbId": 63145,
+      "title": {
+        "native": "シャーロット",
+        "localized": "夏洛特",
+        "english": "Charlotte"
+      },
+      "cover": {
+        "extraLarge": "https://image.tmdb.org/t/p/w780/dC61yNbMvQb4kDpuJLagNmWENQr.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/dC61yNbMvQb4kDpuJLagNmWENQr.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/dC61yNbMvQb4kDpuJLagNmWENQr.jpg"
+      },
+      "url": "https://www.themoviedb.org/tv/63145",
+      "meta": {
+        "format": "TV",
+        "status": "Ended",
+        "episodes": 13,
+        "seasonYear": 2015,
+        "averageScore": 82,
+        "popularity": 15.1437,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "tmdb-tv-72509",
+      "note": "徒然喜欢你",
+      "tmdbType": "tv",
+      "tmdbId": 72509,
+      "title": {
+        "native": "徒然チルドレン",
+        "localized": "徒然喜欢你",
+        "english": "Tsuredure Children"
+      },
+      "cover": {
+        "extraLarge": "https://image.tmdb.org/t/p/w780/n7o4VnLcWYVqkWFcVVDzVM4RFC1.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/n7o4VnLcWYVqkWFcVVDzVM4RFC1.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/n7o4VnLcWYVqkWFcVVDzVM4RFC1.jpg"
+      },
+      "url": "https://www.themoviedb.org/tv/72509",
+      "meta": {
+        "format": "TV",
+        "status": "Ended",
+        "episodes": 12,
+        "seasonYear": 2017,
+        "averageScore": 79,
+        "popularity": 8.724,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "tmdb-movie-372058",
+      "note": "你的名字",
+      "tmdbType": "movie",
+      "tmdbId": 372058,
+      "title": {
+        "native": "君の名は。",
+        "localized": "你的名字。",
+        "english": "Your Name."
+      },
+      "cover": {
+        "extraLarge": "https://image.tmdb.org/t/p/w780/vRQ7wpxpHt2aV8RnOkwHlOQAMKe.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/vRQ7wpxpHt2aV8RnOkwHlOQAMKe.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/vRQ7wpxpHt2aV8RnOkwHlOQAMKe.jpg"
+      },
+      "url": "https://www.themoviedb.org/movie/372058",
+      "meta": {
+        "format": "MOVIE",
+        "status": "Released",
+        "episodes": null,
+        "seasonYear": 2016,
+        "averageScore": 85,
+        "popularity": 27.173,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "tmdb-movie-916224",
+      "note": "铃芽之旅",
+      "tmdbType": "movie",
+      "tmdbId": 916224,
+      "title": {
+        "native": "すずめの戸締まり",
+        "localized": "铃芽之旅",
+        "english": "Suzume"
+      },
+      "cover": {
+        "extraLarge": "https://image.tmdb.org/t/p/w780/x8IcS3iaqo1hayup5m9NTFJAqYJ.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/x8IcS3iaqo1hayup5m9NTFJAqYJ.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/x8IcS3iaqo1hayup5m9NTFJAqYJ.jpg"
+      },
+      "url": "https://www.themoviedb.org/movie/916224",
+      "meta": {
+        "format": "MOVIE",
+        "status": "Released",
+        "episodes": null,
+        "seasonYear": 2022,
+        "averageScore": 79,
+        "popularity": 12.785,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "tmdb-tv-72517",
+      "note": "欢迎来到实力至上主义教室",
+      "tmdbType": "tv",
+      "tmdbId": 72517,
+      "title": {
+        "native": "ようこそ実力至上主義の教室へ",
+        "localized": "欢迎来到实力至上主义的教室",
+        "english": "Classroom of the Elite"
+      },
+      "cover": {
+        "extraLarge": "https://image.tmdb.org/t/p/w780/kkVfb6sXIHKIX9B0oHf9dNDkJ8m.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/kkVfb6sXIHKIX9B0oHf9dNDkJ8m.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/kkVfb6sXIHKIX9B0oHf9dNDkJ8m.jpg"
+      },
+      "url": "https://www.themoviedb.org/tv/72517",
+      "meta": {
+        "format": "TV",
+        "status": "Returning Series",
+        "episodes": 54,
+        "seasonYear": 2017,
+        "averageScore": 84,
+        "popularity": 39.8233,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "tmdb-tv-65329",
+      "note": "冰菓",
+      "tmdbType": "tv",
+      "tmdbId": 65329,
+      "title": {
+        "native": "氷菓",
+        "localized": "冰菓",
+        "english": "Hyouka"
+      },
+      "cover": {
+        "extraLarge": "https://image.tmdb.org/t/p/w780/jLqFI9DNx5omo3SCUlvtHyhfhYa.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/jLqFI9DNx5omo3SCUlvtHyhfhYa.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/jLqFI9DNx5omo3SCUlvtHyhfhYa.jpg"
+      },
+      "url": "https://www.themoviedb.org/tv/65329",
+      "meta": {
+        "format": "TV",
+        "status": "Ended",
+        "episodes": 22,
+        "seasonYear": 2012,
+        "averageScore": 81,
+        "popularity": 18.2356,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "tmdb-tv-80477",
+      "note": "Angels of Death",
+      "tmdbType": "tv",
+      "tmdbId": 80477,
+      "title": {
+        "native": "殺戮の天使",
+        "localized": "杀戮的天使",
+        "english": "Angels of Death"
+      },
+      "cover": {
+        "extraLarge": "https://image.tmdb.org/t/p/w780/1sjK2VGIQSHD9QoU86aBIxLAdaq.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/1sjK2VGIQSHD9QoU86aBIxLAdaq.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/1sjK2VGIQSHD9QoU86aBIxLAdaq.jpg"
+      },
+      "url": "https://www.themoviedb.org/tv/80477",
+      "meta": {
+        "format": "TV",
+        "status": "Ended",
+        "episodes": 12,
+        "seasonYear": 2018,
+        "averageScore": 79,
+        "popularity": 9.6936,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "tmdb-tv-100049",
+      "note": "总之就是非常可爱",
+      "tmdbType": "tv",
+      "tmdbId": 100049,
+      "title": {
+        "native": "トニカクカワイイ",
+        "localized": "总之就是非常可爱",
+        "english": "TONIKAWA: Over the Moon for You"
+      },
+      "cover": {
+        "extraLarge": "https://image.tmdb.org/t/p/w780/v6s3T7144ukdyWajzXBgQj2DgID.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/v6s3T7144ukdyWajzXBgQj2DgID.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/v6s3T7144ukdyWajzXBgQj2DgID.jpg"
+      },
+      "url": "https://www.themoviedb.org/tv/100049",
+      "meta": {
+        "format": "TV",
+        "status": "Ended",
+        "episodes": 24,
+        "seasonYear": 2020,
+        "averageScore": 85,
+        "popularity": 17.7491,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "tmdb-tv-203737",
+      "note": "我推的孩子",
+      "tmdbType": "tv",
+      "tmdbId": 203737,
+      "title": {
+        "native": "【推しの子】",
+        "localized": "【我推的孩子】",
+        "english": "【OSHI NO KO】"
+      },
+      "cover": {
+        "extraLarge": "https://image.tmdb.org/t/p/w780/2Au9bkgXXdzxcghyFZVfksBYPPP.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/2Au9bkgXXdzxcghyFZVfksBYPPP.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/2Au9bkgXXdzxcghyFZVfksBYPPP.jpg"
+      },
+      "url": "https://www.themoviedb.org/tv/203737",
+      "meta": {
+        "format": "TV",
+        "status": "Returning Series",
+        "episodes": 35,
+        "seasonYear": 2023,
+        "averageScore": 83,
+        "popularity": 35.062,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "tmdb-tv-45501",
+      "note": "中二病也要谈恋爱！",
+      "tmdbType": "tv",
+      "tmdbId": 45501,
+      "title": {
+        "native": "中二病でも恋がしたい!",
+        "localized": "中二病也要谈恋爱！",
+        "english": "Love, Chunibyo & Other Delusions!"
+      },
+      "cover": {
+        "extraLarge": "https://image.tmdb.org/t/p/w780/65BtAEqvLXs708XFTOqgsBNXDEP.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/65BtAEqvLXs708XFTOqgsBNXDEP.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/65BtAEqvLXs708XFTOqgsBNXDEP.jpg"
+      },
+      "url": "https://www.themoviedb.org/tv/45501",
+      "meta": {
+        "format": "TV",
+        "status": "Ended",
+        "episodes": 24,
+        "seasonYear": 2012,
+        "averageScore": 81,
+        "popularity": 16.9515,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "tmdb-tv-83121",
+      "note": "辉夜大小姐想让我告白",
+      "tmdbType": "tv",
+      "tmdbId": 83121,
+      "title": {
+        "native": "かぐや様は告らせたい～天才たちの恋愛頭脳戦～",
+        "localized": "辉夜大小姐想让我告白",
+        "english": "Kaguya-sama: Love Is War"
+      },
+      "cover": {
+        "extraLarge": "https://image.tmdb.org/t/p/w780/jRAJKTd2GxiL8vlxBtCEhtpQAfe.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/jRAJKTd2GxiL8vlxBtCEhtpQAfe.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/jRAJKTd2GxiL8vlxBtCEhtpQAfe.jpg"
+      },
+      "url": "https://www.themoviedb.org/tv/83121",
+      "meta": {
+        "format": "TV",
+        "status": "Ended",
+        "episodes": 37,
+        "seasonYear": 2019,
+        "averageScore": 85,
+        "popularity": 42.2479,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "tmdb-tv-119100",
+      "note": "孤独摇滚！",
+      "tmdbType": "tv",
+      "tmdbId": 119100,
+      "title": {
+        "native": "ぼっち・ざ・ろっく！",
+        "localized": "孤独摇滚！",
+        "english": "BOCCHI THE ROCK!"
+      },
+      "cover": {
+        "extraLarge": "https://image.tmdb.org/t/p/w780/2cIZIoGhwLVQAcwBdKtgUNFf7z3.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/2cIZIoGhwLVQAcwBdKtgUNFf7z3.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/2cIZIoGhwLVQAcwBdKtgUNFf7z3.jpg"
+      },
+      "url": "https://www.themoviedb.org/tv/119100",
+      "meta": {
+        "format": "TV",
+        "status": "Returning Series",
+        "episodes": 12,
+        "seasonYear": 2022,
+        "averageScore": 84,
+        "popularity": 15.6635,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "tmdb-tv-39434",
+      "note": "我们仍未知道那天所看见的花的名字。",
+      "tmdbType": "tv",
+      "tmdbId": 39434,
+      "title": {
+        "native": "あの日見た花の名前を僕達はまだ知らない。",
+        "localized": "我们仍未知道那天所看见的花的名字。",
+        "english": "Anohana: The Flower We Saw That Day"
+      },
+      "cover": {
+        "extraLarge": "https://image.tmdb.org/t/p/w780/cqjqnvgvBuViLvkrphSoG7pXUFH.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/cqjqnvgvBuViLvkrphSoG7pXUFH.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/cqjqnvgvBuViLvkrphSoG7pXUFH.jpg"
+      },
+      "url": "https://www.themoviedb.org/tv/39434",
+      "meta": {
+        "format": "TV",
+        "status": "Ended",
+        "episodes": 11,
+        "seasonYear": 2011,
+        "averageScore": 82,
+        "popularity": 11.0204,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "tmdb-tv-85937",
+      "note": "鬼灭之刃",
+      "tmdbType": "tv",
+      "tmdbId": 85937,
+      "title": {
+        "native": "鬼滅の刃",
+        "localized": "鬼灭之刃",
+        "english": "Demon Slayer: Kimetsu no Yaiba"
+      },
+      "cover": {
+        "extraLarge": "https://image.tmdb.org/t/p/w780/tZ0yGfG4EIox7bYJTxAtqUhoOmR.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/tZ0yGfG4EIox7bYJTxAtqUhoOmR.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/tZ0yGfG4EIox7bYJTxAtqUhoOmR.jpg"
+      },
+      "url": "https://www.themoviedb.org/tv/85937",
+      "meta": {
+        "format": "TV",
+        "status": "Ended",
+        "episodes": 63,
+        "seasonYear": 2019,
+        "averageScore": 86,
+        "popularity": 19.1019,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "tmdb-tv-42253",
+      "note": "轻音少女",
+      "tmdbType": "tv",
+      "tmdbId": 42253,
+      "title": {
+        "native": "けいおん!",
+        "localized": "轻音少女",
+        "english": "K-ON!"
+      },
+      "cover": {
+        "extraLarge": "https://image.tmdb.org/t/p/w780/bdOc8sVK5B0mE16BLyiI9hNEdic.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/bdOc8sVK5B0mE16BLyiI9hNEdic.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/bdOc8sVK5B0mE16BLyiI9hNEdic.jpg"
+      },
+      "url": "https://www.themoviedb.org/tv/42253",
+      "meta": {
+        "format": "TV",
+        "status": "Ended",
+        "episodes": 36,
+        "seasonYear": 2009,
+        "averageScore": 80,
+        "popularity": 20.0321,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "tmdb-tv-60808",
+      "note": "NO GAME NO LIFE 游戏人生",
+      "tmdbType": "tv",
+      "tmdbId": 60808,
+      "title": {
+        "native": "ノーゲーム・ノーライフ",
+        "localized": "游戏人生",
+        "english": "No Game No Life"
+      },
+      "cover": {
+        "extraLarge": "https://image.tmdb.org/t/p/w780/vU2jXjst9CUq4HD3uLNGUcqtYvv.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/vU2jXjst9CUq4HD3uLNGUcqtYvv.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/vU2jXjst9CUq4HD3uLNGUcqtYvv.jpg"
+      },
+      "url": "https://www.themoviedb.org/tv/60808",
+      "meta": {
+        "format": "TV",
+        "status": "Ended",
+        "episodes": 12,
+        "seasonYear": 2014,
+        "averageScore": 80,
+        "popularity": 15.5457,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "tmdb-tv-65955",
+      "note": "这个美术社有大问题！",
+      "tmdbType": "tv",
+      "tmdbId": 65955,
+      "title": {
+        "native": "この美術部には問題がある！",
+        "localized": "这个美术社大有问题！",
+        "english": "This Art Club Has a Problem!"
+      },
+      "cover": {
+        "extraLarge": "https://image.tmdb.org/t/p/w780/lbGTdUsAARHi8hTWBJXtNQO2l61.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/lbGTdUsAARHi8hTWBJXtNQO2l61.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/lbGTdUsAARHi8hTWBJXtNQO2l61.jpg"
+      },
+      "url": "https://www.themoviedb.org/tv/65955",
+      "meta": {
+        "format": "TV",
+        "status": "Ended",
+        "episodes": 12,
+        "seasonYear": 2016,
+        "averageScore": 62,
+        "popularity": 6.9569,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "tmdb-tv-75214",
+      "note": "紫罗兰永恒花园",
+      "tmdbType": "tv",
+      "tmdbId": 75214,
+      "title": {
+        "native": "ヴァイオレット・エヴァーガーデン",
+        "localized": "紫罗兰永恒花园",
+        "english": "Violet Evergarden"
+      },
+      "cover": {
+        "extraLarge": "https://image.tmdb.org/t/p/w780/55Psg9yxczJ0l5xgF3AVT8oidmq.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/55Psg9yxczJ0l5xgF3AVT8oidmq.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/55Psg9yxczJ0l5xgF3AVT8oidmq.jpg"
+      },
+      "url": "https://www.themoviedb.org/tv/75214",
+      "meta": {
+        "format": "TV",
+        "status": "Ended",
+        "episodes": 13,
+        "seasonYear": 2018,
+        "averageScore": 85,
+        "popularity": 18.4169,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "tmdb-tv-94693",
+      "note": "魔女之旅",
+      "tmdbType": "tv",
+      "tmdbId": 94693,
+      "title": {
+        "native": "魔女の旅々",
+        "localized": "魔女之旅",
+        "english": "Wandering Witch: The Journey of Elaina"
+      },
+      "cover": {
+        "extraLarge": "https://image.tmdb.org/t/p/w780/ddqZzzOXDbRVD09CzqEWBwnvnwz.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/ddqZzzOXDbRVD09CzqEWBwnvnwz.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/ddqZzzOXDbRVD09CzqEWBwnvnwz.jpg"
+      },
+      "url": "https://www.themoviedb.org/tv/94693",
+      "meta": {
+        "format": "TV",
+        "status": "Ended",
+        "episodes": 12,
+        "seasonYear": 2020,
+        "averageScore": 76,
+        "popularity": 12.5597,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "tmdb-tv-65942",
+      "note": "Re：从零开始的异世界生活",
+      "tmdbType": "tv",
+      "tmdbId": 65942,
+      "title": {
+        "native": "Re:ゼロから始める異世界生活",
+        "localized": "Re：从零开始的异世界生活",
+        "english": "Re:ZERO -Starting Life in Another World-"
+      },
+      "cover": {
+        "extraLarge": "https://image.tmdb.org/t/p/w780/a1pMK4456dF2j5B9xvkjMEGiOOw.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/a1pMK4456dF2j5B9xvkjMEGiOOw.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/a1pMK4456dF2j5B9xvkjMEGiOOw.jpg"
+      },
+      "url": "https://www.themoviedb.org/tv/65942",
+      "meta": {
+        "format": "TV",
+        "status": "Returning Series",
+        "episodes": 85,
+        "seasonYear": 2016,
+        "averageScore": 81,
+        "popularity": 103.1983,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "tmdb-tv-77694",
+      "note": "赛马娘",
+      "tmdbType": "tv",
+      "tmdbId": 77694,
+      "title": {
+        "native": "ウマ娘 プリティーダービー",
+        "localized": "赛马娘 Pretty Derby",
+        "english": "Umamusume: Pretty Derby"
+      },
+      "cover": {
+        "extraLarge": "https://image.tmdb.org/t/p/w780/zshFhzPssTGkt95HPsidu5cgMOO.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/zshFhzPssTGkt95HPsidu5cgMOO.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/zshFhzPssTGkt95HPsidu5cgMOO.jpg"
+      },
+      "url": "https://www.themoviedb.org/tv/77694",
+      "meta": {
+        "format": "TV",
+        "status": "Ended",
+        "episodes": 39,
+        "seasonYear": 2018,
+        "averageScore": 83,
+        "popularity": 13.4478,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "tmdb-tv-96402",
+      "note": "因为太怕痛就全点防御力了",
+      "tmdbType": "tv",
+      "tmdbId": 96402,
+      "title": {
+        "native": "痛いのは嫌なので防御力に極振りしたいと思います。",
+        "localized": "因为太怕痛就全点防御力了",
+        "english": "BOFURI: I Don't Want to Get Hurt, so I'll Max Out My Defense."
+      },
+      "cover": {
+        "extraLarge": "https://image.tmdb.org/t/p/w780/vUkXuF3iVCWkzKIPmsjRtxq9k0P.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/vUkXuF3iVCWkzKIPmsjRtxq9k0P.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/vUkXuF3iVCWkzKIPmsjRtxq9k0P.jpg"
+      },
+      "url": "https://www.themoviedb.org/tv/96402",
+      "meta": {
+        "format": "TV",
+        "status": "Ended",
+        "episodes": 24,
+        "seasonYear": 2020,
+        "averageScore": 74,
+        "popularity": 17.8199,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "tmdb-tv-61663",
+      "note": "四月是你的谎言",
+      "tmdbType": "tv",
+      "tmdbId": 61663,
+      "title": {
+        "native": "四月は君の嘘",
+        "localized": "四月是你的谎言",
+        "english": "Your Lie in April"
+      },
+      "cover": {
+        "extraLarge": "https://image.tmdb.org/t/p/w780/jNF9u45UNiwkIL2l5HEy0Ns8nTb.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/jNF9u45UNiwkIL2l5HEy0Ns8nTb.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/jNF9u45UNiwkIL2l5HEy0Ns8nTb.jpg"
+      },
+      "url": "https://www.themoviedb.org/tv/61663",
+      "meta": {
+        "format": "TV",
+        "status": "Ended",
+        "episodes": 22,
+        "seasonYear": 2014,
+        "averageScore": 86,
+        "popularity": 27.4342,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "tmdb-tv-129516",
+      "note": "继母的拖油瓶是我的前女友",
+      "tmdbType": "tv",
+      "tmdbId": 129516,
+      "title": {
+        "native": "継母の連れ子が元カノだった",
+        "localized": "继母的拖油瓶是我的前女友",
+        "english": "My Stepmom's Daughter Is My Ex"
+      },
+      "cover": {
+        "extraLarge": "https://image.tmdb.org/t/p/w780/yHro7mEnUDTkvY2ExTnaIIgGcqh.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/yHro7mEnUDTkvY2ExTnaIIgGcqh.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/yHro7mEnUDTkvY2ExTnaIIgGcqh.jpg"
+      },
+      "url": "https://www.themoviedb.org/tv/129516",
+      "meta": {
+        "format": "TV",
+        "status": "Ended",
+        "episodes": 12,
+        "seasonYear": 2022,
+        "averageScore": 67,
+        "popularity": 9.489,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "tmdb-tv-120089",
+      "note": "间谍过家家",
+      "tmdbType": "tv",
+      "tmdbId": 120089,
+      "title": {
+        "native": "SPY×FAMILY",
+        "localized": "间谍过家家",
+        "english": "SPY x FAMILY"
+      },
+      "cover": {
+        "extraLarge": "https://image.tmdb.org/t/p/w780/xkEGd9GF3oty89xDiXMGJm6pGQL.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/xkEGd9GF3oty89xDiXMGJm6pGQL.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/xkEGd9GF3oty89xDiXMGJm6pGQL.jpg"
+      },
+      "url": "https://www.themoviedb.org/tv/120089",
+      "meta": {
+        "format": "TV",
+        "status": "Ended",
+        "episodes": 50,
+        "seasonYear": 2022,
+        "averageScore": 85,
+        "popularity": 78.7994,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "tmdb-movie-568160",
+      "note": "天气之子",
+      "tmdbType": "movie",
+      "tmdbId": 568160,
+      "title": {
+        "native": "天気の子",
+        "localized": "天气之子",
+        "english": "Weathering with You"
+      },
+      "cover": {
+        "extraLarge": "https://image.tmdb.org/t/p/w780/e5dY456pcoBBNBnlSsTsbypGMj1.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/e5dY456pcoBBNBnlSsTsbypGMj1.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/e5dY456pcoBBNBnlSsTsbypGMj1.jpg"
+      },
+      "url": "https://www.themoviedb.org/movie/568160",
+      "meta": {
+        "format": "MOVIE",
+        "status": "Released",
+        "episodes": null,
+        "seasonYear": 2019,
+        "averageScore": 80,
+        "popularity": 13.256,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "tmdb-tv-123249",
+      "note": "更衣人偶坠入爱河",
+      "tmdbType": "tv",
+      "tmdbId": 123249,
+      "title": {
+        "native": "その着せ替え人形は恋をする",
+        "localized": "更衣人偶坠入爱河",
+        "english": "My Dress-Up Darling"
+      },
+      "cover": {
+        "extraLarge": "https://image.tmdb.org/t/p/w780/4MewGfQu5Cxq04TiWyTdZDQeZEI.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/4MewGfQu5Cxq04TiWyTdZDQeZEI.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/4MewGfQu5Cxq04TiWyTdZDQeZEI.jpg"
+      },
+      "url": "https://www.themoviedb.org/tv/123249",
+      "meta": {
+        "format": "TV",
+        "status": "Ended",
+        "episodes": 24,
+        "seasonYear": 2022,
+        "averageScore": 84,
+        "popularity": 33.0335,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "tmdb-tv-201889",
+      "note": "久保同学不放过我",
+      "tmdbType": "tv",
+      "tmdbId": 201889,
+      "title": {
+        "native": "久保さんは僕を許さない",
+        "localized": "久保同学不放过我",
+        "english": "Kubo Won't Let Me Be Invisible"
+      },
+      "cover": {
+        "extraLarge": "https://image.tmdb.org/t/p/w780/vYiWZVMRhIioTMtDdjTQq3MTLhQ.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/vYiWZVMRhIioTMtDdjTQq3MTLhQ.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/vYiWZVMRhIioTMtDdjTQq3MTLhQ.jpg"
+      },
+      "url": "https://www.themoviedb.org/tv/201889",
+      "meta": {
+        "format": "TV",
+        "status": "Ended",
+        "episodes": 12,
+        "seasonYear": 2023,
+        "averageScore": 67,
+        "popularity": 11.1057,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "tmdb-movie-38142",
+      "note": "秒速五厘米",
+      "tmdbType": "movie",
+      "tmdbId": 38142,
+      "title": {
+        "native": "秒速5センチメートル",
+        "localized": "秒速五厘米",
+        "english": "5 Centimeters per Second"
+      },
+      "cover": {
+        "extraLarge": "https://image.tmdb.org/t/p/w780/qnBM6YT0NYrJ9X9f98pmaqvUsxw.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/qnBM6YT0NYrJ9X9f98pmaqvUsxw.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/qnBM6YT0NYrJ9X9f98pmaqvUsxw.jpg"
+      },
+      "url": "https://www.themoviedb.org/movie/38142",
+      "meta": {
+        "format": "MOVIE",
+        "status": "Released",
+        "episodes": null,
+        "seasonYear": 2007,
+        "averageScore": 73,
+        "popularity": 5.7527,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "tmdb-tv-24835",
+      "note": "CLANNAD",
+      "tmdbType": "tv",
+      "tmdbId": 24835,
+      "title": {
+        "native": "CLANNAD",
+        "localized": "CLANNAD",
+        "english": "Clannad"
+      },
+      "cover": {
+        "extraLarge": "https://image.tmdb.org/t/p/w780/cfhHgzzcpYjBzDGfiJJ3y6QBaUA.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/cfhHgzzcpYjBzDGfiJJ3y6QBaUA.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/cfhHgzzcpYjBzDGfiJJ3y6QBaUA.jpg"
+      },
+      "url": "https://www.themoviedb.org/tv/24835",
+      "meta": {
+        "format": "TV",
+        "status": "Ended",
+        "episodes": 44,
+        "seasonYear": 2007,
+        "averageScore": 83,
+        "popularity": 26.4114,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "tmdb-tv-154494",
+      "note": "莉可莉丝",
+      "tmdbType": "tv",
+      "tmdbId": 154494,
+      "title": {
+        "native": "リコリス・リコイル",
+        "localized": "莉可丽丝",
+        "english": "Lycoris Recoil"
+      },
+      "cover": {
+        "extraLarge": "https://image.tmdb.org/t/p/w780/aVsZrFbsSEiYxWLHQHDvs6Vdt30.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/aVsZrFbsSEiYxWLHQHDvs6Vdt30.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/aVsZrFbsSEiYxWLHQHDvs6Vdt30.jpg"
+      },
+      "url": "https://www.themoviedb.org/tv/154494",
+      "meta": {
+        "format": "TV",
+        "status": "Ended",
+        "episodes": 13,
+        "seasonYear": 2022,
+        "averageScore": 81,
+        "popularity": 13.9433,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "tmdb-tv-57911",
+      "note": "哆啦A梦系列",
+      "tmdbType": "tv",
+      "tmdbId": 57911,
+      "title": {
+        "native": "ドラえもん",
+        "localized": "哆啦A梦",
+        "english": "Doraemon"
+      },
+      "cover": {
+        "extraLarge": "https://image.tmdb.org/t/p/w780/wpU1TbyAg3o9xAgWaziv3WZhNY0.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/wpU1TbyAg3o9xAgWaziv3WZhNY0.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/wpU1TbyAg3o9xAgWaziv3WZhNY0.jpg"
+      },
+      "url": "https://www.themoviedb.org/tv/57911",
+      "meta": {
+        "format": "TV",
+        "status": "Ended",
+        "episodes": 1836,
+        "seasonYear": 1979,
+        "averageScore": 77,
+        "popularity": 51.2422,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "tmdb-movie-129",
+      "note": "千与千寻",
+      "tmdbType": "movie",
+      "tmdbId": 129,
+      "title": {
+        "native": "千と千尋の神隠し",
+        "localized": "千与千寻",
+        "english": "Spirited Away"
+      },
+      "cover": {
+        "extraLarge": "https://image.tmdb.org/t/p/w780/dnwMqbndJpOEhoVqjlMU9U7LFle.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/dnwMqbndJpOEhoVqjlMU9U7LFle.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/dnwMqbndJpOEhoVqjlMU9U7LFle.jpg"
+      },
+      "url": "https://www.themoviedb.org/movie/129",
+      "meta": {
+        "format": "MOVIE",
+        "status": "Released",
+        "episodes": null,
+        "seasonYear": 2001,
+        "averageScore": 85,
+        "popularity": 42.2708,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "tmdb-movie-4935",
+      "note": "哈尔的移动城堡",
+      "tmdbType": "movie",
+      "tmdbId": 4935,
+      "title": {
+        "native": "ハウルの動く城",
+        "localized": "哈尔的移动城堡",
+        "english": "Howl's Moving Castle"
+      },
+      "cover": {
+        "extraLarge": "https://image.tmdb.org/t/p/w780/mOkZtsb8UObRAa77EDTmbPB5BuY.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/mOkZtsb8UObRAa77EDTmbPB5BuY.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/mOkZtsb8UObRAa77EDTmbPB5BuY.jpg"
+      },
+      "url": "https://www.themoviedb.org/movie/4935",
+      "meta": {
+        "format": "MOVIE",
+        "status": "Released",
+        "episodes": null,
+        "seasonYear": 2004,
+        "averageScore": 84,
+        "popularity": 32.1364,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "tmdb-movie-431819",
+      "note": "烟花",
+      "tmdbType": "movie",
+      "tmdbId": 431819,
+      "title": {
+        "native": "打ち上げ花火、下から見るか？横から見るか？",
+        "localized": "烟花",
+        "english": "Fireworks"
+      },
+      "cover": {
+        "extraLarge": "https://image.tmdb.org/t/p/w780/uPN6xI8TsKtEJR4iRFqMDju03JD.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/uPN6xI8TsKtEJR4iRFqMDju03JD.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/uPN6xI8TsKtEJR4iRFqMDju03JD.jpg"
+      },
+      "url": "https://www.themoviedb.org/movie/431819",
+      "meta": {
+        "format": "MOVIE",
+        "status": "Released",
+        "episodes": null,
+        "seasonYear": 2017,
+        "averageScore": 66,
+        "popularity": 5.8657,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "tmdb-tv-91455",
+      "note": "碧蓝航线",
+      "tmdbType": "tv",
+      "tmdbId": 91455,
+      "title": {
+        "native": "アズールレーン",
+        "localized": "碧蓝航线",
+        "english": "Azur Lane"
+      },
+      "cover": {
+        "extraLarge": "https://image.tmdb.org/t/p/w780/5ClWjOlJV0Rr629Lgzga3cHr43z.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/5ClWjOlJV0Rr629Lgzga3cHr43z.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/5ClWjOlJV0Rr629Lgzga3cHr43z.jpg"
+      },
+      "url": "https://www.themoviedb.org/tv/91455",
+      "meta": {
+        "format": "TV",
+        "status": "Ended",
+        "episodes": 12,
+        "seasonYear": 2019,
+        "averageScore": 75,
+        "popularity": 6.6624,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "tmdb-tv-62255",
+      "note": "终结的炽天使",
+      "tmdbType": "tv",
+      "tmdbId": 62255,
+      "title": {
+        "native": "終わりのセラフ",
+        "localized": "终结的炽天使",
+        "english": "Seraph of the End"
+      },
+      "cover": {
+        "extraLarge": "https://image.tmdb.org/t/p/w780/jP569pDgvwX3MeZPXUnmteYA2oZ.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/jP569pDgvwX3MeZPXUnmteYA2oZ.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/jP569pDgvwX3MeZPXUnmteYA2oZ.jpg"
+      },
+      "url": "https://www.themoviedb.org/tv/62255",
+      "meta": {
+        "format": "TV",
+        "status": "Ended",
+        "episodes": 24,
+        "seasonYear": 2015,
+        "averageScore": 79,
+        "popularity": 19.734,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "tmdb-tv-100935",
+      "note": "偶像荣耀/IDOLY PRIDE",
+      "tmdbType": "tv",
+      "tmdbId": 100935,
+      "title": {
+        "native": "IDOLY PRIDE",
+        "localized": "偶像荣耀",
+        "english": "Idoly Pride"
+      },
+      "cover": {
+        "extraLarge": "https://image.tmdb.org/t/p/w780/3rcnQSnM4EXPAuvPjw5L7RmFLdy.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/3rcnQSnM4EXPAuvPjw5L7RmFLdy.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/3rcnQSnM4EXPAuvPjw5L7RmFLdy.jpg"
+      },
+      "url": "https://www.themoviedb.org/tv/100935",
+      "meta": {
+        "format": "TV",
+        "status": "Ended",
+        "episodes": 12,
+        "seasonYear": 2021,
+        "averageScore": 64,
+        "popularity": 7.6532,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "tmdb-tv-46004",
+      "note": "约会大作战",
+      "tmdbType": "tv",
+      "tmdbId": 46004,
+      "title": {
+        "native": "デート・ア・ライブ",
+        "localized": "约会大作战",
+        "english": "Date A Live"
+      },
+      "cover": {
+        "extraLarge": "https://image.tmdb.org/t/p/w780/ogGs083lUOdCHDv5aVQD4ky4Z8s.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/ogGs083lUOdCHDv5aVQD4ky4Z8s.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/ogGs083lUOdCHDv5aVQD4ky4Z8s.jpg"
+      },
+      "url": "https://www.themoviedb.org/tv/46004",
+      "meta": {
+        "format": "TV",
+        "status": "Ended",
+        "episodes": 58,
+        "seasonYear": 2013,
+        "averageScore": 83,
+        "popularity": 24.1126,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "tmdb-tv-84669",
+      "note": "五等分的花嫁",
+      "tmdbType": "tv",
+      "tmdbId": 84669,
+      "title": {
+        "native": "五等分の花嫁",
+        "localized": "五等分的新娘",
+        "english": "The Quintessential Quintuplets"
+      },
+      "cover": {
+        "extraLarge": "https://image.tmdb.org/t/p/w780/xtifG7aDQd2Re75nQGIfAxSRPK1.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/xtifG7aDQd2Re75nQGIfAxSRPK1.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/xtifG7aDQd2Re75nQGIfAxSRPK1.jpg"
+      },
+      "url": "https://www.themoviedb.org/tv/84669",
+      "meta": {
+        "format": "TV",
+        "status": "Ended",
+        "episodes": 24,
+        "seasonYear": 2019,
+        "averageScore": 84,
+        "popularity": 22.777,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "tmdb-tv-198152",
+      "note": "别当欧尼酱了",
+      "tmdbType": "tv",
+      "tmdbId": 198152,
+      "title": {
+        "native": "お兄ちゃんはおしまい！",
+        "localized": "别当欧尼酱了！",
+        "english": "ONIMAI: I'm Now Your Sister!"
+      },
+      "cover": {
+        "extraLarge": "https://image.tmdb.org/t/p/w780/mehVdGN5lMntpLyxsWE7YBVPMhc.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/mehVdGN5lMntpLyxsWE7YBVPMhc.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/mehVdGN5lMntpLyxsWE7YBVPMhc.jpg"
+      },
+      "url": "https://www.themoviedb.org/tv/198152",
+      "meta": {
+        "format": "TV",
+        "status": "Ended",
+        "episodes": 12,
+        "seasonYear": 2023,
+        "averageScore": 74,
+        "popularity": 13.7671,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "tmdb-tv-65948",
+      "note": "游戏里的老婆怎么可能是女生",
+      "tmdbType": "tv",
+      "tmdbId": 65948,
+      "title": {
+        "native": "ネトゲの嫁は女の子じゃないと思った？",
+        "localized": "线上游戏的老婆不可能是女生？",
+        "english": "And You Thought There Is Never a Girl Online?"
+      },
+      "cover": {
+        "extraLarge": "https://image.tmdb.org/t/p/w780/n3r2ipfjzlfVHjEfkMtGtYD18Fz.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/n3r2ipfjzlfVHjEfkMtGtYD18Fz.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/n3r2ipfjzlfVHjEfkMtGtYD18Fz.jpg"
+      },
+      "url": "https://www.themoviedb.org/tv/65948",
+      "meta": {
+        "format": "TV",
+        "status": "Ended",
+        "episodes": 12,
+        "seasonYear": 2016,
+        "averageScore": 67,
+        "popularity": 6.1251,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "tmdb-tv-235758",
+      "note": "不时以俄语遮羞的邻座艾莉同学",
+      "tmdbType": "tv",
+      "tmdbId": 235758,
+      "title": {
+        "native": "時々ボソッとロシア語でデレる隣のアーリャさん",
+        "localized": "不时用俄语小声说真心话的邻桌艾莉同学",
+        "english": "Alya Sometimes Hides Her Feelings in Russian"
+      },
+      "cover": {
+        "extraLarge": "https://image.tmdb.org/t/p/w780/xuWdvU7dQyxKcaR61yonWU5P097.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/xuWdvU7dQyxKcaR61yonWU5P097.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/xuWdvU7dQyxKcaR61yonWU5P097.jpg"
+      },
+      "url": "https://www.themoviedb.org/tv/235758",
+      "meta": {
+        "format": "TV",
+        "status": "Ended",
+        "episodes": 13,
+        "seasonYear": 2024,
+        "averageScore": 80,
+        "popularity": 29.4201,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "tmdb-tv-248866",
+      "note": "鹿乃子乃子虎视眈眈",
+      "tmdbType": "tv",
+      "tmdbId": 248866,
+      "title": {
+        "native": "しかのこのこのここしたんたん",
+        "localized": "鹿乃子乃子乃子虎视眈眈",
+        "english": "My Deer Friend Nokotan"
+      },
+      "cover": {
+        "extraLarge": "https://image.tmdb.org/t/p/w780/w5JmZEYdhc1QgSkPszUIC2RVc2J.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/w5JmZEYdhc1QgSkPszUIC2RVc2J.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/w5JmZEYdhc1QgSkPszUIC2RVc2J.jpg"
+      },
+      "url": "https://www.themoviedb.org/tv/248866",
+      "meta": {
+        "format": "TV",
+        "status": "Ended",
+        "episodes": 12,
+        "seasonYear": 2024,
+        "averageScore": 76,
+        "popularity": 5.9513,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "tmdb-tv-239761",
+      "note": "前辈是男孩子",
+      "tmdbType": "tv",
+      "tmdbId": 239761,
+      "title": {
+        "native": "先輩はおとこのこ",
+        "localized": "前辈是男孩子",
+        "english": "Senpai Is an Otokonoko"
+      },
+      "cover": {
+        "extraLarge": "https://image.tmdb.org/t/p/w780/aXDwUb7McBgBFCZnfdBjSHzJeXz.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/aXDwUb7McBgBFCZnfdBjSHzJeXz.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/aXDwUb7McBgBFCZnfdBjSHzJeXz.jpg"
+      },
+      "url": "https://www.themoviedb.org/tv/239761",
+      "meta": {
+        "format": "TV",
+        "status": "Ended",
+        "episodes": 12,
+        "seasonYear": 2024,
+        "averageScore": 71,
+        "popularity": 8.2946,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "tmdb-tv-48561",
+      "note": "玉子市场",
+      "tmdbType": "tv",
+      "tmdbId": 48561,
+      "title": {
+        "native": "たまこまーけっと",
+        "localized": "玉子市场",
+        "english": "Tamako Market"
+      },
+      "cover": {
+        "extraLarge": "https://image.tmdb.org/t/p/w780/2Khcb9uVzw7i8uWcWMMSjWr62gS.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/2Khcb9uVzw7i8uWcWMMSjWr62gS.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/2Khcb9uVzw7i8uWcWMMSjWr62gS.jpg"
+      },
+      "url": "https://www.themoviedb.org/tv/48561",
+      "meta": {
+        "format": "TV",
+        "status": "Ended",
+        "episodes": 12,
+        "seasonYear": 2013,
+        "averageScore": 73,
+        "popularity": 12.1683,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "tmdb-tv-216074",
+      "note": "2.5次元的诱惑",
+      "tmdbType": "tv",
+      "tmdbId": 216074,
+      "title": {
+        "native": "2.5次元の誘惑",
+        "localized": "2.5次元的诱惑",
+        "english": "2.5 Dimensional Seduction"
+      },
+      "cover": {
+        "extraLarge": "https://image.tmdb.org/t/p/w780/rQCYyiZxLhzEpTYw9Rlpk63knpa.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/rQCYyiZxLhzEpTYw9Rlpk63knpa.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/rQCYyiZxLhzEpTYw9Rlpk63knpa.jpg"
+      },
+      "url": "https://www.themoviedb.org/tv/216074",
+      "meta": {
+        "format": "TV",
+        "status": "Ended",
+        "episodes": 24,
+        "seasonYear": 2024,
+        "averageScore": 80,
+        "popularity": 16.7083,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "tmdb-tv-45953",
+      "note": "萝球社",
+      "tmdbType": "tv",
+      "tmdbId": 45953,
+      "title": {
+        "native": "ロウきゅーぶ！",
+        "localized": "萝球社！",
+        "english": "Ro-Kyu-Bu!"
+      },
+      "cover": {
+        "extraLarge": "https://image.tmdb.org/t/p/w780/pTjtpplRsx4dCA89RBTtsH1io5o.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/pTjtpplRsx4dCA89RBTtsH1io5o.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/pTjtpplRsx4dCA89RBTtsH1io5o.jpg"
+      },
+      "url": "https://www.themoviedb.org/tv/45953",
+      "meta": {
+        "format": "TV",
+        "status": "Ended",
+        "episodes": 24,
+        "seasonYear": 2011,
+        "averageScore": 47,
+        "popularity": 8.1157,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "tmdb-tv-154743",
+      "note": "关于我在无意间被隔壁的天使变成废柴这件事",
+      "tmdbType": "tv",
+      "tmdbId": 154743,
+      "title": {
+        "native": "お隣の天使様にいつの間にか駄目人間にされていた件",
+        "localized": "邻家的天使同学",
+        "english": "The Angel Next Door Spoils Me Rotten"
+      },
+      "cover": {
+        "extraLarge": "https://image.tmdb.org/t/p/w780/vNslQo6TikLZLXnHDda3PHJ3CG8.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/vNslQo6TikLZLXnHDda3PHJ3CG8.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/vNslQo6TikLZLXnHDda3PHJ3CG8.jpg"
+      },
+      "url": "https://www.themoviedb.org/tv/154743",
+      "meta": {
+        "format": "TV",
+        "status": "Ended",
+        "episodes": 24,
+        "seasonYear": 2023,
+        "averageScore": 77,
+        "popularity": 25.8784,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "tmdb-tv-241535",
+      "note": "败犬女主太多了！",
+      "tmdbType": "tv",
+      "tmdbId": 241535,
+      "title": {
+        "native": "負けヒロインが多すぎる！",
+        "localized": "败犬女主太多了！",
+        "english": "Makeine: Too Many Losing Heroines!"
+      },
+      "cover": {
+        "extraLarge": "https://image.tmdb.org/t/p/w780/cUKjoRQCW4DXwQQKLQOV36phmOI.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/cUKjoRQCW4DXwQQKLQOV36phmOI.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/cUKjoRQCW4DXwQQKLQOV36phmOI.jpg"
+      },
+      "url": "https://www.themoviedb.org/tv/241535",
+      "meta": {
+        "format": "TV",
+        "status": "Returning Series",
+        "episodes": 12,
+        "seasonYear": 2024,
+        "averageScore": 81,
+        "popularity": 17.1259,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "tmdb-tv-244617",
+      "note": "深夜重拳",
+      "tmdbType": "tv",
+      "tmdbId": 244617,
+      "title": {
+        "native": "真夜中ぱんチ",
+        "localized": "深夜重拳",
+        "english": "MAYONAKA PUNCH"
+      },
+      "cover": {
+        "extraLarge": "https://image.tmdb.org/t/p/w780/iJw5i4jOnaQJQTiNn3ZkBJqkv1K.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/iJw5i4jOnaQJQTiNn3ZkBJqkv1K.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/iJw5i4jOnaQJQTiNn3ZkBJqkv1K.jpg"
+      },
+      "url": "https://www.themoviedb.org/tv/244617",
+      "meta": {
+        "format": "TV",
+        "status": "Ended",
+        "episodes": 12,
+        "seasonYear": 2024,
+        "averageScore": 75,
+        "popularity": 6.5052,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "tmdb-tv-39218",
+      "note": "魔法少女小圆",
+      "tmdbType": "tv",
+      "tmdbId": 39218,
+      "title": {
+        "native": "魔法少女まどか☆マギカ",
+        "localized": "魔法少女小圆",
+        "english": "Puella Magi Madoka Magica"
+      },
+      "cover": {
+        "extraLarge": "https://image.tmdb.org/t/p/w780/qYPUVIhKYirbmVrdEJBZ3ZYpTeE.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/qYPUVIhKYirbmVrdEJBZ3ZYpTeE.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/qYPUVIhKYirbmVrdEJBZ3ZYpTeE.jpg"
+      },
+      "url": "https://www.themoviedb.org/tv/39218",
+      "meta": {
+        "format": "TV",
+        "status": "Ended",
+        "episodes": 12,
+        "seasonYear": 2011,
+        "averageScore": 80,
+        "popularity": 15.289,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "tmdb-tv-94523",
+      "note": "魔法少女小圆外传",
+      "tmdbType": "tv",
+      "tmdbId": 94523,
+      "title": {
+        "native": "マギアレコード 魔法少女まどか☆マギカ外伝",
+        "localized": "魔法纪录 魔法少女小圆外传",
+        "english": "Magia Record: Puella Magi Madoka Magica Side Story"
+      },
+      "cover": {
+        "extraLarge": "https://image.tmdb.org/t/p/w780/d4AkfPRJOXIClDuF6Ier2s61a1a.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/d4AkfPRJOXIClDuF6Ier2s61a1a.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/d4AkfPRJOXIClDuF6Ier2s61a1a.jpg"
+      },
+      "url": "https://www.themoviedb.org/tv/94523",
+      "meta": {
+        "format": "TV",
+        "status": "Ended",
+        "episodes": 25,
+        "seasonYear": 2020,
+        "averageScore": 69,
+        "popularity": 15.9259,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "tmdb-tv-206629",
+      "note": "义妹生活",
+      "tmdbType": "tv",
+      "tmdbId": 206629,
+      "title": {
+        "native": "義妹生活",
+        "localized": "义妹生活",
+        "english": "Days with My Stepsister"
+      },
+      "cover": {
+        "extraLarge": "https://image.tmdb.org/t/p/w780/poYa2b7UGAFpTCvsXCbYigxTLeW.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/poYa2b7UGAFpTCvsXCbYigxTLeW.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/poYa2b7UGAFpTCvsXCbYigxTLeW.jpg"
+      },
+      "url": "https://www.themoviedb.org/tv/206629",
+      "meta": {
+        "format": "TV",
+        "status": "Ended",
+        "episodes": 12,
+        "seasonYear": 2024,
+        "averageScore": 77,
+        "popularity": 12.5948,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "tmdb-tv-257603",
+      "note": "妻子变成小学生",
+      "tmdbType": "tv",
+      "tmdbId": 257603,
+      "title": {
+        "native": "妻、小学生になる。",
+        "localized": "妻子变成小学生。",
+        "english": "TsumaSho"
+      },
+      "cover": {
+        "extraLarge": "https://image.tmdb.org/t/p/w780/ibtqejfg7q4kzf30p49IeKSYtdc.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/ibtqejfg7q4kzf30p49IeKSYtdc.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/ibtqejfg7q4kzf30p49IeKSYtdc.jpg"
+      },
+      "url": "https://www.themoviedb.org/tv/257603",
+      "meta": {
+        "format": "TV",
+        "status": "Ended",
+        "episodes": 12,
+        "seasonYear": 2024,
+        "averageScore": 70,
+        "popularity": 5.4968,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "tmdb-tv-257790",
+      "note": "我和班上最讨厌的女生结婚了",
+      "tmdbType": "tv",
+      "tmdbId": 257790,
+      "title": {
+        "native": "クラスの大嫌いな女子と結婚することになった。",
+        "localized": "我和班上最讨厌的女生结婚了。",
+        "english": "I'm Getting Married to a Girl I Hate in My Class"
+      },
+      "cover": {
+        "extraLarge": "https://image.tmdb.org/t/p/w780/rFYKb1eTijuM27XZAv3xfnchoFK.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/rFYKb1eTijuM27XZAv3xfnchoFK.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/rFYKb1eTijuM27XZAv3xfnchoFK.jpg"
+      },
+      "url": "https://www.themoviedb.org/tv/257790",
+      "meta": {
+        "format": "TV",
+        "status": "Ended",
+        "episodes": 12,
+        "seasonYear": 2025,
+        "averageScore": 69,
+        "popularity": 8.9585,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "tmdb-tv-209867",
+      "note": "葬送的芙莉莲",
+      "tmdbType": "tv",
+      "tmdbId": 209867,
+      "title": {
+        "native": "葬送のフリーレン",
+        "localized": "葬送的芙莉莲",
+        "english": "Frieren: Beyond Journey's End"
+      },
+      "cover": {
+        "extraLarge": "https://image.tmdb.org/t/p/w780/1TtrtRIwXz5BB0gXEl8zgBypl9c.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/1TtrtRIwXz5BB0gXEl8zgBypl9c.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/1TtrtRIwXz5BB0gXEl8zgBypl9c.jpg"
+      },
+      "url": "https://www.themoviedb.org/tv/209867",
+      "meta": {
+        "format": "TV",
+        "status": "Returning Series",
+        "episodes": 38,
+        "seasonYear": 2023,
+        "averageScore": 88,
+        "popularity": 83.9821,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "tmdb-tv-273048",
+      "note": "不知为何我和尼特且宅的女忍者开始了同居生活",
+      "tmdbType": "tv",
+      "tmdbId": 273048,
+      "title": {
+        "native": "ニートくノ一となぜか同棲はじめました",
+        "localized": "我与尼特女忍者的莫名同居生活",
+        "english": "I'm Living with an Otaku NEET Kunoichi!?"
+      },
+      "cover": {
+        "extraLarge": "https://image.tmdb.org/t/p/w780/dwzFmY7Vg56Q0F5xflZCSAjoDn5.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/dwzFmY7Vg56Q0F5xflZCSAjoDn5.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/dwzFmY7Vg56Q0F5xflZCSAjoDn5.jpg"
+      },
+      "url": "https://www.themoviedb.org/tv/273048",
+      "meta": {
+        "format": "TV",
+        "status": "Ended",
+        "episodes": 24,
+        "seasonYear": 2025,
+        "averageScore": 53,
+        "popularity": 7.5136,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "tmdb-tv-75865",
+      "note": "擅长捉弄的高木同学",
+      "tmdbType": "tv",
+      "tmdbId": 75865,
+      "title": {
+        "native": "からかい上手の高木さん",
+        "localized": "擅长捉弄的高木同学",
+        "english": "Teasing Master Takagi-san"
+      },
+      "cover": {
+        "extraLarge": "https://image.tmdb.org/t/p/w780/BsCy3bMqoYnZEILz0RlFWw7TrN.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/BsCy3bMqoYnZEILz0RlFWw7TrN.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/BsCy3bMqoYnZEILz0RlFWw7TrN.jpg"
+      },
+      "url": "https://www.themoviedb.org/tv/75865",
+      "meta": {
+        "format": "TV",
+        "status": "Ended",
+        "episodes": 36,
+        "seasonYear": 2018,
+        "averageScore": 82,
+        "popularity": 20.4198,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "tmdb-tv-218833",
+      "note": "蔚蓝档案 The Animation",
+      "tmdbType": "tv",
+      "tmdbId": 218833,
+      "title": {
+        "native": "ブルーアーカイブ The Animation",
+        "localized": "蔚蓝档案 The Animation",
+        "english": "Blue Archive the Animation"
+      },
+      "cover": {
+        "extraLarge": "https://image.tmdb.org/t/p/w780/tpqpgYlnSBOKkzNTYCvGMwIgZ3e.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/tpqpgYlnSBOKkzNTYCvGMwIgZ3e.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/tpqpgYlnSBOKkzNTYCvGMwIgZ3e.jpg"
+      },
+      "url": "https://www.themoviedb.org/tv/218833",
+      "meta": {
+        "format": "TV",
+        "status": "Ended",
+        "episodes": 12,
+        "seasonYear": 2024,
+        "averageScore": 63,
+        "popularity": 12.528,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "tmdb-tv-217407",
+      "note": "男女之间存在纯友情吗？（不，不存在！）",
+      "tmdbType": "tv",
+      "tmdbId": 217407,
+      "title": {
+        "native": "男女の友情は成立する？（いや、しないっ!!）",
+        "localized": "男女之间存在纯友情吗？（不，不存在！！）",
+        "english": "Can a Boy-Girl Friendship Survive?"
+      },
+      "cover": {
+        "extraLarge": "https://image.tmdb.org/t/p/w780/kiIHwNMBdwxBfYTnRPj52f8u6V5.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/kiIHwNMBdwxBfYTnRPj52f8u6V5.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/kiIHwNMBdwxBfYTnRPj52f8u6V5.jpg"
+      },
+      "url": "https://www.themoviedb.org/tv/217407",
+      "meta": {
+        "format": "TV",
+        "status": "Ended",
+        "episodes": 12,
+        "seasonYear": 2025,
+        "averageScore": 69,
+        "popularity": 11.8405,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "tmdb-tv-271576",
+      "note": "夏日口袋",
+      "tmdbType": "tv",
+      "tmdbId": 271576,
+      "title": {
+        "native": "Summer Pockets",
+        "localized": "夏日口袋",
+        "english": "Summer Pockets"
+      },
+      "cover": {
+        "extraLarge": "https://image.tmdb.org/t/p/w780/4C1sSUjoN66t4CkTbjcJNr9Meey.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/4C1sSUjoN66t4CkTbjcJNr9Meey.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/4C1sSUjoN66t4CkTbjcJNr9Meey.jpg"
+      },
+      "url": "https://www.themoviedb.org/tv/271576",
+      "meta": {
+        "format": "TV",
+        "status": "Ended",
+        "episodes": 26,
+        "seasonYear": 2025,
+        "averageScore": 69,
+        "popularity": 14.7918,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "tmdb-tv-258055",
+      "note": "直至魔女消逝",
+      "tmdbType": "tv",
+      "tmdbId": 258055,
+      "title": {
+        "native": "ある魔女が死ぬまで",
+        "localized": "直至魔女消逝",
+        "english": "Once Upon a Witch's Death"
+      },
+      "cover": {
+        "extraLarge": "https://image.tmdb.org/t/p/w780/ioX118BZKCbanR2Aw612f93CLHX.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/ioX118BZKCbanR2Aw612f93CLHX.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/ioX118BZKCbanR2Aw612f93CLHX.jpg"
+      },
+      "url": "https://www.themoviedb.org/tv/258055",
+      "meta": {
+        "format": "TV",
+        "status": "Ended",
+        "episodes": 12,
+        "seasonYear": 2025,
+        "averageScore": 72,
+        "popularity": 11.3232,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "tmdb-tv-261091",
+      "note": "紫云寺家的兄弟姐妹",
+      "tmdbType": "tv",
+      "tmdbId": 261091,
+      "title": {
+        "native": "紫雲寺家の子供たち",
+        "localized": "紫云寺家的兄弟姐妹",
+        "english": "The Shiunji Family Children"
+      },
+      "cover": {
+        "extraLarge": "https://image.tmdb.org/t/p/w780/8YdjvU8ehv0nU5jVWuhihu7Adfr.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/8YdjvU8ehv0nU5jVWuhihu7Adfr.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/8YdjvU8ehv0nU5jVWuhihu7Adfr.jpg"
+      },
+      "url": "https://www.themoviedb.org/tv/261091",
+      "meta": {
+        "format": "TV",
+        "status": "Ended",
+        "episodes": 12,
+        "seasonYear": 2025,
+        "averageScore": 78,
+        "popularity": 7.55,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "tmdb-tv-207250",
+      "note": "我心里危险的东西",
+      "tmdbType": "tv",
+      "tmdbId": 207250,
+      "title": {
+        "native": "僕の心のヤバイやつ",
+        "localized": "我心里危险的东西",
+        "english": "The Dangers in My Heart"
+      },
+      "cover": {
+        "extraLarge": "https://image.tmdb.org/t/p/w780/n8aZlg8QZrqhCRYsobYh7LYElO7.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/n8aZlg8QZrqhCRYsobYh7LYElO7.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/n8aZlg8QZrqhCRYsobYh7LYElO7.jpg"
+      },
+      "url": "https://www.themoviedb.org/tv/207250",
+      "meta": {
+        "format": "TV",
+        "status": "Returning Series",
+        "episodes": 25,
+        "seasonYear": 2023,
+        "averageScore": 86,
+        "popularity": 29.1293,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "tmdb-tv-224207",
+      "note": "BanG Dream! It's MyGO!!!!!",
+      "tmdbType": "tv",
+      "tmdbId": 224207,
+      "title": {
+        "native": "BanG Dream! It's MyGO!!!!!",
+        "localized": "迷途之子!!!!!",
+        "english": "BanG Dream! It's MyGO!!!!!"
+      },
+      "cover": {
+        "extraLarge": "https://image.tmdb.org/t/p/w780/dDknWHLYaQB76QSViNdzXOC5v64.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/dDknWHLYaQB76QSViNdzXOC5v64.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/dDknWHLYaQB76QSViNdzXOC5v64.jpg"
+      },
+      "url": "https://www.themoviedb.org/tv/224207",
+      "meta": {
+        "format": "TV",
+        "status": "Ended",
+        "episodes": 13,
+        "seasonYear": 2023,
+        "averageScore": 80,
+        "popularity": 4.4955,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "tmdb-tv-274580",
+      "note": "BanG Dream! Ave Mujica",
+      "tmdbType": "tv",
+      "tmdbId": 274580,
+      "title": {
+        "native": "BanG Dream! Ave Mujica",
+        "localized": "颂乐人偶",
+        "english": "Ave Mujica - The Die Is Cast -"
+      },
+      "cover": {
+        "extraLarge": "https://image.tmdb.org/t/p/w780/xixekXvcCSZS1jXhFrYUzpCrLL6.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/xixekXvcCSZS1jXhFrYUzpCrLL6.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/xixekXvcCSZS1jXhFrYUzpCrLL6.jpg"
+      },
+      "url": "https://www.themoviedb.org/tv/274580",
+      "meta": {
+        "format": "TV",
+        "status": "Ended",
+        "episodes": 13,
+        "seasonYear": 2025,
+        "averageScore": 76,
+        "popularity": 6.0837,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "tmdb-tv-290019",
+      "note": "我和班上第二可爱的女生成为朋友",
+      "tmdbType": "tv",
+      "tmdbId": 290019,
+      "title": {
+        "native": "クラスで２番目に可愛い女の子と友だちになった",
+        "localized": "和班上第二可爱的女孩子成为了朋友",
+        "english": "I Made Friends with the Second Prettiest Girl in My Class"
+      },
+      "cover": {
+        "extraLarge": "https://image.tmdb.org/t/p/w780/ka6MnzUKX9aVuCuyPGpfUZCgb7G.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/ka6MnzUKX9aVuCuyPGpfUZCgb7G.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/ka6MnzUKX9aVuCuyPGpfUZCgb7G.jpg"
+      },
+      "url": "https://www.themoviedb.org/tv/290019",
+      "meta": {
+        "format": "TV",
+        "status": "Ended",
+        "episodes": 12,
+        "seasonYear": 2026,
+        "averageScore": 80,
+        "popularity": 12.28,
+        "isAdult": false
+      }
+    },
+    {
+      "key": "tmdb-movie-1575337",
+      "note": "超时空辉夜姬",
+      "tmdbType": "movie",
+      "tmdbId": 1575337,
+      "title": {
+        "native": "超かぐや姫！",
+        "localized": "超时空辉夜姬！",
+        "english": "Cosmic Princess Kaguya!"
+      },
+      "cover": {
+        "extraLarge": "https://image.tmdb.org/t/p/w780/4sr19KKBGREoMr39TMubbaRhRmp.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/4sr19KKBGREoMr39TMubbaRhRmp.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/4sr19KKBGREoMr39TMubbaRhRmp.jpg"
+      },
+      "url": "https://www.themoviedb.org/movie/1575337",
+      "meta": {
+        "format": "MOVIE",
+        "status": "Released",
+        "episodes": null,
+        "seasonYear": 2026,
+        "averageScore": 83,
+        "popularity": 11.9185,
+        "isAdult": false
+      }
+    }
+  ]
+}
